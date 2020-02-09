@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: c5202bb42b10a5d45ad4eb958a5a9a40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2572236292851511218
+    second: Level_201
+  - first:
+      213: 6224024930817484846
+    second: Level_202
+  - first:
+      213: -8911251428918342384
+    second: Level_203
+  - first:
+      213: 2656247834339299217
+    second: Level_204
+  - first:
+      213: -8876335399824902483
+    second: Level_205
+  - first:
+      213: 5891757792927052577
+    second: Level_206
+  - first:
+      213: -4324799369507234631
+    second: Level_207
+  - first:
+      213: 759678483730449176
+    second: Level_101
+  - first:
+      213: 7748518322702929914
+    second: Level_102
+  - first:
+      213: 4367108985391724810
+    second: Level_103
+  - first:
+      213: 785381055666214426
+    second: Level_104
+  - first:
+      213: 5056307353415951033
+    second: Level_208
+  - first:
+      213: 3674274018525464506
+    second: Level_209
+  - first:
+      213: -8461400778624424836
+    second: Level_210
+  - first:
+      213: -1962202154345704850
+    second: Level_211
+  - first:
+      213: 2454918138326063247
+    second: Level_212
+  - first:
+      213: 5154625535158036097
+    second: Level_105
+  - first:
+      213: 1265192627629875440
+    second: Level_106
+  - first:
+      213: -1313724128672361882
+    second: Level_107
+  - first:
+      213: -1333340960814779736
+    second: Level_108
+  - first:
+      213: 8452937478378570233
+    second: Level_213
+  - first:
+      213: -1887086089100379131
+    second: Level_214
+  - first:
+      213: 1192501906508161305
+    second: Level_215
+  - first:
+      213: -5991173765527052622
+    second: Level_216
+  - first:
+      213: 5879920995979633029
+    second: Level_217
+  - first:
+      213: 1768285449835345138
+    second: Level_109
+  - first:
+      213: -6481440424811171691
+    second: Level_110
+  - first:
+      213: 6875032075022375199
+    second: Level_111
+  - first:
+      213: -3194691082469799694
+    second: Level_112
+  - first:
+      213: 3006031363956488798
+    second: Level_218
+  - first:
+      213: 4244579630657827205
+    second: Level_219
+  - first:
+      213: 8740114262013317274
+    second: Level_113
+  - first:
+      213: 473190265976946517
+    second: Level_114
+  - first:
+      213: 267706734715281785
+    second: Level_115
+  - first:
+      213: -6959759524393793201
+    second: Level_116
+  - first:
+      213: -859223311362534506
+    second: Level_220
+  - first:
+      213: -8351287461019181472
+    second: Level_117
+  - first:
+      213: -6817120851860892327
+    second: Level_118
+  - first:
+      213: 7278282918855398828
+    second: Level_119
+  - first:
+      213: -5280414911533610492
+    second: Level_221
+  - first:
+      213: 7026102079263425026
+    second: Level_222
+  - first:
+      213: 3850519736571339860
+    second: Trees_0
+  - first:
+      213: 8692416560504278164
+    second: Trees_1
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trees_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45427faac4bcf6530800000000000000
+      internalID: 3850519736571339860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trees_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 62
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c8490becaa1a870800000000000000
+      internalID: 8692416560504278164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
