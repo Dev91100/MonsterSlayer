@@ -148,13 +148,13 @@ TextureImporter:
     second: Level_306
   - first:
       213: 8964647865480036123
-    second: Tileset_48
+    second: Level_601
   - first:
       213: 7504058923700220638
-    second: Tileset_49
+    second: Level_602
   - first:
       213: 6576249790921849821
-    second: Tileset_50
+    second: Level_603
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1247,7 +1247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_48
+      name: Level_601
       rect:
         serializedVersion: 2
         x: 80
@@ -1268,7 +1268,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_49
+      name: Level_602
       rect:
         serializedVersion: 2
         x: 96
@@ -1289,7 +1289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_50
+      name: Level_603
       rect:
         serializedVersion: 2
         x: 112
