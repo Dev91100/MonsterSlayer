@@ -127,10 +127,10 @@ TextureImporter:
     second: Level_222
   - first:
       213: 3850519736571339860
-    second: Trees_0
+    second: Level_Tree1
   - first:
       213: 8692416560504278164
-    second: Trees_1
+    second: Level_Tree2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -215,7 +215,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trees_0
+      name: Level_Tree1
       rect:
         serializedVersion: 2
         x: 34
@@ -223,7 +223,7 @@ TextureImporter:
         width: 57
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees_1
+      name: Level_Tree2
       rect:
         serializedVersion: 2
         x: 167
@@ -244,7 +244,7 @@ TextureImporter:
         width: 62
         height: 108
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
