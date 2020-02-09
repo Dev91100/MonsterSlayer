@@ -1,0 +1,1405 @@
+fileFormatVersion: 2
+guid: 08f3c38a4de21c0489b8feb0527d402e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5241168079454102991
+    second: Level_101
+  - first:
+      213: -8984887768303404567
+    second: Level_102
+  - first:
+      213: 4715162398055194868
+    second: Level_103
+  - first:
+      213: 2139167342924543441
+    second: Level_104
+  - first:
+      213: -4832975166074507827
+    second: Level_105
+  - first:
+      213: 4852022789602071881
+    second: Level_106
+  - first:
+      213: -2739728861204203798
+    second: Level_107
+  - first:
+      213: 5617495114369942702
+    second: Level_108
+  - first:
+      213: 6673013189867136212
+    second: TilesExamples_8
+  - first:
+      213: 3685555546738264218
+    second: TilesExamples_9
+  - first:
+      213: -2764937072949494111
+    second: TilesExamples_10
+  - first:
+      213: 6246797930319289524
+    second: TilesExamples_11
+  - first:
+      213: 7192854156554175964
+    second: TilesExamples_12
+  - first:
+      213: 6814156144551179983
+    second: TilesExamples_13
+  - first:
+      213: 1869112389368384728
+    second: TilesExamples_14
+  - first:
+      213: -9144355903156620381
+    second: TilesExamples_15
+  - first:
+      213: 1907131785476697329
+    second: TilesExamples_16
+  - first:
+      213: -2042183226653080146
+    second: TilesExamples_17
+  - first:
+      213: -1433031817733432186
+    second: Level_109
+  - first:
+      213: -3678221862985243579
+    second: Level_110
+  - first:
+      213: -939578351028019418
+    second: Level_111
+  - first:
+      213: 7188754830990349319
+    second: Level_112
+  - first:
+      213: -1654725164068743927
+    second: Level_113
+  - first:
+      213: -3150819584154491204
+    second: Level_1114
+  - first:
+      213: -4523416074066502996
+    second: TilesExamples_24
+  - first:
+      213: -3394870911899928058
+    second: TilesExamples_25
+  - first:
+      213: -7230776699826822164
+    second: TilesExamples_26
+  - first:
+      213: -8220973734025886334
+    second: TilesExamples_27
+  - first:
+      213: 5195722828399271292
+    second: TilesExamples_28
+  - first:
+      213: 7204250404341864248
+    second: TilesExamples_29
+  - first:
+      213: -3037803663239700701
+    second: TilesExamples_30
+  - first:
+      213: 336830882105496950
+    second: TilesExamples_31
+  - first:
+      213: -6000538202896983143
+    second: TilesExamples_32
+  - first:
+      213: 9018705446388507824
+    second: TilesExamples_33
+  - first:
+      213: 865212718502964071
+    second: TilesExamples_34
+  - first:
+      213: 2393673744584205878
+    second: TilesExamples_35
+  - first:
+      213: 5690108156362651666
+    second: Level_116
+  - first:
+      213: -5974590385973298137
+    second: TilesExamples_37
+  - first:
+      213: 7283637238512481983
+    second: Level_117
+  - first:
+      213: 4184215349484459210
+    second: Level_118
+  - first:
+      213: 8230240198741687407
+    second: Level_119
+  - first:
+      213: 3303537684576784195
+    second: Level_120
+  - first:
+      213: -5660526662959016347
+    second: TilesExamples_42
+  - first:
+      213: 4438216693542232206
+    second: TilesExamples_43
+  - first:
+      213: -4728836905698843119
+    second: TilesExamples_44
+  - first:
+      213: 2737987875124390257
+    second: TilesExamples_45
+  - first:
+      213: -5418684693217078766
+    second: TilesExamples_46
+  - first:
+      213: 8568341911344211036
+    second: TilesExamples_47
+  - first:
+      213: 4999733967344348498
+    second: TilesExamples_48
+  - first:
+      213: -8758710022618860974
+    second: TilesExamples_49
+  - first:
+      213: -7476814184186520991
+    second: TilesExamples_50
+  - first:
+      213: -5927717173277005153
+    second: TilesExamples_51
+  - first:
+      213: 6351134053991144151
+    second: TilesExamples_52
+  - first:
+      213: 8711148543662179033
+    second: TilesExamples_53
+  - first:
+      213: 5133277565943936885
+    second: Level_121
+  - first:
+      213: -8385528307891232469
+    second: TilesExamples_55
+  - first:
+      213: -1174626334115027926
+    second: Level_122
+  - first:
+      213: 8125045817614534855
+    second: Level_123
+  - first:
+      213: 2253288273723807833
+    second: TilesExamples_58
+  - first:
+      213: 3004695131855882393
+    second: Level_124
+  - first:
+      213: -8714451804720080511
+    second: TilesExamples_60
+  - first:
+      213: -4574767761688321173
+    second: TilesExamples_61
+  - first:
+      213: 5405948680330797889
+    second: TilesExamples_62
+  - first:
+      213: 4439536357194677269
+    second: TilesExamples_63
+  - first:
+      213: -3525437577623292609
+    second: TilesExamples_64
+  - first:
+      213: -3289070388738695355
+    second: TilesExamples_65
+  - first:
+      213: 6769011357425489016
+    second: TilesExamples_66
+  - first:
+      213: 5377968069308856081
+    second: TilesExamples_67
+  - first:
+      213: 8215524192747524140
+    second: TilesExamples_68
+  - first:
+      213: -236376446805995274
+    second: TilesExamples_69
+  - first:
+      213: -7341279819580228104
+    second: TilesExamples_70
+  - first:
+      213: -7600989867936009608
+    second: TilesExamples_71
+  - first:
+      213: -7447745100798948821
+    second: TilesExamples_72
+  - first:
+      213: -5593047020262029297
+    second: TilesExamples_73
+  - first:
+      213: -5561231870684898635
+    second: Level_125
+  - first:
+      213: -5870297877679074830
+    second: Level_126
+  - first:
+      213: 17849111661218434
+    second: TilesExamples_76
+  - first:
+      213: -5545578517837147424
+    second: TilesExamples_77
+  - first:
+      213: -7153720462597887557
+    second: Level_127
+  - first:
+      213: 6829722599195323330
+    second: Level_128
+  - first:
+      213: 6923408597884257571
+    second: TilesExamples_80
+  - first:
+      213: -1223817817608604054
+    second: TilesExamples_81
+  - first:
+      213: -1146743175080232558
+    second: TilesExamples_82
+  - first:
+      213: -1523840202508200711
+    second: TilesExamples_83
+  - first:
+      213: -2765004415837698705
+    second: TilesExamples_84
+  - first:
+      213: 3072505699880022036
+    second: TilesExamples_85
+  - first:
+      213: 2803624458505283977
+    second: TilesExamples_86
+  - first:
+      213: -7237184403007753820
+    second: TilesExamples_87
+  - first:
+      213: -811134009804270464
+    second: TilesExamples_88
+  - first:
+      213: 6318300477973089293
+    second: TilesExamples_89
+  - first:
+      213: -6233449056568130128
+    second: TilesExamples_90
+  - first:
+      213: 5648643836867716589
+    second: TilesExamples_91
+  - first:
+      213: 3648338330718072667
+    second: Level_129
+  - first:
+      213: 3048285540048613274
+    second: Level_130
+  - first:
+      213: 6141914336312972955
+    second: Level_131
+  - first:
+      213: -4696030091913745371
+    second: Level_132
+  - first:
+      213: 2139869385341950905
+    second: TilesExamples_96
+  - first:
+      213: -3588387707050117149
+    second: TilesExamples_97
+  - first:
+      213: -7267987572325445647
+    second: TilesExamples_98
+  - first:
+      213: 2157129266177368672
+    second: TilesExamples_99
+  - first:
+      213: -9189726484555471976
+    second: TilesExamples_100
+  - first:
+      213: 4921200720966003670
+    second: TilesExamples_101
+  - first:
+      213: 8361053834795853143
+    second: TilesExamples_102
+  - first:
+      213: 513728462081403077
+    second: TilesExamples_103
+  - first:
+      213: 8093617434398016240
+    second: TilesExamples_104
+  - first:
+      213: 2964551665163170764
+    second: TilesExamples_105
+  - first:
+      213: -5793672810251580933
+    second: TilesExamples_106
+  - first:
+      213: 2669816810071140293
+    second: TilesExamples_107
+  - first:
+      213: -1505122419881885614
+    second: TilesExamples_108
+  - first:
+      213: 7646706666495958173
+    second: TilesExamples_109
+  - first:
+      213: 6391388962746061531
+    second: TilesExamples_110
+  - first:
+      213: 1645071014127493247
+    second: TilesExamples_111
+  - first:
+      213: -6736179512723339228
+    second: TilesExamples_112
+  - first:
+      213: 7705696194542454647
+    second: TilesExamples_113
+  - first:
+      213: 7820302805331274383
+    second: TilesExamples_114
+  - first:
+      213: 2410080807443488904
+    second: TilesExamples_115
+  - first:
+      213: 2490859654660798632
+    second: TilesExamples_116
+  - first:
+      213: -1060038034174960380
+    second: TilesExamples_117
+  - first:
+      213: 7014729521580423559
+    second: TilesExamples_118
+  - first:
+      213: 3973980939870539537
+    second: TilesExamples_119
+  - first:
+      213: 5534262414242284229
+    second: TilesExamples_120
+  - first:
+      213: 2117518026117129311
+    second: TilesExamples_121
+  - first:
+      213: 3578480057379596499
+    second: TilesExamples_122
+  - first:
+      213: -2105717477833687350
+    second: TilesExamples_123
+  - first:
+      213: -7310985089075160939
+    second: TilesExamples_124
+  - first:
+      213: -3846074862596907052
+    second: TilesExamples_125
+  - first:
+      213: 5787168868998689410
+    second: TilesExamples_126
+  - first:
+      213: 8875675024337778173
+    second: TilesExamples_127
+  - first:
+      213: -2032971113531745954
+    second: TilesExamples_128
+  - first:
+      213: 3490814275373889854
+    second: TilesExamples_129
+  - first:
+      213: 6695947910514262833
+    second: TilesExamples_130
+  - first:
+      213: -886706446947825343
+    second: TilesExamples_131
+  - first:
+      213: 4419772875819484180
+    second: TilesExamples_132
+  - first:
+      213: 7743929389655071283
+    second: TilesExamples_133
+  - first:
+      213: 1687355811600050562
+    second: TilesExamples_134
+  - first:
+      213: 3465769227111164755
+    second: TilesExamples_135
+  - first:
+      213: -5416278994211220694
+    second: TilesExamples_136
+  - first:
+      213: -2025381368412407464
+    second: TilesExamples_137
+  - first:
+      213: 8495927969779035809
+    second: TilesExamples_138
+  - first:
+      213: -5804075110864811878
+    second: TilesExamples_139
+  - first:
+      213: 2404131966935717364
+    second: TilesExamples_140
+  - first:
+      213: -6202734628165830209
+    second: TilesExamples_141
+  - first:
+      213: -5221313734179666421
+    second: TilesExamples_142
+  - first:
+      213: -5774588282754925007
+    second: TilesExamples_143
+  - first:
+      213: 2022376063967706936
+    second: TilesExamples_144
+  - first:
+      213: 8768113779710412747
+    second: TilesExamples_145
+  - first:
+      213: 7156401504214368235
+    second: TilesExamples_146
+  - first:
+      213: 2872395109490166982
+    second: TilesExamples_147
+  - first:
+      213: 4697785392679671638
+    second: TilesExamples_148
+  - first:
+      213: 8392466174878834704
+    second: TilesExamples_149
+  - first:
+      213: -4319302556335314955
+    second: TilesExamples_150
+  - first:
+      213: 8018451144741464013
+    second: TilesExamples_151
+  - first:
+      213: -5215434210226527862
+    second: TilesExamples_152
+  - first:
+      213: 148202154773864582
+    second: TilesExamples_153
+  - first:
+      213: 4677137435614512082
+    second: TilesExamples_154
+  - first:
+      213: 2002824228542790856
+    second: TilesExamples_155
+  - first:
+      213: -8113143641877723928
+    second: TilesExamples_156
+  - first:
+      213: -1354550903730595192
+    second: TilesExamples_157
+  - first:
+      213: -9032161597752071589
+    second: TilesExamples_158
+  - first:
+      213: -6273292481326692948
+    second: TilesExamples_159
+  - first:
+      213: 2660956516504498413
+    second: TilesExamples_160
+  - first:
+      213: -3497522588510650679
+    second: TilesExamples_161
+  - first:
+      213: 4969015906040856484
+    second: TilesExamples_162
+  - first:
+      213: 1921753497854409838
+    second: TilesExamples_163
+  - first:
+      213: 5846132542682416096
+    second: TilesExamples_164
+  - first:
+      213: 3853990797224168023
+    second: TilesExamples_165
+  - first:
+      213: 6992044488697377717
+    second: TilesExamples_166
+  - first:
+      213: 7639919652760170082
+    second: TilesExamples_167
+  - first:
+      213: -8859850878831984010
+    second: TilesExamples_168
+  - first:
+      213: -2593116583817089372
+    second: TilesExamples_169
+  - first:
+      213: 3010486570666438217
+    second: TilesExamples_170
+  - first:
+      213: 8844811758962919038
+    second: TilesExamples_171
+  - first:
+      213: -9106793365355011328
+    second: TilesExamples_172
+  - first:
+      213: -204837590170700093
+    second: TilesExamples_173
+  - first:
+      213: 5747929529914330033
+    second: TilesExamples_174
+  - first:
+      213: -3978653652362117341
+    second: TilesExamples_175
+  - first:
+      213: -6063344569815486579
+    second: TilesExamples_176
+  - first:
+      213: 8409376638945728117
+    second: TilesExamples_177
+  - first:
+      213: 6750531210750129312
+    second: TilesExamples_178
+  - first:
+      213: 1935418358788560279
+    second: TilesExamples_179
+  - first:
+      213: 7229781869690998727
+    second: TilesExamples_180
+  - first:
+      213: 7515401590577465205
+    second: TilesExamples_181
+  - first:
+      213: -3227588015998989834
+    second: TilesExamples_182
+  - first:
+      213: -3330469826637235902
+    second: TilesExamples_183
+  - first:
+      213: 7341338730013776762
+    second: TilesExamples_184
+  - first:
+      213: 1323561113349372022
+    second: TilesExamples_185
+  - first:
+      213: -4703834260709540284
+    second: TilesExamples_186
+  - first:
+      213: 3901503501995743744
+    second: TilesExamples_187
+  - first:
+      213: -2294142764296475361
+    second: TilesExamples_188
+  - first:
+      213: 561995784354925191
+    second: TilesExamples_189
+  - first:
+      213: -5142926356814161319
+    second: TilesExamples_190
+  - first:
+      213: -7248579682328972958
+    second: TilesExamples_191
+  - first:
+      213: 1187058450057062337
+    second: TilesExamples_192
+  - first:
+      213: 8308714413281684763
+    second: TilesExamples_193
+  - first:
+      213: 7799091250131523371
+    second: TilesExamples_194
+  - first:
+      213: 7247665660463240796
+    second: TilesExamples_195
+  - first:
+      213: -2165559975430194112
+    second: TilesExamples_196
+  - first:
+      213: -5706709562775378022
+    second: TilesExamples_197
+  - first:
+      213: -6355949598950208076
+    second: TilesExamples_198
+  - first:
+      213: 2046527683235881532
+    second: TilesExamples_199
+  - first:
+      213: 349470515790919559
+    second: TilesExamples_200
+  - first:
+      213: -1496672976427444256
+    second: TilesExamples_201
+  - first:
+      213: -7446143632237680202
+    second: TilesExamples_202
+  - first:
+      213: -3398025679088033711
+    second: TilesExamples_203
+  - first:
+      213: 8453860424259552641
+    second: TilesExamples_204
+  - first:
+      213: 6330260776099529412
+    second: TilesExamples_205
+  - first:
+      213: 8370159035029629449
+    second: TilesExamples_206
+  - first:
+      213: 8908957925385231588
+    second: TilesExamples_207
+  - first:
+      213: -3078003425817865715
+    second: TilesExamples_208
+  - first:
+      213: 397192971966407834
+    second: TilesExamples_0
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a95009661a347b0800000000000000
+      internalID: -5241168079454102991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9f58fbd244f4380800000000000000
+      internalID: -8984887768303404567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0eb52183f9f6140800000000000000
+      internalID: 4715162398055194868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d532265d59dfad10800000000000000
+      internalID: 2139167342924543441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_105
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd28d151b2ddecb0800000000000000
+      internalID: -4832975166074507827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945d4502509d55340800000000000000
+      internalID: 4852022789602071881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_107
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6b90fcd178af9d0800000000000000
+      internalID: -2739728861204203798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea443833b0a55fd40800000000000000
+      internalID: 5617495114369942702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c9a208729dc1ce0800000000000000
+      internalID: -1433031817733432186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_110
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54460b324b454fcc0800000000000000
+      internalID: -3678221862985243579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fd354c772f5f2f0800000000000000
+      internalID: -939578351028019418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7049d8e5e6693c360800000000000000
+      internalID: 7188754830990349319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90558cafa3c3909e0800000000000000
+      internalID: -1654725164068743927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_1114
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6a02f284a0644d0800000000000000
+      internalID: -3150819584154491204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2187c81883357fe40800000000000000
+      internalID: 5690108156362651666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6f7526a7da41560800000000000000
+      internalID: 7283637238512481983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_118
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac412c101b1511a30800000000000000
+      internalID: 4184215349484459210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_119
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c7326eadfa73270800000000000000
+      internalID: 8230240198741687407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_120
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fc05f650688dd20800000000000000
+      internalID: 3303537684576784195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577f19bbfb01d3740800000000000000
+      internalID: 5133277565943936885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2421439293e2bfe0800000000000000
+      internalID: -1174626334115027926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_123
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c800be6f16f1c070800000000000000
+      internalID: 8125045817614534855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_124
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9988d988d42d2b920800000000000000
+      internalID: 3004695131855882393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bade3a041982d2b0800000000000000
+      internalID: -5561231870684898635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_126
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f19533be23888ea0800000000000000
+      internalID: -5870297877679074830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9e86c2421e8bc90800000000000000
+      internalID: -7153720462597887557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_128
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbae7fb48c08ce50800000000000000
+      internalID: 6829722599195323330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_129
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f64eec16081a230800000000000000
+      internalID: 3648338330718072667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fae845c8fad4a20800000000000000
+      internalID: 3048285540048613274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_131
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9650d03c867c3550800000000000000
+      internalID: 6141914336312972955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cafe4138954deb0800000000000000
+      internalID: -4696030091913745371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesExamples_208
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02d0b2313cb845d0800000000000000
+      internalID: -3078003425817865715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
