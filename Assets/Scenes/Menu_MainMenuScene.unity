@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 271292303}
   - component: {fileID: 271292304}
   m_Layer: 5
-  m_Name: Main_Menu
+  m_Name: Menu_MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 349861439}
   - component: {fileID: 349861438}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Menu_Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 930533054}
   - component: {fileID: 930533053}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Menu_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 1450708364}
   - component: {fileID: 1450708363}
   m_Layer: 5
-  m_Name: Button_LoadGame
+  m_Name: Menu_ButtonLoadGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 1574521327}
   - component: {fileID: 1574521330}
   m_Layer: 5
-  m_Name: Button_StartGame
+  m_Name: Menu_ButtonStartGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -845,7 +845,7 @@ GameObject:
   - component: {fileID: 1824481278}
   - component: {fileID: 1824481277}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Menu_MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -929,7 +929,7 @@ GameObject:
   - component: {fileID: 1864840204}
   - component: {fileID: 1864840203}
   m_Layer: 5
-  m_Name: Button_ExitGame
+  m_Name: Menu_ButtonExitGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 2080672364}
   - component: {fileID: 2080672363}
   m_Layer: 5
-  m_Name: Button_SaveGame
+  m_Name: Menu_ButtonSaveGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
