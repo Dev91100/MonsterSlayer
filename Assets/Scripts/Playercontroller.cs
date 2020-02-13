@@ -31,6 +31,8 @@ public class Playercontroller : MonoBehaviour {
     // Update is called once per frame
     private void Update()
     {
+
+        //Jumping
         isGrounded = Physics2D.OverlapCircle(groundPos.position, checkRadius, whatIsGround);
 
         if (isGrounded == true && Input.GetKeyDown(KeyCode.Z))
@@ -71,9 +73,12 @@ public class Playercontroller : MonoBehaviour {
             rb.velocity = Vector2.up * Player_jumpForce;
         }
 
+       
         float moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * Player_Speed, rb.velocity.y);
 
+        //Animation
+                //Movement_Animation
         if (moveInput == 0)
         {
             anim.SetBool("IsRunning", false);
@@ -83,6 +88,10 @@ public class Playercontroller : MonoBehaviour {
             anim.SetBool("IsRunning", true);
         }
 
+
+
+        
+        //Movement
         if (moveInput < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);

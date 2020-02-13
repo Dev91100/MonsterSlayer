@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Level_Foreground
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,9 @@ TagManager:
     locked: 0
   - name: Decorations
     uniqueID: 928269629
+    locked: 0
+  - name: Knight
+    uniqueID: 4217848371
     locked: 0
   - name: Foreground
     uniqueID: 3661819925
