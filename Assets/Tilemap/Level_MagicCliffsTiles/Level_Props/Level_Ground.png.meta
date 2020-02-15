@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: f8f448a9b33b3b14890d8f2dcb564fbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 188136671169941971
+    second: Level_Ground_0
+  - first:
+      213: -4183461096411561943
+    second: Level_FloatingRock1
+  - first:
+      213: 8854961432132221198
+    second: Level_Tree5
+  - first:
+      213: 7677036124707915822
+    second: Level_Ground_3
+  - first:
+      213: 3570717570875958078
+    second: Level_Ground_4
+  - first:
+      213: -3919262025002764324
+    second: Level_Ground_5
+  - first:
+      213: 9108966519740848482
+    second: Level_FloatingRock3
+  - first:
+      213: -6232022189255269064
+    second: Level_FloatingRock4
+  - first:
+      213: 2683984618811322444
+    second: Level_Ground_8
+  - first:
+      213: -5807090329111975217
+    second: Level_Ground_9
+  - first:
+      213: 6605482152814620648
+    second: Level_Ground_10
+  - first:
+      213: -7085796162476796607
+    second: Level_FloatingRock2
+  - first:
+      213: 1683775086821137736
+    second: Level_Ground_12
+  - first:
+      213: 8154331058695844822
+    second: Level_Ground_13
+  - first:
+      213: -3997261197762290473
+    second: Level_Ground_14
+  - first:
+      213: -2341063339725892228
+    second: Level_Ground_15
+  - first:
+      213: 7928189020804203822
+    second: Level_Ground_16
+  - first:
+      213: -2501247867129232899
+    second: Level_Ground_17
+  - first:
+      213: 8321700156369473932
+    second: Level_Ground_18
+  - first:
+      213: 4455518957642606372
+    second: Level_Ground_19
+  - first:
+      213: 8983752613357793733
+    second: Level_Ground_20
+  - first:
+      213: 1411606633772465461
+    second: Level_Ground_21
+  - first:
+      213: 3410692118699177913
+    second: Level_Ground_22
+  - first:
+      213: 8282769587345833545
+    second: Level_Ground_23
+  - first:
+      213: -3034316223222659437
+    second: Level_Ground_24
+  - first:
+      213: 6616952225142558322
+    second: Level_Ground_25
+  - first:
+      213: 4647658617905197206
+    second: Level_Ground_26
+  - first:
+      213: -3272441161856056298
+    second: Level_Ground_27
+  - first:
+      213: 4979988997090896473
+    second: Level_Ground_28
+  - first:
+      213: -4441885796806269831
+    second: Level_Ground_29
+  - first:
+      213: -2452505613166993285
+    second: Level_Ground_30
+  - first:
+      213: -5758281568116135146
+    second: Level_Ground_31
+  - first:
+      213: -2506370498047189586
+    second: Level_Ground_32
+  - first:
+      213: -4916019674711089388
+    second: Level_Ground_33
+  - first:
+      213: 6328593602983682314
+    second: Level_Ground_34
+  - first:
+      213: -9056219200591192829
+    second: Level_Ground_35
+  - first:
+      213: -7628259713440941350
+    second: Level_Ground_36
+  - first:
+      213: -3186911342802820257
+    second: Level_Ground_37
+  - first:
+      213: -7894908580333760345
+    second: Level_Ground_38
+  - first:
+      213: 160336168735192854
+    second: Level_Ground_39
+  - first:
+      213: 8335345024844531914
+    second: Level_Ground_40
+  - first:
+      213: -2044497930501665799
+    second: Level_Ground_41
+  - first:
+      213: 311772064979691093
+    second: Level_Ground_42
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_FloatingRock1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 220
+        width: 98
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92009b83c4c51f5c0800000000000000
+      internalID: -4183461096411561943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Tree5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 160
+        width: 123
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e097606c18423ea70800000000000000
+      internalID: 8854961432132221198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_FloatingRock3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 232
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2695410d9cc896e70800000000000000
+      internalID: 9108966519740848482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_FloatingRock4
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 232
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835661966d86389a0800000000000000
+      internalID: -6232022189255269064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_FloatingRock2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1459eb0bee13aad90800000000000000
+      internalID: -7085796162476796607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
