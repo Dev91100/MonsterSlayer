@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Medieval King Pack.meta
 guid: 3ffe2213961d69440b693224e8514b59
+=======
+guid: e7316d4b8c8b0f8458f40973293864bc
+>>>>>>> Level:Assets/Prefabs/Level_Level2Prefab.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
