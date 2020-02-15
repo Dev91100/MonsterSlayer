@@ -15,10 +15,10 @@ public class Knight_Movement : MonoBehaviour
     protected List<RaycastHit2D> hitBufferList = new List<RaycastHit2D>(16);
 
 
-   void OnEnable()
+    void OnEnable()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        
+
     }
 
     // Start is called before the first frame update
@@ -33,7 +33,7 @@ public class Knight_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void FixedUpdate()
@@ -59,7 +59,7 @@ public class Knight_Movement : MonoBehaviour
 
             for (int i = 0; i < hitBufferList.Count; i++)
             {
-                Vector2 currentNormal = hitBufferList [i].normal;
+                Vector2 currentNormal = hitBufferList[i].normal;
 
                 if (currentNormal.y > minGroundNormalY)
                 {
