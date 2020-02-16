@@ -1,11 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class Knight_Movement : MonoBehaviour
+public class Knight_PhysicsObject : MonoBehaviour
 {
     public float minGroundNormalY = .65f;
     public float gravityModifier = 1f;
+
+    protected Vector2 targetVelocity;
+    protected bool grounded;
+    protected Vector2 groundNormal;
     protected Rigidbody2D rb2d;
     protected Vector2 velocity;
     protected const float minMoveDistance = 0.001f;
@@ -39,12 +42,18 @@ public class Knight_Movement : MonoBehaviour
     void FixedUpdate()
     {
         velocity += gravityModifier * Physics2D.gravity * Time.deltaTime;
+        velocity.x = targetVelocity.x;
+        grounded = false;
+
         Vector2 deltaPosition = velocity * Time.deltaTime;
+        Vector2 moveAlongGround = new Vector2(groundNormal.y, -groundNormal.y);
         Vector2 move = Vector2.up * deltaPosition.y;
-        Movement(move);
+        Movement(move, false);
+        move = Vector2.up * deltaPosition.x;
+        Movement(move, true);
     }
 
-    void Movement(Vector2 move)
+    void Movement(Vector2 move, bool yMovement)
     {
         float distance = move.magnitude;
 
@@ -63,15 +72,27 @@ public class Knight_Movement : MonoBehaviour
 
                 if (currentNormal.y > minGroundNormalY)
                 {
-
+                    grounded = true;
+                    if (yMovement)
+                    {
+                        groundNormal = currentNormal;
+                        currentNormal.x = 0;
+                    }
                 }
+
+                float projection = Vector2.Dot(velocity, currentNormal);
+                if (projection < 0)
+                {
+                    velocity = velocity - projection * currentNormal;
+                }
+
+                float modifiedDistance = hitBufferList[i].distance - shellRadius;
+                distance = modifiedDistance < distance ? modifiedDistance : distance;
             }
-
-
 
         }
 
-        rb2d.position = rb2d.position + move;
+        rb2d.position = rb2d.position + move.normalized * distance;
 
     }
 }
