@@ -5,6 +5,7 @@ public class Knight_Movement : Knight_PhysicsObject
 
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
+    private bool attack;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
@@ -33,6 +34,7 @@ public class Knight_Movement : Knight_PhysicsObject
                 velocity.y = velocity.y * 0.5f;
             }
         }
+
 
         if (move.x > 0.01f)
         {
