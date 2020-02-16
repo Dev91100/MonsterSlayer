@@ -60,3 +60,6 @@ TagManager:
   - name: Foreground
     uniqueID: 3661819925
     locked: 0
+  - name: Correction
+    uniqueID: 1376170329
+    locked: 0
