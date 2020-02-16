@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Limit
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,12 @@ TagManager:
     locked: 0
   - name: Decorations
     uniqueID: 928269629
+    locked: 0
+  - name: Monsters
+    uniqueID: 1877659759
+    locked: 0
+  - name: enemy
+    uniqueID: 46326257
     locked: 0
   - name: Foreground
     uniqueID: 3661819925
