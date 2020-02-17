@@ -7,6 +7,8 @@ public class Knight_PhysicsObject : MonoBehaviour
     public float minGroundNormalY = .65f;
     public float gravityModifier = 1f;
 
+    protected Animator animator;
+    protected bool attack = false;
     protected Vector2 targetVelocity;
     protected bool grounded;
     protected Vector2 groundNormal;
@@ -36,11 +38,35 @@ public class Knight_PhysicsObject : MonoBehaviour
     {
         targetVelocity = Vector2.zero;
         ComputeVelocity();
+        HandleInput();
     }
 
     protected virtual void ComputeVelocity()
     {
 
+    }
+
+    // Handles Keyboard Input for attacking animation
+    protected void HandleInput()
+    {
+        if (Input.GetButtonDown("Fire2"))
+        {
+            attack = true;
+        }
+
+        else if (Input.GetButtonUp("Fire2"))
+        {
+            attack = false;
+        }
+    }
+
+    // Sets "attack" to true if the key has been pressed
+    protected void HandleAttacks()
+    {
+        if (attack)
+        {
+            animator.SetTrigger("attack");
+        }
     }
 
     void FixedUpdate()
@@ -61,6 +87,8 @@ public class Knight_PhysicsObject : MonoBehaviour
         move = Vector2.up * deltaPosition.y;
 
         Movement(move, true);
+
+        HandleAttacks();
     }
 
     void Movement(Vector2 move, bool yMovement)

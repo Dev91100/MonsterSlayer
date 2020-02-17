@@ -5,10 +5,8 @@ public class Knight_Movement : Knight_PhysicsObject
 
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
-    private bool attack;
 
     private SpriteRenderer spriteRenderer;
-    private Animator animator;
 
     // Use this for initialization
     void Awake()
@@ -35,7 +33,6 @@ public class Knight_Movement : Knight_PhysicsObject
             }
         }
 
-
         if (move.x > 0.01f)
         {
             if (spriteRenderer.flipX == true)
@@ -56,4 +53,5 @@ public class Knight_Movement : Knight_PhysicsObject
 
         targetVelocity = move * maxSpeed;
     }
+
 }
