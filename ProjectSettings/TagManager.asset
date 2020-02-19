@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Level_Foreground
+  - Limit
   layers:
   - Default
   - TransparentFX
@@ -59,4 +60,7 @@ TagManager:
     locked: 0
   - name: Correction
     uniqueID: 1376170329
+    locked: 0
+  - name: Enemy
+    uniqueID: 3545104757
     locked: 0
