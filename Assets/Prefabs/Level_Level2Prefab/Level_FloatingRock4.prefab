@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4817060121970394984}
   - component: {fileID: 3182292663697319588}
+  - component: {fileID: 1899792298744972807}
   m_Layer: 0
   m_Name: Level_FloatingRock4
   m_TagString: Untagged
@@ -67,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 928269629
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -6232022189255269064, guid: f8f448a9b33b3b14890d8f2dcb564fbc,
     type: 3}
@@ -82,3 +83,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1899792298744972807
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3032667842165454253}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2}
+    newSize: {x: 3, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.0785942, y: 0.80640507}
+      - {x: 0.3617134, y: 0.8105774}
+      - {x: -0.73156357, y: 0.81525326}
+      - {x: -1.4907799, y: 0.80566216}
+      - {x: -1.0027275, y: -0.93280077}
+      - {x: 0.3360901, y: -0.8924813}
+      - {x: 1.0564842, y: -0.60620403}
+      - {x: 1.5268898, y: 0.81063366}
