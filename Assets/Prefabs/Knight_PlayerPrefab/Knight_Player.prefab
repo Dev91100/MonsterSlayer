@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 8983228523508619416}
   - component: {fileID: 8983228523508619419}
   - component: {fileID: 8473965478438733653}
-  - component: {fileID: 4443290422429034579}
   m_Layer: 0
   m_Name: Knight_Player
   m_TagString: Player
@@ -174,35 +173,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!68 &4443290422429034579
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8983228523508619418}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.9941513, y: 0.44577655}
-  - {x: 0.9222191, y: 0.694413}
-  - {x: 0.68152696, y: 0.9611475}
-  - {x: 0.31963348, y: 1.1205257}
-  - {x: -0.119944, y: 1.1084423}
-  - {x: -0.5185326, y: 0.9797813}
-  - {x: -0.6164673, y: 0.82944584}
-  - {x: -0.49506724, y: 0.12626222}
-  - {x: -0.3734108, y: -0.79099846}
-  - {x: -0.18185806, y: -0.8731452}
-  - {x: 0.30820313, y: -0.8878682}
-  - {x: 0.71197814, y: -0.66648763}
-  - {x: 0.9553795, y: -0.39439192}
-  - {x: 1.0609093, y: -0.14754868}
-  - {x: 1.0562791, y: 0.2133398}
-  - {x: 1.0017121, y: 0.44577676}
