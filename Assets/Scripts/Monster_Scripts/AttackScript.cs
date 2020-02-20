@@ -40,7 +40,7 @@ public class AttackScript : MonoBehaviour
              {
                 NextActionTime = Time.time + period;
               
-                player.GetComponent<PlayerCombat>().PlayerTakeDamage(25);
+                player.GetComponent<Knight_Combat>().PlayerTakeDamage(25);
              }
 
 
