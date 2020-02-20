@@ -40,7 +40,10 @@ public class Knight_Movement : Knight_PhysicsObject
             if (spriteRenderer.flipX == true)
             {
                 spriteRenderer.flipX = false;
-                createDust();
+                if (grounded == true)
+                {
+                    createDust();
+                }
             }
         }
         else if (move.x < -0.01f)
@@ -48,7 +51,10 @@ public class Knight_Movement : Knight_PhysicsObject
             if (spriteRenderer.flipX == false)
             {
                 spriteRenderer.flipX = true;
-                createDust();
+                if (grounded == true)
+                {
+                    createDust();
+                }
             }
         }
 
