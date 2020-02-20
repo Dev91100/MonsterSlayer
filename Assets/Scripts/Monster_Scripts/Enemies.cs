@@ -108,7 +108,7 @@ public class Enemies : MonoBehaviour
             foreach (Collider2D player in hitplayer)
             {
             animator.SetBool("attack", true);
-            player.GetComponent<PlayerCombat>().PlayerTakeDamage(25);
+            player.GetComponent<Knight_Combat>().PlayerTakeDamage(50);
             
             }
         }
