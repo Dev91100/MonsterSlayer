@@ -44,7 +44,6 @@ public class Knight_Combat : Knight_Movement
             animator.SetTrigger("attack");
         }
 
-
         // Detect enemies in range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
