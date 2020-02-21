@@ -6,7 +6,6 @@ public class Knight_Combat : Knight_Movement
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
-    protected bool attack = false;
     public float attackRange = 0.5f;
 
     //Health
@@ -15,16 +14,26 @@ public class Knight_Combat : Knight_Movement
     bool die = false;
     public Rigidbody2D rb1;
 
-    //void Awake()
-    //{
-    //    rb1 = GetComponent<Rigidbody2D>();
-    //}
+    public float attackRate = 2f;
+    float nextAttackTime = 0f;
 
     //new attack
     //public LayerMask enemylayers;
     void Start()
     {
         currenthealth = maxhealth;
+    }
+
+    void Update()
+    {
+        if (Time.time >= nextAttackTime)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                Attack();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
+        }
     }
 
     public void PlayerTakeDamage(int damage)
@@ -52,8 +61,6 @@ public class Knight_Combat : Knight_Movement
         this.enabled = false;
 
         Invoke("DisableCol", 2f);
-
-
     }
     void SetTransformX()
     {
@@ -63,14 +70,6 @@ public class Knight_Combat : Knight_Movement
     {
         GetComponent<Collider2D>().enabled = false;
         //  GetComponent<CircleCollider2D>().enabled = false;
-    }
-
-    void Update()
-    {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Attack();
-        }
     }
 
 
