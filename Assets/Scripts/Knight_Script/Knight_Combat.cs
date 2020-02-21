@@ -70,10 +70,6 @@ public class Knight_Combat : Knight_Movement
         if (Input.GetButtonDown("Fire1"))
         {
             Attack();
-            if (grounded)
-            {
-                createDust();
-            }
         }
     }
 
@@ -81,6 +77,10 @@ public class Knight_Combat : Knight_Movement
     void Attack()
     {
         animator.SetTrigger("Attack");
+        if (grounded)
+        {
+            createDust();
+        }
 
         Collider2D[] hitenemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
