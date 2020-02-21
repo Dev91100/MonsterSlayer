@@ -14,11 +14,10 @@ public class Knight_Combat : Knight_Movement
     public int currenthealth;
     bool die = false;
     public Rigidbody2D rb1;
-    public Animator animator;
 
     //new attack
     //public LayerMask enemylayers;
-    void Start() 
+    void Start()
     {
         currenthealth = maxhealth;
     }
@@ -58,7 +57,7 @@ public class Knight_Combat : Knight_Movement
     void DisableCol()
     {
         GetComponent<Collider2D>().enabled = false;
-      //  GetComponent<CircleCollider2D>().enabled = false;
+        //  GetComponent<CircleCollider2D>().enabled = false;
     }
 
     void Update()
@@ -66,6 +65,7 @@ public class Knight_Combat : Knight_Movement
         if (Input.GetButtonDown("Fire1"))
         {
             Attack();
+            createDust();
         }
 
         HandleInput();
@@ -74,7 +74,7 @@ public class Knight_Combat : Knight_Movement
 
     void FixedUpdate()
     {
-    //    Attack();
+        //    Attack();
     }
 
     //Handles Keyboard Input for attacking animation
@@ -83,11 +83,13 @@ public class Knight_Combat : Knight_Movement
         if (Input.GetButtonDown("Fire2"))
         {
             attack = true;
+            createDust();
         }
 
         if (Input.GetButtonUp("Fire2"))
         {
             attack = false;
+            createDust();
         }
     }
 
