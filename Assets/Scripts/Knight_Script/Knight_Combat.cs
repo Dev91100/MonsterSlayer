@@ -92,17 +92,23 @@ public class Knight_Combat : Knight_Movement
                 enemy1.EnemyTakeDamage(50);
                 return;
             }
-            else
+            //else
+            // {
+            //use this comment code the the below one does not work or call me
+
+            Enemies enemy2 = enemy.GetComponent<Enemies>();
+            if (enemy2 != null)
             {
-                // use this comment code the the below one does not work or call me
-                //Enemies enemy2 = enemy.GetComponent<Enemies>();
-                //if (enemy2 != null)
-                //{
-                //    enemy2.TakeDamage(20);
-                //}
-                enemy.GetComponent<Enemies>().TakeDamage(20);
-                return;
+                enemy2.TakeDamage(20);
             }
+            BoxScript Box = enemy.GetComponent<BoxScript>();
+            if (Box != null)
+            {
+                Box.OpenBox();
+            }
+            // enemy.GetComponent<Enemies>().TakeDamage(20);
+            // return;
+            //  }
 
             // enemy.GetComponent<Enemies>().TakeDamage(20);
 
