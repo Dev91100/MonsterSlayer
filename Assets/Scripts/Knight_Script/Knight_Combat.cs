@@ -6,7 +6,6 @@ public class Knight_Combat : Knight_Movement
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
-    protected bool attack = false;
     public float attackRange = 0.5f;
 
     //Health
@@ -14,13 +13,28 @@ public class Knight_Combat : Knight_Movement
     public int currenthealth;
     bool die = false;
     public Rigidbody2D rb1;
-    public Animator animator;
+
+    public float attackRate = 2f;
+    float nextAttackTime = 0f;
 
     //new attack
     //public LayerMask enemylayers;
-    void Start() 
+    void Start()
     {
         currenthealth = maxhealth;
+    }
+
+    void Update()
+    {
+        if (Time.time >= nextAttackTime)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                Knight_SoundManager.PlaySound("Knight_Sword1");
+                Attack();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
+        }
     }
 
     public void PlayerTakeDamage(int damage)
@@ -48,8 +62,6 @@ public class Knight_Combat : Knight_Movement
         this.enabled = false;
 
         Invoke("DisableCol", 2f);
-
-
     }
     void SetTransformX()
     {
@@ -58,61 +70,17 @@ public class Knight_Combat : Knight_Movement
     void DisableCol()
     {
         GetComponent<Collider2D>().enabled = false;
-      //  GetComponent<CircleCollider2D>().enabled = false;
+        //  GetComponent<CircleCollider2D>().enabled = false;
     }
 
-    void Update()
-    {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Attack();
-        }
-
-        HandleInput();
-    }
-
-
-    void FixedUpdate()
-    {
-    //    Attack();
-    }
-
-    //Handles Keyboard Input for attacking animation
-    protected void HandleInput()
-    {
-        if (Input.GetButtonDown("Fire2"))
-        {
-            attack = true;
-        }
-
-        if (Input.GetButtonUp("Fire2"))
-        {
-            attack = false;
-        }
-    }
-
-
-    //void Attack()
-    //{
-    //    if (attack)
-    //    {
-    //        animator.SetTrigger("attack");
-    //    }
-
-
-    //    // Detect enemies in range of attack
-    //    Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-    //    //Damage enemies
-    //    foreach (Collider2D enemy in hitEnemies)
-    //    {
-    //        Debug.Log("We hit");
-    //    }
-    //}
 
     void Attack()
     {
         animator.SetTrigger("Attack");
+        if (grounded)
+        {
+            createDust();
+        }
 
         Collider2D[] hitenemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
@@ -142,8 +110,6 @@ public class Knight_Combat : Knight_Movement
 
 
     }
-
-
 
     void OnDrawGizmosSelected()
     {
