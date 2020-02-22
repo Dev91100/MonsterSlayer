@@ -54,6 +54,9 @@ TagManager:
   - name: Decorations
     uniqueID: 928269629
     locked: 0
+  - name: Enemy
+    uniqueID: 3545104757
+    locked: 0
   - name: Knight
     uniqueID: 4217848371
     locked: 0
@@ -62,7 +65,4 @@ TagManager:
     locked: 0
   - name: Correction
     uniqueID: 1376170329
-    locked: 0
-  - name: Enemy
-    uniqueID: 3545104757
     locked: 0

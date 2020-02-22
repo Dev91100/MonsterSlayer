@@ -101,7 +101,7 @@ public class Knight_Combat : Knight_Movement
             {
                 enemy2.TakeDamage(20);
             }
-            BoxScript Box = enemy.GetComponent<BoxScript>();
+            Knight_Barrel Box = enemy.GetComponent<Knight_Barrel>();
             if (Box != null)
             {
                 Box.OpenBox();
