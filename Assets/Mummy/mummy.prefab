@@ -189,6 +189,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   period: 1
+  Bite: {fileID: 0}
 --- !u!114 &7779846784048946343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +205,7 @@ MonoBehaviour:
   rb: {fileID: 7779846784048946337}
   animator: {fileID: 7779846784048946350}
   maxhealth: 100
+  HurtSound: {fileID: 0}
 --- !u!1 &7779846784326830497
 GameObject:
   m_ObjectHideFlags: 0
