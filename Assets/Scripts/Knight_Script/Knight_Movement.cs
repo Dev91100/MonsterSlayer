@@ -24,6 +24,7 @@ public class Knight_Movement : Knight_PhysicsObject
 
         if (Input.GetButtonDown("Jump") && grounded)
         {
+            Knight_SoundManager.PlaySound("Knight_Jump2");
             velocity.y = jumpTakeOffSpeed;
             createDust();
         }

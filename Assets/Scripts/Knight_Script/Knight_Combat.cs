@@ -30,6 +30,7 @@ public class Knight_Combat : Knight_Movement
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                Knight_SoundManager.PlaySound("Knight_Sword1");
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
