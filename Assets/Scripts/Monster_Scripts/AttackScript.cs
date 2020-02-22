@@ -11,6 +11,7 @@ public class AttackScript : MonoBehaviour
     public LayerMask player;
     private float NextActionTime=0.0f;
     public float period = 1f;
+    public AudioSource Bite;
 
 
     void Start()
@@ -39,7 +40,8 @@ public class AttackScript : MonoBehaviour
                 if (Time.time > NextActionTime)
              {
                 NextActionTime = Time.time + period;
-              
+
+                Bite.Play(); 
                 player.GetComponent<Knight_Combat>().PlayerTakeDamage(25);
              }
 

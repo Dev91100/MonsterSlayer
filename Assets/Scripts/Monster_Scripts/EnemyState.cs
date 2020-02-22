@@ -9,6 +9,8 @@ public class EnemyState : MonoBehaviour
     public int maxhealth = 100;
     private int currenthealth = 0;
     bool die = false;
+    public AudioSource HurtSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class EnemyState : MonoBehaviour
         if (die)
             return;
         currenthealth -= damage;
+        HurtSound.Play();
         animator.SetTrigger("Hurt");
 
         if (currenthealth <= 0)
