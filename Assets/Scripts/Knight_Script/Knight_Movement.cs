@@ -53,5 +53,4 @@ public class Knight_Movement : Knight_PhysicsObject
 
         targetVelocity = move * maxSpeed;
     }
-
 }
