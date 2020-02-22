@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 516562398042847330}
   - component: {fileID: 516562398042847331}
-  - component: {fileID: 516562398042847328}
+  - component: {fileID: 3810235717892562256}
   - component: {fileID: 516562398042847329}
-  - component: {fileID: 516562398042847342}
   - component: {fileID: 516562398042847343}
+  - component: {fileID: 516562398042847342}
   m_Layer: 9
   m_Name: Knight_Barrel
   m_TagString: Untagged
@@ -86,8 +86,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &516562398042847328
-BoxCollider2D:
+--- !u!70 &3810235717892562256
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -100,18 +100,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1875, y: 1.4375}
-    newSize: {x: 1.1875, y: 1.4375}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 1.1875, y: 1.4375}
-  m_EdgeRadius: 0
+  m_Direction: 0
 --- !u!61 &516562398042847329
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -138,19 +128,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1875, y: 1.4375}
   m_EdgeRadius: 0
---- !u!114 &516562398042847342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 516562398042847340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bd0e27f378dc8f41be848b5f809cd59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 516562398042847343}
 --- !u!95 &516562398042847343
 Animator:
   serializedVersion: 3
@@ -170,3 +147,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &516562398042847342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516562398042847340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd0e27f378dc8f41be848b5f809cd59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 516562398042847343}
