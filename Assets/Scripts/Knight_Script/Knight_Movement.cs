@@ -64,13 +64,10 @@ public class Knight_Movement : Knight_PhysicsObject
 
         targetVelocity = move * maxSpeed;
     }
-<<<<<<< HEAD
-=======
 
     public void createDust()
     {
         dust.Play();
     }
 
->>>>>>> 5ed8accaff892b82041ba495ef0e092901649c54
 }
