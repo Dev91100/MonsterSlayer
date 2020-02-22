@@ -1,0 +1,9 @@
+diff a/Assets/Animations/Knight_Animator.controller b/Assets/Animations/Knight_Animator.controller	(rejected hunks)
+@@ -14,6 +14,7 @@
+   - {fileID: 2055440259522543764}
+   - {fileID: 9033725485517401187}
+   - {fileID: 6419832255737755154}
++  - {fileID: -5144869105571244746}
+   m_StateMachineBehaviours: []
+   m_Position: {x: 50, y: 50, z: 0}
+   m_IKOnFeet: 0
