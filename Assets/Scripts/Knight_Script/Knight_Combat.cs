@@ -101,10 +101,17 @@ public class Knight_Combat : Knight_Movement
             {
                 enemy2.TakeDamage(20);
             }
+
             Knight_Barrel Box = enemy.GetComponent<Knight_Barrel>();
             if (Box != null)
             {
-                Box.OpenBox();
+                Box.BreakBarrel();
+            }
+
+            Knight_Pot Pot = enemy.GetComponent<Knight_Pot>();
+            if (Pot != null)
+            {
+                Pot.BreakPot();
             }
             // enemy.GetComponent<Enemies>().TakeDamage(20);
             // return;

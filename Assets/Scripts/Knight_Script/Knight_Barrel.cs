@@ -4,10 +4,11 @@ public class Knight_Barrel : MonoBehaviour
 {
     public Animator animator;
 
-    public void OpenBox()
+    public void BreakBarrel()
     {
-        animator.SetTrigger("open");
-        Destroy(gameObject, 1f);
+        animator.SetTrigger("break");
+        Knight_SoundManager.PlaySound("Knight_Barrel");
+        Destroy(gameObject, .5f);
         return;
     }
 }
