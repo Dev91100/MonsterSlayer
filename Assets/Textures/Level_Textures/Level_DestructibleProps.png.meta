@@ -1,0 +1,1006 @@
+fileFormatVersion: 2
+guid: 302df87974084a944aa7cc876d9ee581
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5555633394153944265
+    second: Level_DestructibleProps_101
+  - first:
+      213: -6491838569945467789
+    second: Level_DestructibleProps_102
+  - first:
+      213: -242964052205552792
+    second: Level_DestructibleProps_2
+  - first:
+      213: -8052780394535969616
+    second: Level_DestructibleProps_104
+  - first:
+      213: -655283644083112343
+    second: Level_DestructibleProps_105
+  - first:
+      213: -8206412852223575173
+    second: Level_DestructibleProps_106
+  - first:
+      213: -9161762514667182734
+    second: Level_DestructibleProps_107
+  - first:
+      213: 2910074989958969665
+    second: Level_DestructibleProps_207
+  - first:
+      213: 5053782950801085480
+    second: Level_DestructibleProps_8
+  - first:
+      213: -1657632608769015996
+    second: Level_DestructibleProps_9
+  - first:
+      213: 186982145562339435
+    second: Level_DestructibleProps_10
+  - first:
+      213: -5392471378060144899
+    second: Level_DestructibleProps_11
+  - first:
+      213: -8723535505620484339
+    second: Level_DestructibleProps_12
+  - first:
+      213: 51664995452512717
+    second: Level_DestructibleProps_13
+  - first:
+      213: -327649732307817509
+    second: Level_DestructibleProps_14
+  - first:
+      213: -5415705984318731100
+    second: Level_DestructibleProps_15
+  - first:
+      213: -3963640929049017729
+    second: Level_DestructibleProps_16
+  - first:
+      213: 6501513639958683810
+    second: Level_DestructibleProps_17
+  - first:
+      213: 3644979232423544705
+    second: Level_DestructibleProps_18
+  - first:
+      213: -7407261397677132932
+    second: Level_DestructibleProps_19
+  - first:
+      213: -3103888072129477343
+    second: Level_DestructibleProps_20
+  - first:
+      213: 8113444641501781857
+    second: Level_DestructibleProps_21
+  - first:
+      213: 1934681411089043670
+    second: Level_DestructibleProps_22
+  - first:
+      213: 3643094751368994857
+    second: Level_DestructibleProps_23
+  - first:
+      213: -1242500109653095893
+    second: Level_DestructibleProps_24
+  - first:
+      213: -4030928549008975345
+    second: Level_DestructibleProps_25
+  - first:
+      213: 6649693609860779298
+    second: Level_DestructibleProps_26
+  - first:
+      213: -89970294112878318
+    second: Level_DestructibleProps_27
+  - first:
+      213: 5088642706741860027
+    second: Level_DestructibleProps_28
+  - first:
+      213: -737082686307772346
+    second: Level_DestructibleProps_29
+  - first:
+      213: 3782318911931732717
+    second: Level_DestructibleProps_30
+  - first:
+      213: 6689458431147020714
+    second: Level_DestructibleProps_31
+  - first:
+      213: 2933684635011390149
+    second: Level_DestructibleProps_32
+  - first:
+      213: -6692591352425665719
+    second: Level_DestructibleProps_33
+  - first:
+      213: -2089936572106382790
+    second: Level_DestructibleProps_34
+  - first:
+      213: 1276985715746864454
+    second: Level_DestructibleProps_35
+  - first:
+      213: -6718695153901466975
+    second: Level_DestructibleProps_36
+  - first:
+      213: 8950414103775286385
+    second: Level_DestructibleProps_37
+  - first:
+      213: 4501817012115689973
+    second: Level_DestructibleProps_38
+  - first:
+      213: -8435542790948420721
+    second: Level_DestructibleProps_39
+  - first:
+      213: 759035688774738666
+    second: Level_DestructibleProps_40
+  - first:
+      213: 1854802797456353671
+    second: Level_DestructibleProps_41
+  - first:
+      213: 9040419575607730206
+    second: Level_DestructibleProps_42
+  - first:
+      213: 5008542464058084225
+    second: Level_DestructibleProps_43
+  - first:
+      213: 4223295102665750999
+    second: Level_DestructibleProps_44
+  - first:
+      213: -4951649074052277910
+    second: Level_DestructibleProps_45
+  - first:
+      213: -941000543869120204
+    second: Level_DestructibleProps_46
+  - first:
+      213: 7468374422370483859
+    second: Level_DestructibleProps_47
+  - first:
+      213: -6048204995592545562
+    second: Level_DestructibleProps_48
+  - first:
+      213: -5083107980212243174
+    second: Level_DestructibleProps_49
+  - first:
+      213: -9018514599444520209
+    second: Level_DestructibleProps_50
+  - first:
+      213: -7014202421571578846
+    second: Level_DestructibleProps_51
+  - first:
+      213: 6174497193260526942
+    second: Level_DestructibleProps_52
+  - first:
+      213: -8185921742587924919
+    second: Level_DestructibleProps_53
+  - first:
+      213: -2681477755716532081
+    second: Level_DestructibleProps_54
+  - first:
+      213: 1709894386672688809
+    second: Level_DestructibleProps_55
+  - first:
+      213: 7151078063081633551
+    second: Level_DestructibleProps_56
+  - first:
+      213: -3794145546254226119
+    second: Level_DestructibleProps_57
+  - first:
+      213: 7988731240046920313
+    second: Level_DestructibleProps_58
+  - first:
+      213: 6003392661342859449
+    second: Level_DestructibleProps_59
+  - first:
+      213: -3177956874082873167
+    second: Level_DestructibleProps_60
+  - first:
+      213: -5603432295901415246
+    second: Level_DestructibleProps_61
+  - first:
+      213: -372728110287498400
+    second: Level_DestructibleProps_62
+  - first:
+      213: 2223412355865765507
+    second: Level_DestructibleProps_63
+  - first:
+      213: -5587604355558346794
+    second: Level_DestructibleProps_64
+  - first:
+      213: 6310095056790890804
+    second: Level_DestructibleProps_65
+  - first:
+      213: 4846917717454752266
+    second: Level_DestructibleProps_66
+  - first:
+      213: -2596018961870520030
+    second: Level_DestructibleProps_67
+  - first:
+      213: -3284308556153820400
+    second: Level_DestructibleProps_68
+  - first:
+      213: 2494425763554605347
+    second: Level_DestructibleProps_69
+  - first:
+      213: -6889790118306999900
+    second: Level_DestructibleProps_70
+  - first:
+      213: -9137549089339484488
+    second: Level_DestructibleProps_71
+  - first:
+      213: -7796838912428572916
+    second: Level_DestructibleProps_72
+  - first:
+      213: -3597648973096420909
+    second: Level_DestructibleProps_73
+  - first:
+      213: 5688419278287203401
+    second: Level_DestructibleProps_74
+  - first:
+      213: -2895903094715539521
+    second: Level_DestructibleProps_75
+  - first:
+      213: -7419461039716460217
+    second: Level_DestructibleProps_76
+  - first:
+      213: 5996322184073570153
+    second: Level_DestructibleProps_77
+  - first:
+      213: 7780719404511352908
+    second: Level_DestructibleProps_78
+  - first:
+      213: -5402108345603114089
+    second: Level_DestructibleProps_79
+  - first:
+      213: -750251193028866553
+    second: Level_DestructibleProps_80
+  - first:
+      213: -6460155049792087522
+    second: Level_DestructibleProps_81
+  - first:
+      213: -7975637084433220385
+    second: Level_DestructibleProps_82
+  - first:
+      213: -2004683044827712543
+    second: Level_DestructibleProps_83
+  - first:
+      213: -5484938136247705538
+    second: Level_DestructibleProps_84
+  - first:
+      213: 8505781744185025610
+    second: Level_DestructibleProps_85
+  - first:
+      213: 410796868650165054
+    second: Level_DestructibleProps_86
+  - first:
+      213: 7946957671865610027
+    second: Level_DestructibleProps_87
+  - first:
+      213: 1548344433602642892
+    second: Level_DestructibleProps_88
+  - first:
+      213: 822768210905629372
+    second: Level_DestructibleProps_89
+  - first:
+      213: 8867848027333789270
+    second: Level_DestructibleProps_90
+  - first:
+      213: -7022427574049468623
+    second: Level_DestructibleProps_91
+  - first:
+      213: 5114944522807675296
+    second: Level_DestructibleProps_92
+  - first:
+      213: -4216889899661932565
+    second: Level_DestructibleProps_93
+  - first:
+      213: 3857782591889485055
+    second: Level_DestructibleProps_94
+  - first:
+      213: 1152729806628182933
+    second: Level_DestructibleProps_95
+  - first:
+      213: -2579156851830077018
+    second: Level_DestructibleProps_96
+  - first:
+      213: -681500482063664124
+    second: Level_DestructibleProps_97
+  - first:
+      213: -3237769391023359593
+    second: Level_DestructibleProps_98
+  - first:
+      213: 468560515896150092
+    second: Level_DestructibleProps_99
+  - first:
+      213: -4117349899344957216
+    second: Level_DestructibleProps_100
+  - first:
+      213: 8431309457958147386
+    second: Level_DestructibleProps_201
+  - first:
+      213: 1246171090531008959
+    second: Level_DestructibleProps_202
+  - first:
+      213: 7370466214866498783
+    second: Level_DestructibleProps_203
+  - first:
+      213: 2258941577714624084
+    second: Level_DestructibleProps_204
+  - first:
+      213: 5268037545843965448
+    second: Level_DestructibleProps_205
+  - first:
+      213: -6439670610866597912
+    second: Level_DestructibleProps_206
+  - first:
+      213: 8033360693167707865
+    second: Level_DestructibleProps_301
+  - first:
+      213: -5370102780724641322
+    second: Level_DestructibleProps_302
+  - first:
+      213: 2010389189319797291
+    second: Level_DestructibleProps_303
+  - first:
+      213: 6663866229331169338
+    second: Level_DestructibleProps_304
+  - first:
+      213: 9007755483745831459
+    second: Level_DestructibleProps_305
+  - first:
+      213: -6557031049582183954
+    second: Level_DestructibleProps_306
+  - first:
+      213: -5259950744308787609
+    second: Level_DestructibleProps_307
+  - first:
+      213: 3356842537568939173
+    second: Level_DestructibleProps_401
+  - first:
+      213: 2976455871046864928
+    second: Level_DestructibleProps_402
+  - first:
+      213: 1795444903347382218
+    second: Level_DestructibleProps_403
+  - first:
+      213: 3423980395454645952
+    second: Level_DestructibleProps_404
+  - first:
+      213: -6251137014611718913
+    second: Level_DestructibleProps_405
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_DestructibleProps_101
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 657
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b082fecdc66e2b0800000000000000
+      internalID: -5555633394153944265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_102
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 657
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3747833473b58e5a0800000000000000
+      internalID: -6491838569945467789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 657
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b39175b71d0acf0800000000000000
+      internalID: -242964052205552792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_104
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 656
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc147985e6ce3090800000000000000
+      internalID: -8052780394535969616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_105
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 652
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9667d4f5ff6f7e6f0800000000000000
+      internalID: -655283644083112343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_106
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 651
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b73078df6fc1e80800000000000000
+      internalID: -8206412852223575173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_107
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 655
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275e5c4b881ead080800000000000000
+      internalID: -9161762514667182734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_201
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 530
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a359cf0f747020570800000000000000
+      internalID: 8431309457958147386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_202
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 530
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1467c110a4b4110800000000000000
+      internalID: 1246171090531008959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_203
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 530
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4b226d8f7294660800000000000000
+      internalID: 7370466214866498783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_204
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 521
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4566a04856f595f10800000000000000
+      internalID: 2258941577714624084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_205
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 513
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e33779c34db1940800000000000000
+      internalID: 5268037545843965448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_206
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 513
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef06c0c2b1b1a6a0800000000000000
+      internalID: -6439670610866597912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_207
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 525
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149b04ef8c9a26820800000000000000
+      internalID: 2910074989958969665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_301
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 407
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6d8d4ecfa3c7f60800000000000000
+      internalID: 8033360693167707865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_302
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 407
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1029319ff8975b0800000000000000
+      internalID: -5370102780724641322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_303
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 407
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a21b1f05656eb10800000000000000
+      internalID: 2010389189319797291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_304
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 407
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a309106670fca7c50800000000000000
+      internalID: 6663866229331169338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_305
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 407
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a4f3823e9f10d70800000000000000
+      internalID: 9007755483745831459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_306
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 406
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee97274400fb005a0800000000000000
+      internalID: -6557031049582183954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_307
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 406
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7665c6d9aa6e007b0800000000000000
+      internalID: -5259950744308787609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_401
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 25
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aca7baa086e59e20800000000000000
+      internalID: 3356842537568939173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_402
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 25
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020df5348de7e4920800000000000000
+      internalID: 2976455871046864928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_403
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 25
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac76ecd70a3bae810800000000000000
+      internalID: 1795444903347382218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_404
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 25
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6c9f4570c648f20800000000000000
+      internalID: 3423980395454645952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_DestructibleProps_405
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 25
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcc5c151008f39a0800000000000000
+      internalID: -6251137014611718913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

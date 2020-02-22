@@ -2,6 +2,7 @@
 
 public class Knight_Movement : Knight_PhysicsObject
 {
+    public ParticleSystem dust;
 
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
@@ -23,7 +24,9 @@ public class Knight_Movement : Knight_PhysicsObject
 
         if (Input.GetButtonDown("Jump") && grounded)
         {
+            Knight_SoundManager.PlaySound("Knight_Jump2");
             velocity.y = jumpTakeOffSpeed;
+            createDust();
         }
         else if (Input.GetButtonUp("Jump"))
         {
@@ -38,6 +41,10 @@ public class Knight_Movement : Knight_PhysicsObject
             if (spriteRenderer.flipX == true)
             {
                 spriteRenderer.flipX = false;
+                if (grounded == true)
+                {
+                    createDust();
+                }
             }
         }
         else if (move.x < -0.01f)
@@ -45,6 +52,10 @@ public class Knight_Movement : Knight_PhysicsObject
             if (spriteRenderer.flipX == false)
             {
                 spriteRenderer.flipX = true;
+                if (grounded == true)
+                {
+                    createDust();
+                }
             }
         }
 
@@ -53,4 +64,13 @@ public class Knight_Movement : Knight_PhysicsObject
 
         targetVelocity = move * maxSpeed;
     }
+<<<<<<< HEAD
+=======
+
+    public void createDust()
+    {
+        dust.Play();
+    }
+
+>>>>>>> 5ed8accaff892b82041ba495ef0e092901649c54
 }
