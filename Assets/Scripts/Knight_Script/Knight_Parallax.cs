@@ -16,9 +16,10 @@ public class Knight_Parallax : MonoBehaviour
 
 
     }
+    
 
-    // Update is called once per frame
-    void FixedUpdate()
+        // Update is called once per frame
+        void FixedUpdate()
     {
         float temp = (cam.transform.position.x * (1 - parallaxEffect));
         float dist = (cam.transform.position.x * parallaxEffect);
@@ -30,4 +31,5 @@ public class Knight_Parallax : MonoBehaviour
 
 
     }
+   
 }
