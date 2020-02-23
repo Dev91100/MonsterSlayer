@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 75511b912b69454419158a05c81fa2fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2237450425591679811
+    second: reddragonfly_0
+  - first:
+      213: -7549528138863349154
+    second: reddragonfly_1
+  - first:
+      213: -6774412831651302853
+    second: reddragonfly_2
+  - first:
+      213: 1025638173293175323
+    second: reddragonfly_3
+  - first:
+      213: -2696719313144383880
+    second: reddragonfly_4
+  - first:
+      213: 3466263314382375523
+    second: reddragonfly_5
+  - first:
+      213: -4885382613308898403
+    second: reddragonfly_6
+  - first:
+      213: 2132136419993982172
+    second: reddragonfly_7
+  - first:
+      213: 7038181754799483638
+    second: reddragonfly_8
+  - first:
+      213: -4823925966722089397
+    second: reddragonfly_9
+  - first:
+      213: 4168932673240432934
+    second: reddragonfly_10
+  - first:
+      213: 7793157513482180779
+    second: reddragonfly_11
+  - first:
+      213: 327682857683656712
+    second: reddragonfly_12
+  - first:
+      213: 9059471937959831224
+    second: reddragonfly_13
+  - first:
+      213: 6915368917368908962
+    second: reddragonfly_14
+  - first:
+      213: 7625003185213905523
+    second: reddragonfly_15
+  - first:
+      213: -1177316068334883632
+    second: Boss_RedDragron1_101
+  - first:
+      213: 100804216915731150
+    second: Boss_RedDragron1_102
+  - first:
+      213: -208026103969930427
+    second: Boss_RedDragron1_103
+  - first:
+      213: 6491799215245351626
+    second: Boss_RedDragron1_104
+  - first:
+      213: -5645256015303784761
+    second: Boss_RedDragron1_201
+  - first:
+      213: 8684344946517101179
+    second: Boss_RedDragron1_202
+  - first:
+      213: 418707130138306702
+    second: Boss_RedDragron1_203
+  - first:
+      213: -2857671493292111519
+    second: Boss_RedDragron1_204
+  - first:
+      213: -2004002469133106272
+    second: Boss_RedDragron1_301
+  - first:
+      213: 2112633460363567807
+    second: Boss_RedDragron1_302
+  - first:
+      213: 4434003194749720223
+    second: Boss_RedDragron1_303
+  - first:
+      213: -8590034429440161534
+    second: Boss_RedDragron1_304
+  - first:
+      213: -6186785342294345171
+    second: Boss_RedDragron1_401
+  - first:
+      213: -7832514620110762700
+    second: Boss_RedDragron1_402
+  - first:
+      213: 5141553838190485146
+    second: Boss_RedDragron1_403
+  - first:
+      213: 823107594619634148
+    second: Boss_RedDragron1_404
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_RedDragron1_101
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 521
+        width: 152
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc2a86064559afe0800000000000000
+      internalID: -1177316068334883632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_102
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 521
+        width: 153
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2af15b6e0266100800000000000000
+      internalID: 100804216915731150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_103
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 519
+        width: 151
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5432dd05c51fc1df0800000000000000
+      internalID: -208026103969930427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_104
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 518
+        width: 151
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acadbd1cdf0871a50800000000000000
+      internalID: 6491799215245351626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_201
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 350
+        width: 138
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c64ead509508a1b0800000000000000
+      internalID: -5645256015303784761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_202
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 356
+        width: 146
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a4c1c97bdf48870800000000000000
+      internalID: 8684344946517101179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_203
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 358
+        width: 152
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8821dc9aeb8fc500800000000000000
+      internalID: 418707130138306702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_204
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 360
+        width: 154
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169409ddae28758d0800000000000000
+      internalID: -2857671493292111519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_301
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 198
+        width: 153
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3c05a3f5a5034e0800000000000000
+      internalID: -2004002469133106272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_302
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 199
+        width: 153
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2239160f4915d10800000000000000
+      internalID: 2112633460363567807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_303
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 198
+        width: 151
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96110cc96eb88d30800000000000000
+      internalID: 4434003194749720223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_304
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 196
+        width: 155
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20908d8c2311ac880800000000000000
+      internalID: -8590034429440161534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_401
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 145
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ab3fa928f142aa0800000000000000
+      internalID: -6186785342294345171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_402
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 34
+        width: 151
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d8e3293715d4390800000000000000
+      internalID: -7832514620110762700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_403
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 37
+        width: 152
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ed3e689f77a5740800000000000000
+      internalID: 5141553838190485146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_RedDragron1_404
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 38
+        width: 154
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1ca3d0ff34c6b00800000000000000
+      internalID: 823107594619634148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
