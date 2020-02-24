@@ -50,6 +50,7 @@ public class Knight_CameraShake : MonoBehaviour
 
             shakeRotation = Mathf.MoveTowards(shakeRotation, 0f, shakeFadeTime * rotationMultiplier);
 
+
         }
 
         transform.rotation = Quaternion.Euler(0f, 0f, shakeRotation * Random.Range(-1f, 1f));
