@@ -114,7 +114,7 @@ public class Knight_Combat : Knight_Movement
             {
                 camanimator.enabled = false;
                 cam.enabled = false;
-                Knight_CameraShake.instance.startShake(.2f, .4f);
+                Knight_CameraShake.instance.startShake(.1f, .2f);
                 Box.BreakBarrel();
             }
 
@@ -123,7 +123,7 @@ public class Knight_Combat : Knight_Movement
             {
                 camanimator.enabled = false;
                 cam.enabled = false;
-                Knight_CameraShake.instance.startShake(.2f, .4f);
+                Knight_CameraShake.instance.startShake(.1f, .2f);
                 Pot.BreakPot();
             }
             // enemy.GetComponent<Enemies>().TakeDamage(20);

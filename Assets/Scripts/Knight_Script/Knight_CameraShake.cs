@@ -41,8 +41,8 @@ public class Knight_CameraShake : MonoBehaviour
         {
             shakeTimeRemaining -= Time.deltaTime;
 
-            float xAmount = Random.Range(-1f, 1f) * shakePower;
-            float yAmount = Random.Range(-1f, 1f) * shakePower;
+            float xAmount = Random.Range(-0.1f, 0.5f) * shakePower;
+            float yAmount = Random.Range(-0.1f, 0.5f) * shakePower;
 
             transform.position += new Vector3(xAmount, yAmount, 0f);
 
