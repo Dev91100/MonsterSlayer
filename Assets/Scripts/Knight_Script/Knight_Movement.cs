@@ -73,8 +73,6 @@ public class Knight_Movement : Knight_PhysicsObject
         }
     }
 
-    
-
         public void createDust()
     {
         dust.Play();
