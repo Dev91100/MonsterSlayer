@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
+using Cinemachine;
 
 public class Knight_Movement : Knight_PhysicsObject
 {
+    public CinemachineBrain cam;
+    public Animator camanimator;
+
     public ParticleSystem dust;
 
     public float maxSpeed = 7;
@@ -20,7 +24,10 @@ public class Knight_Movement : Knight_PhysicsObject
     {
         Vector2 move = Vector2.zero;
 
-        move.x = Input.GetAxis("Horizontal");
+        if (camanimator.enabled == true || cam.enabled ==true)  //stops player from moving left & right when cinemachine brain and animator are disabled.
+        {
+            move.x = Input.GetAxis("Horizontal");
+        
 
         if (Input.GetButtonDown("Jump") && grounded)
         {
@@ -63,6 +70,7 @@ public class Knight_Movement : Knight_PhysicsObject
         animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
 
         targetVelocity = move * maxSpeed;
+        }
     }
 
     public void createDust()
