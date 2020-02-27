@@ -8,6 +8,7 @@ TagManager:
   - Limit
   - Enemy
   - box
+  - Coins
   layers:
   - Default
   - TransparentFX

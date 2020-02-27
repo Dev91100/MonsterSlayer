@@ -131,5 +131,11 @@ public class Knight_PhysicsObject : MonoBehaviour
 
         rb2d.position = rb2d.position + move.normalized * distance;
     }
-
-}
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("coins"))
+        {
+            Destroy(other.gameObject);
+        }
+    }
+    }
