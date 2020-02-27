@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1442966763102920285}
   - component: {fileID: 1442966763102920286}
   - component: {fileID: 1442966763102920280}
-  - component: {fileID: 8342688303813999064}
+  - component: {fileID: 634053883124697227}
   m_Layer: 0
   m_Name: Power_Coin
   m_TagString: Coins
@@ -121,7 +121,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31250003
---- !u!114 &8342688303813999064
+--- !u!114 &634053883124697227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
