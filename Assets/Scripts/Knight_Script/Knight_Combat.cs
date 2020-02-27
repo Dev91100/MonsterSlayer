@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
+using Cinemachine;
 
 public class Knight_Combat : Knight_Movement
 {
-
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
@@ -35,6 +35,13 @@ public class Knight_Combat : Knight_Movement
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
+
+        if (Input.GetButtonUp("Fire1"))
+        {
+            camanimator.enabled = true;
+            cam.enabled = true;
+        }
+
     }
 
     public void PlayerTakeDamage(int damage)
@@ -101,10 +108,23 @@ public class Knight_Combat : Knight_Movement
             {
                 enemy2.TakeDamage(20);
             }
-            BoxScript Box = enemy.GetComponent<BoxScript>();
+
+            Knight_Barrel Box = enemy.GetComponent<Knight_Barrel>();
             if (Box != null)
             {
-                Box.OpenBox();
+                camanimator.enabled = false;
+                cam.enabled = false;
+                Knight_CameraShake.instance.startShake(.1f, .2f);
+                Box.BreakBarrel();
+            }
+
+            Knight_Pot Pot = enemy.GetComponent<Knight_Pot>();
+            if (Pot != null)
+            {
+                camanimator.enabled = false;
+                cam.enabled = false;
+                Knight_CameraShake.instance.startShake(.1f, .2f);
+                Pot.BreakPot();
             }
             // enemy.GetComponent<Enemies>().TakeDamage(20);
             // return;

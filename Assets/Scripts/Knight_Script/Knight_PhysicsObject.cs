@@ -131,5 +131,4 @@ public class Knight_PhysicsObject : MonoBehaviour
 
         rb2d.position = rb2d.position + move.normalized * distance;
     }
-
 }
