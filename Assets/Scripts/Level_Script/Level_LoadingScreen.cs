@@ -8,12 +8,18 @@ public class Level_LoadingScreen : MonoBehaviour
     public GameObject loadingScreen;
     public Slider slider;
     public Text progressText;
+    private int nextSceneToLoad;
 
-    public void LoadLevel(int sceneIndex)
+    void Start()
     {
-        StartCoroutine(LoadAsynchronously(sceneIndex));
-
+        nextSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        StartCoroutine(LoadAsynchronously(nextSceneToLoad));
+    }
+
 
     IEnumerator LoadAsynchronously(int sceneIndex)
     {
