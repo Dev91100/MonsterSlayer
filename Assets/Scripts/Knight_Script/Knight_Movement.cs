@@ -26,54 +26,52 @@ public class Knight_Movement : Knight_PhysicsObject
 
         if (camanimator.enabled == true || cam.enabled ==true)  //stops player from moving left & right when cinemachine brain and animator are disabled.
         {
-            move.x = Input.GetAxis("Horizontal");
+                move.x = Input.GetAxis("Horizontal");
         
 
-        if (Input.GetButtonDown("Jump") && grounded)
-        {
-            Knight_SoundManager.PlaySound("Knight_Jump2");
-            velocity.y = jumpTakeOffSpeed;
-            createDust();
-        }
-        else if (Input.GetButtonUp("Jump"))
-        {
-            if (velocity.y > 0)
+            if (Input.GetButtonDown("Jump") && grounded)
             {
-                velocity.y = velocity.y * 0.5f;
+                Knight_SoundManager.PlaySound("Knight_Jump2");
+                velocity.y = jumpTakeOffSpeed;
+                createDust();
             }
-        }
-
-        if (move.x > 0.01f)
-        {
-            if (spriteRenderer.flipX == true)
+            else if (Input.GetButtonUp("Jump"))
             {
-                spriteRenderer.flipX = false;
-                if (grounded == true)
+                if (velocity.y > 0)
                 {
-                    createDust();
+                    velocity.y = velocity.y * 0.5f;
                 }
             }
-        }
-        else if (move.x < -0.01f)
-        {
-            if (spriteRenderer.flipX == false)
+
+            if (move.x > 0.01f)
             {
-                spriteRenderer.flipX = true;
-                if (grounded == true)
+                if (spriteRenderer.flipX == true)
                 {
-                    createDust();
+                    spriteRenderer.flipX = false;
+                    if (grounded == true)
+                    {
+                        createDust();
+                    }
                 }
             }
-        }
+            else if (move.x < -0.01f)
+            {
+                if (spriteRenderer.flipX == false)
+                {
+                    spriteRenderer.flipX = true;
+                    if (grounded == true)
+                    {
+                        createDust();
+                    }
+                }
+            }
 
-        animator.SetBool("grounded", grounded);
-        animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
+            animator.SetBool("grounded", grounded);
+            animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
 
-        targetVelocity = move * maxSpeed;
+            targetVelocity = move * maxSpeed;
         }
     }
-
-    
 
         public void createDust()
     {
