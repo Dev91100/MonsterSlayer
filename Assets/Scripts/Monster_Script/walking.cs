@@ -19,19 +19,25 @@ public class walking : MonoBehaviour
     }
 
     // Update is called once per frame
-   //void FixedUpdate()
-    //{
-      // rb.velocity = Vector2.left * speed;
-    //}
+    void FixedUpdate()
+    {
+        rb.velocity = Vector2.left * speed;
+    }
 
     void OnTriggerEnter2D(Collider2D col)
-   {
-       if (col.gameObject.tag == "Limit") 
-       {
-            animator.SetTrigger("detection");
-              rb.velocity = Vector2.left * speed;
-       }
-        animator.SetTrigger("attack");
-   }
-   
+    {
+        if (col.gameObject.tag == "Limit")
+        {
+            if (sr.flipX == false)
+            {
+                sr.flipX = true;
+                speed = -2;
+            }
+            else
+            {
+                sr.flipX = false;
+                speed = 2;
+            }
+        }
+    }
 }
