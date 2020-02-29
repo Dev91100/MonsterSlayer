@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2834528493575320546}
   - component: {fileID: 451345699131015215}
   - component: {fileID: 5381740142443823424}
-  - component: {fileID: 4865315057161063624}
+  - component: {fileID: 8606679621997012218}
   m_Layer: 0
   m_Name: Level_SceneTrigger
   m_TagString: Untagged
@@ -139,7 +139,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4865315057161063624
+--- !u!114 &8606679621997012218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,12 +148,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 226915290158130813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17f8a3a64a616c141be8819149de25c7, type: 3}
+  m_Script: {fileID: 11500000, guid: c62665180f33ebb468748502df40b5eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 9159910593732547453}
-  slider: {fileID: 9159910593499733601}
-  progressText: {fileID: 9159910594045058765}
 --- !u!1 &9159910592599036956
 GameObject:
   m_ObjectHideFlags: 0
