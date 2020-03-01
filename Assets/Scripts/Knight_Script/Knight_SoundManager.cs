@@ -2,7 +2,7 @@
 
 public class Knight_SoundManager : MonoBehaviour
 {
-    public static AudioClip jumpSound, swordSound, barrelBreak, potBreak;
+    public static AudioClip jumpSound, swordSound, barrelBreak, potBreak, coinCollect;
     static AudioSource audioSrc;
 
     // Start is called before the first frame update
@@ -12,6 +12,7 @@ public class Knight_SoundManager : MonoBehaviour
         swordSound = Resources.Load<AudioClip>("Knight_Sword1");
         barrelBreak = Resources.Load<AudioClip>("Knight_Barrel");
         potBreak = Resources.Load<AudioClip>("Knight_Pot");
+        coinCollect = Resources.Load<AudioClip>("Power_Coin");
         audioSrc = GetComponent<AudioSource>();
 
     }
@@ -32,6 +33,9 @@ public class Knight_SoundManager : MonoBehaviour
                 break;
             case "Knight_Pot":
                 audioSrc.PlayOneShot(potBreak);
+                break;
+            case "Power_Coin":
+                audioSrc.PlayOneShot(coinCollect);
                 break;
         }
 

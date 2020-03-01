@@ -50,6 +50,102 @@ TextureImporter:
   - first:
       213: -1048407729110666904
     second: Boss_RedDragron3_404
+  - first:
+      213: -4817560541268700356
+    second: Boss_RedDragron3_104
+  - first:
+      213: 7504351742902336231
+    second: Boss_RedDragron3_103
+  - first:
+      213: -5531101521187555528
+    second: Boss_RedDragron3_102
+  - first:
+      213: -1501713628954703058
+    second: Boss_RedDragron3_101
+  - first:
+      213: 8578234982347123100
+    second: Boss_RedDragron3_108
+  - first:
+      213: -2835520593983198173
+    second: Boss_RedDragron3_107
+  - first:
+      213: -1100762670759387761
+    second: Boss_RedDragron3_106
+  - first:
+      213: 2416046922008061647
+    second: Boss_RedDragron3_105
+  - first:
+      213: -493475099090442307
+    second: Boss_RedDragron3_112
+  - first:
+      213: 4767446879620169096
+    second: Boss_RedDragron3_111
+  - first:
+      213: -3815711577896642668
+    second: Boss_RedDragron3_110
+  - first:
+      213: 7124320873523058988
+    second: Boss_RedDragron3_109
+  - first:
+      213: -2691332759384585762
+    second: Boss_RedDragron3_116
+  - first:
+      213: 939914168396804548
+    second: Boss_RedDragron3_115
+  - first:
+      213: 5483879725789108776
+    second: Boss_RedDragron3_114
+  - first:
+      213: 7043290454692311374
+    second: Boss_RedDragron3_113
+  - first:
+      213: 7868119319505296112
+    second: Boss_RedDragron3_104
+  - first:
+      213: -2674602793969078990
+    second: Boss_RedDragron3_103
+  - first:
+      213: -7003549759677922752
+    second: Boss_RedDragron3_102
+  - first:
+      213: 3030339012666616523
+    second: Boss_RedDragron3_101
+  - first:
+      213: -5110832107182661181
+    second: Boss_RedDragron3_108
+  - first:
+      213: 4198495851574026668
+    second: Boss_RedDragron3_107
+  - first:
+      213: -9174147705907201365
+    second: Boss_RedDragron3_106
+  - first:
+      213: 6841108179487220872
+    second: Boss_RedDragron3_105
+  - first:
+      213: 6847574298901560646
+    second: Boss_RedDragron3_112
+  - first:
+      213: -4413101956618248867
+    second: Boss_RedDragron3_111
+  - first:
+      213: -5435266969116849602
+    second: Boss_RedDragron3_110
+  - first:
+      213: 8815090280669528947
+    second: Boss_RedDragron3_109
+  - first:
+      213: -8743054447002430886
+    second: Boss_RedDragron3_116
+  - first:
+      213: -7209491789990789563
+    second: Boss_RedDragron3_115
+  - first:
+      213: -7971641960646822764
+    second: Boss_RedDragron3_114
+  - first:
+      213: -1048407729110666904
+    second: Boss_RedDragron3_113
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,13 +230,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss_RedDragron3_101
+      name: Boss_RedDragron3_104
       rect:
         serializedVersion: 2
-        x: 36
-        y: 521
-        width: 152
-        height: 119
+        x: 25
+        y: 577
+        width: 162
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,13 +251,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_102
+      name: Boss_RedDragron3_103
       rect:
         serializedVersion: 2
-        x: 242
-        y: 521
-        width: 153
-        height: 82
+        x: 249
+        y: 579
+        width: 165
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,13 +272,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_103
+      name: Boss_RedDragron3_102
       rect:
         serializedVersion: 2
-        x: 447
-        y: 519
-        width: 151
-        height: 80
+        x: 477
+        y: 579
+        width: 168
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,13 +293,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_104
+      name: Boss_RedDragron3_101
       rect:
         serializedVersion: 2
-        x: 653
-        y: 519
-        width: 152
-        height: 78
+        x: 704
+        y: 579
+        width: 167
+        height: 133
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,13 +314,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_201
+      name: Boss_RedDragron3_108
       rect:
         serializedVersion: 2
-        x: 39
-        y: 350
-        width: 143
-        height: 84
+        x: 21
+        y: 400
+        width: 169
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,13 +335,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_202
+      name: Boss_RedDragron3_107
       rect:
         serializedVersion: 2
-        x: 245
-        y: 356
-        width: 148
-        height: 78
+        x: 251
+        y: 399
+        width: 166
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,13 +356,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_203
+      name: Boss_RedDragron3_106
       rect:
         serializedVersion: 2
-        x: 449
-        y: 358
-        width: 151
-        height: 80
+        x: 480
+        y: 396
+        width: 161
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,13 +377,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_204
+      name: Boss_RedDragron3_105
       rect:
         serializedVersion: 2
-        x: 652
-        y: 360
-        width: 154
-        height: 82
+        x: 709
+        y: 390
+        width: 151
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,13 +398,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_301
+      name: Boss_RedDragron3_112
       rect:
         serializedVersion: 2
-        x: 36
-        y: 199
-        width: 152
-        height: 119
+        x: 18
+        y: 220
+        width: 169
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,13 +419,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_302
+      name: Boss_RedDragron3_111
       rect:
         serializedVersion: 2
-        x: 242
-        y: 199
-        width: 153
-        height: 82
+        x: 250
+        y: 220
+        width: 164
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,13 +440,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_303
+      name: Boss_RedDragron3_110
       rect:
         serializedVersion: 2
-        x: 447
-        y: 198
-        width: 151
-        height: 79
+        x: 477
+        y: 221
+        width: 168
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,13 +461,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_304
+      name: Boss_RedDragron3_109
       rect:
         serializedVersion: 2
-        x: 649
-        y: 197
-        width: 156
-        height: 77
+        x: 702
+        y: 220
+        width: 171
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,13 +482,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_401
+      name: Boss_RedDragron3_116
       rect:
         serializedVersion: 2
-        x: 33
-        y: 27
-        width: 149
-        height: 84
+        x: 21
+        y: 42
+        width: 170
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,13 +503,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_402
+      name: Boss_RedDragron3_115
       rect:
         serializedVersion: 2
-        x: 240
-        y: 34
-        width: 153
-        height: 78
+        x: 251
+        y: 41
+        width: 165
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,13 +524,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_403
+      name: Boss_RedDragron3_114
       rect:
         serializedVersion: 2
-        x: 449
-        y: 37
-        width: 151
-        height: 80
+        x: 476
+        y: 40
+        width: 165
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,13 +545,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_RedDragron3_404
+      name: Boss_RedDragron3_113
       rect:
         serializedVersion: 2
-        x: 652
-        y: 38
-        width: 154
-        height: 83
+        x: 700
+        y: 32
+        width: 160
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
