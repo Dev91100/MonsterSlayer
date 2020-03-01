@@ -10,6 +10,8 @@ public class Knight_Pot : MonoBehaviour
         animator.SetTrigger("break");
         Knight_SoundManager.PlaySound("Knight_Pot");
         Destroy(gameObject, .5f);
+
+     
         return;
     }
 }
