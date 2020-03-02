@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class Coin_Counter : MonoBehaviour
 {
     public int coinValue = 1;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Knight_Player"))
+        if(other.gameObject.CompareTag("Player"))
         {
             Score_Manager.instance.ChangeScore(coinValue);
         }
