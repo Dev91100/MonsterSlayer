@@ -10,7 +10,7 @@ public class Knight_Tips : MonoBehaviour
 
     void Start()
     {
-        this.render = GetComponent<SpriteRenderer>(); // Get access to the sprite renderer
+        render = GetComponent<SpriteRenderer>(); // Get access to the sprite renderer
     }
 
     // If player enters the trigger zone, the sprite renderer is enabled

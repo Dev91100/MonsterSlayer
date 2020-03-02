@@ -22,9 +22,8 @@ public class Knight_CameraShake : MonoBehaviour
     private Animator animator; // Enables the programmer to add an animator in the inspector
 
     void Start()
-    {
-        // This will enable the script to be used as a reference in other scripts
-        instance = this;
+    {       
+        instance = this; // This will enable the script to be used as a reference in other scripts
         cam = GetComponent<CinemachineBrain>();
         animator = GetComponent<Animator>();
     }
