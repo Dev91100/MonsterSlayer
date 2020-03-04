@@ -551,7 +551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1df3fdd6415f8543828f0e72f0ecfa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeLoading: 39
+  delayBeforeLoading: 40
   sceneNameToLoad: Level_LoadingScreenLevel1
 --- !u!4 &1314832605
 Transform:
