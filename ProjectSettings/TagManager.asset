@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - box
   - Coins
+  - Boss_FlipCollider
   layers:
   - Default
   - TransparentFX
