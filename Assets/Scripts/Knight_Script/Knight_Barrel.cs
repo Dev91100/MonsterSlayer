@@ -14,6 +14,5 @@ public class Knight_Barrel : MonoBehaviour
         Knight_SoundManager.PlaySound("Knight_Barrel"); // Activates sound for Barrel destruction
 
         Destroy(gameObject, .5f); // Destroys the game object from the scene
-        return;
     }
 }

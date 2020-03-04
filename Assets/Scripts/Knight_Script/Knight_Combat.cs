@@ -83,12 +83,11 @@ public class Knight_Combat : Knight_Movement
     {
         transform.position = new Vector3(((this.transform.position.x) - 3), transform.position.y, transform.position.z);
     }
+
     void DisableCol()
     {
         GetComponent<Collider2D>().enabled = false;
-        //  GetComponent<CircleCollider2D>().enabled = false;
     }
-
 
     void Attack()
     {
@@ -108,9 +107,6 @@ public class Knight_Combat : Knight_Movement
                 enemy1.EnemyTakeDamage(50);
                 return;
             }
-            //else
-            // {
-            //use this comment code the the below one does not work or call me
 
             Enemies enemy2 = enemy.GetComponent<Enemies>();
             if (enemy2 != null)
@@ -124,13 +120,13 @@ public class Knight_Combat : Knight_Movement
                 enemy3.TakeDamageFlyMonster(25);
             }
 
-            Knight_Barrel Box = enemy.GetComponent<Knight_Barrel>();
-            if (Box != null)
+            Knight_Barrel Barrel = enemy.GetComponent<Knight_Barrel>();
+            if (Barrel != null)
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                Box.BreakBarrel();                                  // Reference to Knight_Barrel script
+                Barrel.BreakBarrel();                               // Reference to Knight_Barrel script
             }
 
             Knight_Pot Pot = enemy.GetComponent<Knight_Pot>();
@@ -141,15 +137,17 @@ public class Knight_Combat : Knight_Movement
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
                 Pot.BreakPot();                                     // Reference to Knight_Pot script
             }
-            // enemy.GetComponent<Enemies>().TakeDamage(20);
-            // return;
-            //  }
-
-            // enemy.GetComponent<Enemies>().TakeDamage(20);
-
+            Power_ChestLoot loot = enemy.GetComponent<Power_ChestLoot>();
+            Power_Chest Chest = enemy.GetComponent<Power_Chest>();
+            if (Chest != null)
+            {
+                camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
+                cam.enabled = false;                                // Disable the Main Camera's Animator
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
+                loot.ChestLoot();
+                Chest.OpenChest();                                  // Reference to Knight_Pot script
+            }
         }
-
-
     }
 
     void OnDrawGizmosSelected()

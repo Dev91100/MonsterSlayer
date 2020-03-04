@@ -11,7 +11,7 @@
 
 public class Knight_SoundManager : MonoBehaviour
 {
-    public static AudioClip jumpSound, swordSound, barrelBreak, potBreak, coinCollect; // Variables storing the different sounds
+    public static AudioClip jumpSound, swordSound, barrelBreak, potBreak, coinCollect, openChest; // Variables storing the different sounds
     static AudioSource audioSrc;
 
     void Start()
@@ -22,6 +22,7 @@ public class Knight_SoundManager : MonoBehaviour
         barrelBreak = Resources.Load<AudioClip>("Knight_Barrel");
         potBreak = Resources.Load<AudioClip>("Knight_Pot");
         coinCollect = Resources.Load<AudioClip>("Power_Coin");
+        openChest = Resources.Load<AudioClip>("Power_ChestOpen");
 
         // Add a reference to the audio source component
         audioSrc = GetComponent<AudioSource>();
@@ -49,6 +50,9 @@ public class Knight_SoundManager : MonoBehaviour
                 break;
             case "Power_Coin":
                 audioSrc.PlayOneShot(coinCollect);
+                break;
+            case "Power_ChestOpen":
+                audioSrc.PlayOneShot(openChest);
                 break;
         }
 
