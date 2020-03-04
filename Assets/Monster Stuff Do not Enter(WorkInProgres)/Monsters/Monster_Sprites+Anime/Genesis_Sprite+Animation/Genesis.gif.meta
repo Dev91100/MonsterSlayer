@@ -1,0 +1,2167 @@
+fileFormatVersion: 2
+guid: 5296afdbea01ab4418fe5251cf5c74b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 623458123658528959
+    second: Genesis_idle1
+  - first:
+      213: -7015254869543052071
+    second: GenesisIdle2
+  - first:
+      213: -4045871941130287030
+    second: Genesis_attack1
+  - first:
+      213: -8047074749038971648
+    second: Genesis_ataack2
+  - first:
+      213: -2374090037664672139
+    second: Genesis_attack3
+  - first:
+      213: 4785035380082388787
+    second: Genesis_attack4
+  - first:
+      213: -3604370662268341098
+    second: Genesis_6
+  - first:
+      213: 5675502448601192489
+    second: Genesis_7
+  - first:
+      213: 2094580021238335526
+    second: Genesis_8
+  - first:
+      213: 1400250050155017275
+    second: Genesis_9
+  - first:
+      213: 6062235489276075853
+    second: Genesis_10
+  - first:
+      213: -9078767381000221120
+    second: Genesis_death
+  - first:
+      213: 4869526149332066543
+    second: Genesis_12
+  - first:
+      213: -6064085162614662507
+    second: Genesis_13
+  - first:
+      213: 7368286965805318411
+    second: Genesis_genesis hurt
+  - first:
+      213: 5470132892110027937
+    second: Genesis_15
+  - first:
+      213: -3094626096663836991
+    second: Genesis_16
+  - first:
+      213: -5514048204338601416
+    second: Genesis_17
+  - first:
+      213: 5574293896823295037
+    second: Genesis_18
+  - first:
+      213: -8667276221902945799
+    second: Genesis_19
+  - first:
+      213: 2396472164503110308
+    second: Genesis_20
+  - first:
+      213: -4740014273873080464
+    second: Genesis_21
+  - first:
+      213: -8536441489032116016
+    second: Genesis_22
+  - first:
+      213: 5006080999611205248
+    second: Genesis_23
+  - first:
+      213: -3196212723135158140
+    second: Genesis_24
+  - first:
+      213: 8467635873011816634
+    second: Genesis_25
+  - first:
+      213: 6149703202808676543
+    second: Genesis_26
+  - first:
+      213: -220902993803719184
+    second: Genesis_27
+  - first:
+      213: -2219972481242461103
+    second: Genesis_28
+  - first:
+      213: 2822500719775063892
+    second: Genesis_29
+  - first:
+      213: -2106450311376938163
+    second: Genesis_30
+  - first:
+      213: -9155922829537020063
+    second: Genesis_31
+  - first:
+      213: 5715982360640498130
+    second: Genesis_32
+  - first:
+      213: -981643981558460937
+    second: Genesis_33
+  - first:
+      213: 6858581101552014681
+    second: Genesis_34
+  - first:
+      213: 3122794367227149764
+    second: Genesis_35
+  - first:
+      213: -3811086351269719717
+    second: Genesis_36
+  - first:
+      213: -2786053569142806132
+    second: Genesis_37
+  - first:
+      213: -4778204820187474089
+    second: Genesis_38
+  - first:
+      213: -4450712866962001568
+    second: Genesis_39
+  - first:
+      213: 7663703259684092175
+    second: Genesis_40
+  - first:
+      213: -6881464346369037754
+    second: Genesis_41
+  - first:
+      213: -7994409307875784170
+    second: Genesis_42
+  - first:
+      213: 5063680589738886890
+    second: Genesis_43
+  - first:
+      213: -8108165804514010712
+    second: Genesis_44
+  - first:
+      213: -2410647434817560078
+    second: Genesis_45
+  - first:
+      213: -8016511879820871206
+    second: Genesis_46
+  - first:
+      213: 1375925520250582762
+    second: Genesis_47
+  - first:
+      213: 1757499677040792706
+    second: Genesis_48
+  - first:
+      213: 5719582505117784919
+    second: Genesis_49
+  - first:
+      213: -4408024656331328910
+    second: Genesis_50
+  - first:
+      213: -4526771654286611898
+    second: Genesis_51
+  - first:
+      213: 2478487174787174131
+    second: Genesis_52
+  - first:
+      213: -4601334919791769428
+    second: Genesis_53
+  - first:
+      213: 8729203680688476051
+    second: Genesis_54
+  - first:
+      213: -7807245518447778894
+    second: Genesis_55
+  - first:
+      213: -3521193522876416686
+    second: Genesis_56
+  - first:
+      213: 4980400263123216778
+    second: Genesis_57
+  - first:
+      213: 6136593678964356503
+    second: Genesis_58
+  - first:
+      213: 8841014895949268197
+    second: Genesis_59
+  - first:
+      213: 8557765735380180391
+    second: Genesis_60
+  - first:
+      213: -5683441258622722643
+    second: Genesis_61
+  - first:
+      213: -3190091225521077439
+    second: Genesis_62
+  - first:
+      213: -2609494048090403045
+    second: Genesis_63
+  - first:
+      213: 5797932587850222846
+    second: Genesis_64
+  - first:
+      213: -7811530809447307105
+    second: Genesis_65
+  - first:
+      213: -3913696305654016743
+    second: Genesis_66
+  - first:
+      213: -3378735139441991716
+    second: Genesis_67
+  - first:
+      213: 6503342317843180962
+    second: Genesis_68
+  - first:
+      213: 1294292744629419600
+    second: Genesis_69
+  - first:
+      213: 6726831124832305844
+    second: Genesis_70
+  - first:
+      213: 6941615095617899208
+    second: Genesis_71
+  - first:
+      213: 4187291851640035112
+    second: Genesis_72
+  - first:
+      213: -9092625267867889821
+    second: Genesis_73
+  - first:
+      213: 8426074379658882789
+    second: Genesis_74
+  - first:
+      213: 7982820260976050274
+    second: Genesis_75
+  - first:
+      213: -3891331146334272342
+    second: Genesis_76
+  - first:
+      213: -4896959974812375141
+    second: Genesis_77
+  - first:
+      213: -8396615111077265569
+    second: Genesis_78
+  - first:
+      213: -5842528748186137457
+    second: Genesis_79
+  - first:
+      213: 8898230949251858563
+    second: Genesis_80
+  - first:
+      213: -3749626451662425099
+    second: Genesis_81
+  - first:
+      213: -8699595903816714983
+    second: Genesis_82
+  - first:
+      213: -6089113235705174926
+    second: Genesis_83
+  - first:
+      213: -1359549361203157800
+    second: Genesis_84
+  - first:
+      213: -7321317948960306038
+    second: Genesis_85
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Genesis_idle1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 488
+        width: 32
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb88ff83cd7f6a800800000000000000
+      internalID: 623458123658528959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GenesisIdle2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 488
+        width: 32
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc9e045ddec4ae90800000000000000
+      internalID: -7015254869543052071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_attack1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 495
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48853ec7ec2ad7c0800000000000000
+      internalID: -4045871941130287030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_ataack2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 495
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0053486a62c035090800000000000000
+      internalID: -8047074749038971648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_attack3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 485
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576143070b98d0fd0800000000000000
+      internalID: -2374090037664672139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_attack4
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 495
+        width: 40
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fac73735cd76240800000000000000
+      internalID: 4785035380082388787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 488
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694f7acbaf3bafdc0800000000000000
+      internalID: -3604370662268341098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 488
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928dbba286f63ce40800000000000000
+      internalID: 5675502448601192489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 488
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6288a878e61711d10800000000000000
+      internalID: 2094580021238335526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 409
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3476347000be6310800000000000000
+      internalID: 1400250050155017275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 400
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f1113fe03612450800000000000000
+      internalID: 6062235489276075853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_death
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 400
+        width: 70
+        height: 35
+      alignment: 9
+      pivot: {x: 0.44860688, y: 1.1041399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e04191b2db10280800000000000000
+      internalID: -9078767381000221120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 400
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0e963ab38049340800000000000000
+      internalID: 4869526149332066543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 407
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ad2aa6caa08dba0800000000000000
+      internalID: -6064085162614662507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_genesis hurt
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 408
+        width: 33
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0187ffd4f9614660800000000000000
+      internalID: 7368286965805318411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 400
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acf56422e0d9eb40800000000000000
+      internalID: 5470132892110027937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 400
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6c2bb06fdad05d0800000000000000
+      internalID: -3094626096663836991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 296
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83264027f5a2a73b0800000000000000
+      internalID: -5514048204338601416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 296
+        width: 40
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cc7c9e3cedb5d40800000000000000
+      internalID: 5574293896823295037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 329
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f109478236a7b780800000000000000
+      internalID: -8667276221902945799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_20
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 329
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2c15f8cbaf14120800000000000000
+      internalID: 2396472164503110308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 329
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f838fa126183eb0800000000000000
+      internalID: -4740014273873080464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 328
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8855891b7788980800000000000000
+      internalID: -8536441489032116016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_23
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 318
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08688a2552c297540800000000000000
+      internalID: 5006080999611205248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_24
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 318
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488e1fa6675c4a3d0800000000000000
+      internalID: -3196212723135158140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 296
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8593a86f5138570800000000000000
+      internalID: 8467635873011816634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 296
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb04e7dfa72285550800000000000000
+      internalID: 6149703202808676543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 296
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd4284c5e13fecf0800000000000000
+      internalID: -220902993803719184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_28
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 303
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c866c4ac21131e0800000000000000
+      internalID: -2219972481242461103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 296
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1a7c43798b2720800000000000000
+      internalID: 2822500719775063892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_30
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 297
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bdd5d2a9264c2e0800000000000000
+      internalID: -2106450311376938163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_31
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 296
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1677e8a52b0afe080800000000000000
+      internalID: -9155922829537020063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_32
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 296
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d920642caf335f40800000000000000
+      internalID: 5715982360640498130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 224
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdce4fefff7062f0800000000000000
+      internalID: -981643981558460937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_34
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 224
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955173d6c239e2f50800000000000000
+      internalID: 6858581101552014681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_35
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 222
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd3a258ee4665b20800000000000000
+      internalID: 3122794367227149764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_36
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 224
+        width: 95
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b519a30d72d4c1bc0800000000000000
+      internalID: -3811086351269719717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_37
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 200
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89a80e3a03f559d0800000000000000
+      internalID: -2786053569142806132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_38
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 200
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7579aa4380860bdb0800000000000000
+      internalID: -4778204820187474089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_39
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 200
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06138777a34eb32c0800000000000000
+      internalID: -4450712866962001568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_40
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 200
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f093979b281fa5a60800000000000000
+      internalID: 7663703259684092175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 152
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a6824f2a02080a0800000000000000
+      internalID: -6881464346369037754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_42
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61accf637172e0190800000000000000
+      internalID: -7994409307875784170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_43
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 153
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae64d67faaec54640800000000000000
+      internalID: 5063680589738886890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_44
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 153
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a919f1e8220a7f80800000000000000
+      internalID: -8108165804514010712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_45
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f12ef02ee8ab8ed0800000000000000
+      internalID: -2410647434817560078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_46
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 104
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9f3992be0afb090800000000000000
+      internalID: -8016511879820871206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_47
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 142
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae63eef78f4481310800000000000000
+      internalID: 1375925520250582762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_48
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28451e605a4e36810800000000000000
+      internalID: 1757499677040792706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_49
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 144
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b95191cf9006f40800000000000000
+      internalID: 5719582505117784919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_50
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 148
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27235360eec83d2c0800000000000000
+      internalID: -4408024656331328910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_51
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 148
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a60fe0a2dad21c0800000000000000
+      internalID: -4526771654286611898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_52
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 144
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe0d8134fa556220800000000000000
+      internalID: 2478487174787174131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_53
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 142
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca80635f446c420c0800000000000000
+      internalID: -4601334919791769428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_54
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f087f8f7c542970800000000000000
+      internalID: 8729203680688476051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 83
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3e8a6c09717a390800000000000000
+      internalID: -7807245518447778894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_56
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 104
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d7b83a525322fc0800000000000000
+      internalID: -3521193522876416686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_57
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 104
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89a8bae6afed1540800000000000000
+      internalID: 4980400263123216778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_58
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 132
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795f39d107f892550800000000000000
+      internalID: 6136593678964356503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e44ef6c43891ba70800000000000000
+      internalID: 8841014895949268197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_60
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 134
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad5858689a43c670800000000000000
+      internalID: 8557765735380180391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_61
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 134
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad5ef5994c5021b0800000000000000
+      internalID: -5683441258622722643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_62
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 128
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143c9b5aee48ab3d0800000000000000
+      internalID: -3190091225521077439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_63
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 132
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f431c2df639cbd0800000000000000
+      internalID: -2609494048090403045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_64
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 75
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc497a48f4667050800000000000000
+      internalID: 5797932587850222846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_65
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98afd6bd1ed79390800000000000000
+      internalID: -7811530809447307105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_66
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 116
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915dbb612f1cfa9c0800000000000000
+      internalID: -3913696305654016743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_67
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 111
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf1e6fba425c11d0800000000000000
+      internalID: -3378735139441991716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_68
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 111
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adeec3c163804a50800000000000000
+      internalID: 6503342317843180962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_69
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 116
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e700fc46046f110800000000000000
+      internalID: 1294292744629419600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_70
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 104
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2cbab84418a5d50800000000000000
+      internalID: 6726831124832305844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_71
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 104
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca4bc5b622955060800000000000000
+      internalID: 6941615095617899208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_72
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 104
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82754ebf0cf3c1a30800000000000000
+      internalID: 4187291851640035112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_73
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 29
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f4ef06e7180d180800000000000000
+      internalID: -9092625267867889821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 82
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee669a410e6fe470800000000000000
+      internalID: 8426074379658882789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_75
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 16
+        width: 82
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260c4498bbca8ce60800000000000000
+      internalID: 7982820260976050274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_76
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 17
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4055780f63ff9c0800000000000000
+      internalID: -3891331146334272342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_77
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 17
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97a00e19d08a0cb0800000000000000
+      internalID: -4896959974812375141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_78
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 19
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fff8c2b0b397b80800000000000000
+      internalID: -8396615111077265569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_79
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 19
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c8b5efe0b2beea0800000000000000
+      internalID: -5842528748186137457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_80
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 19
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3804b8b47eddc7b70800000000000000
+      internalID: 8898230949251858563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_81
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 17
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3b04ccb96a6fbc0800000000000000
+      internalID: -3749626451662425099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_82
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915bf8f2e93d44780800000000000000
+      internalID: -8699595903816714983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_83
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 19
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274e9ac06cf1f7ba0800000000000000
+      internalID: -6089113235705174926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_84
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d460e62f09e12de0800000000000000
+      internalID: -1359549361203157800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis_85
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 19
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c878c8d14756a90800000000000000
+      internalID: -7321317948960306038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

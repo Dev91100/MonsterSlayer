@@ -118,6 +118,12 @@ public class Knight_Combat : Knight_Movement
                 enemy2.TakeDamage(20);
             }
 
+            Monster_flying enemy3 = enemy.GetComponent<Monster_flying>();
+            if (enemy3 != null)
+            {
+                enemy3.TakeDamageFlyMonster(25);
+            }
+
             Knight_Barrel Box = enemy.GetComponent<Knight_Barrel>();
             if (Box != null)
             {
