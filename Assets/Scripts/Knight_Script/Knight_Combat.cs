@@ -127,6 +127,14 @@ public class Knight_Combat : Knight_Movement
                 Knight_CameraShake.instance.startShake(.1f, .2f);
                 Pot.BreakPot();
             }
+
+            ChestScript Chest = enemy.GetComponent<ChestScript>();
+            if (Chest != null) 
+            {
+                Chest.OpenChest();
+            }
+
+            
             // enemy.GetComponent<Enemies>().TakeDamage(20);
             // return;
             //  }
