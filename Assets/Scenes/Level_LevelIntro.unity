@@ -226,7 +226,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259806909}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 67b2f910f8310974bb986af5098a8c25, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: b411818831863cc43911a8f30c5c0090, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 767832222}
@@ -250,8 +250,52 @@ VideoPlayer:
   m_PlayOnAwake: 1
   m_SkipOnDrop: 0
   m_Looping: 0
-  m_WaitForFirstFrame: 0
+  m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!1 &634234620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 634234622}
+  - component: {fileID: 634234621}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &634234621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634234620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a5cac6de8898d746869c6e1231822c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlane: {fileID: 259806911}
+--- !u!4 &634234622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634234620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 573.1183, y: 380.75067, z: -514}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &686037962
 GameObject:
   m_ObjectHideFlags: 0
