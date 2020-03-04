@@ -1,5 +1,14 @@
 ﻿using UnityEngine;
-using Cinemachine;
+
+// This script controls the player's combat system
+
+// This script is attached to Knight_Player
+
+/* 
+    Brackeys, 2019 : MELEE COMBAT in Unity
+    Available from: https://www.youtube.com/watch?v=sPiVz1k-fEs&list=LLH3a8ESny180HvT46FvAlAw&index=15
+*/
+
 
 public class Knight_Combat : Knight_Movement
 {
@@ -26,20 +35,20 @@ public class Knight_Combat : Knight_Movement
 
     void Update()
     {
-        if (Time.time >= nextAttackTime)
+        if (Time.time >= nextAttackTime) // Keeps track of the current time
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                Knight_SoundManager.PlaySound("Knight_Sword1");
-                Attack();
-                nextAttackTime = Time.time + 1f / attackRate;
+                Knight_SoundManager.PlaySound("Knight_Sword1"); // Plays sound effect
+                Attack();                                       // Reference to Attack function below
+                nextAttackTime = Time.time + 1f / attackRate;   // Controls the attack rate of the player per second
             }
         }
 
         if (Input.GetButtonUp("Fire1"))
         {
-            camanimator.enabled = true;
-            cam.enabled = true;
+            camanimator.enabled = true; // Enables the Main Camera's Cinemachine Brain
+            cam.enabled = true;         // Enables the Main Camera's animator
         }
 
     }
@@ -112,19 +121,19 @@ public class Knight_Combat : Knight_Movement
             Knight_Barrel Box = enemy.GetComponent<Knight_Barrel>();
             if (Box != null)
             {
-                camanimator.enabled = false;
-                cam.enabled = false;
-                Knight_CameraShake.instance.startShake(.1f, .2f);
-                Box.BreakBarrel();
+                camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
+                cam.enabled = false;                                // Disable the Main Camera's Animator
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
+                Box.BreakBarrel();                                  // Reference to Knight_Barrel script
             }
 
             Knight_Pot Pot = enemy.GetComponent<Knight_Pot>();
             if (Pot != null)
             {
-                camanimator.enabled = false;
-                cam.enabled = false;
-                Knight_CameraShake.instance.startShake(.1f, .2f);
-                Pot.BreakPot();
+                camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
+                cam.enabled = false;                                // Disable the Main Camera's Animator
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
+                Pot.BreakPot();                                     // Reference to Knight_Pot script
             }
             // enemy.GetComponent<Enemies>().TakeDamage(20);
             // return;

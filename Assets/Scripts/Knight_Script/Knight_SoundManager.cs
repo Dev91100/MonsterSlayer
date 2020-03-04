@@ -1,21 +1,34 @@
 ﻿using UnityEngine;
 
+// This script controls the sounds emitted by the player and other objects
+
+// This script is attached to Knight_SoundManager
+
+/* 
+    Alexander Zotov, 2017 : How to add sound or audio effects SFX to Unity 2D arcade game | Very simple Unity 2D Tutorial
+    Available from: https://www.youtube.com/watch?v=8pFlnyfRfRc
+*/
+
 public class Knight_SoundManager : MonoBehaviour
 {
-    public static AudioClip jumpSound, swordSound, barrelBreak, potBreak, coinCollect;
+    public static AudioClip jumpSound, swordSound, barrelBreak, potBreak, coinCollect; // Variables storing the different sounds
     static AudioSource audioSrc;
 
-    // Start is called before the first frame update
     void Start()
     {
+        // Assigns audio clips located in the resources folder to the audio source
         jumpSound = Resources.Load<AudioClip>("Knight_Jump2");
         swordSound = Resources.Load<AudioClip>("Knight_Sword1");
         barrelBreak = Resources.Load<AudioClip>("Knight_Barrel");
         potBreak = Resources.Load<AudioClip>("Knight_Pot");
         coinCollect = Resources.Load<AudioClip>("Power_Coin");
+
+        // Add a reference to the audio source component
         audioSrc = GetComponent<AudioSource>();
 
     }
+
+    // This function check which audio to play in different cases
 
     public static void PlaySound(string clip)
     {
