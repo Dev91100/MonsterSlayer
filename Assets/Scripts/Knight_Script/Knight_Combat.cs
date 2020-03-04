@@ -69,7 +69,7 @@ public class Knight_Combat : Knight_Movement
         }
 
     }
-    void Die()
+    public void Die()
     {
         animator.SetBool("isDead", true);
 
