@@ -69,14 +69,15 @@ public class Knight_Combat : Knight_Movement
         this.enabled = false;
 
         Invoke("DisableCol", 2f);
+        
     }
     void SetTransformX()
     {
-        transform.position = new Vector3(((this.transform.position.x) - 3), transform.position.y, transform.position.z);
+        transform.position = new Vector3(((this.transform.position.x) - 5), transform.position.y, transform.position.z);
     }
     void DisableCol()
     {
-        GetComponent<Collider2D>().enabled = false;
+        GetComponent<CapsuleCollider2D>().enabled = false;
         //  GetComponent<CircleCollider2D>().enabled = false;
     }
 
@@ -126,6 +127,14 @@ public class Knight_Combat : Knight_Movement
                 Knight_CameraShake.instance.startShake(.1f, .2f);
                 Pot.BreakPot();
             }
+
+            ChestScript Chest = enemy.GetComponent<ChestScript>();
+            if (Chest != null) 
+            {
+                Chest.OpenChest();
+            }
+
+            
             // enemy.GetComponent<Enemies>().TakeDamage(20);
             // return;
             //  }

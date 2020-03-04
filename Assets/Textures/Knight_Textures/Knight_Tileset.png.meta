@@ -362,6 +362,9 @@ TextureImporter:
   - first:
       213: 3003842456932895473
     second: adventurer-v1.5-Sheet_0
+  - first:
+      213: 5598331403147429158
+    second: Knight_Tileset_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -701,7 +704,7 @@ TextureImporter:
       name: Knight_Jump5
       rect:
         serializedVersion: 2
-        x: 118
+        x: 119
         y: 449
         width: 17
         height: 30
@@ -974,7 +977,7 @@ TextureImporter:
       name: Knight_Attack204
       rect:
         serializedVersion: 2
-        x: 152
+        x: 151
         y: 297
         width: 31
         height: 22
@@ -1155,6 +1158,27 @@ TextureImporter:
       bones: []
       spriteID: 0159eaba70deb7f40800000000000000
       internalID: 5727431968332616976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 37
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625448bffb441bd40800000000000000
+      internalID: 5598331403147429158
       vertices: []
       indices: 
       edges: []
