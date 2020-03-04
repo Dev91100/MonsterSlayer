@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1442966763102920286}
   - component: {fileID: 1442966763102920280}
   - component: {fileID: 634053883124697227}
+  - component: {fileID: 4376251271137610106}
   m_Layer: 0
   m_Name: Power_Coin
   m_TagString: Coins
@@ -134,6 +135,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinParticle: {fileID: 292985031417520493}
+--- !u!114 &4376251271137610106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442966763102920287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5ab25708238c542ac0f98cad88b468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinValue: 1
 --- !u!1001 &7185710665616919170
 PrefabInstance:
   m_ObjectHideFlags: 0
