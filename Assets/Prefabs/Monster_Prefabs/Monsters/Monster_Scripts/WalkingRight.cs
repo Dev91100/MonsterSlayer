@@ -44,7 +44,7 @@ public class WalkingRight : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = Vector2.right * speed;
+       rb.velocity = Vector2.right * speed;
     }
 
     void OnTriggerEnter2D(Collider2D col)
