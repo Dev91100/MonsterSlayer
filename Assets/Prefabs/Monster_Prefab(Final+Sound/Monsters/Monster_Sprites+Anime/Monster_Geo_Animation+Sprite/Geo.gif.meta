@@ -1,0 +1,2791 @@
+fileFormatVersion: 2
+guid: 58e6de68beb82054da392d969cc34627
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6642770988227421932
+    second: Geo_0
+  - first:
+      213: -1443482227174115043
+    second: Geo_1
+  - first:
+      213: 2991131486877225346
+    second: Geo_2
+  - first:
+      213: 7057579459512866357
+    second: Geo_3
+  - first:
+      213: 2035545148153950431
+    second: Geo_4
+  - first:
+      213: -5758645281535882413
+    second: Geo_5
+  - first:
+      213: 2835395380902119368
+    second: Geo_6
+  - first:
+      213: -915694496492936564
+    second: Geo_7
+  - first:
+      213: 8179360335681641623
+    second: Geo_patrol1
+  - first:
+      213: 9171394115383073768
+    second: Geo_patrol2
+  - first:
+      213: 4186549759582355928
+    second: Geo_patrol3
+  - first:
+      213: -2981647874847275547
+    second: Geo_patrol4
+  - first:
+      213: -5680207843541606318
+    second: Geo_patrol5
+  - first:
+      213: -2853542833443266369
+    second: Geo_13
+  - first:
+      213: -7346272785927928631
+    second: Geo_patrol7
+  - first:
+      213: -9200113905170690720
+    second: Geo_15
+  - first:
+      213: 4170171600505217920
+    second: Geo_16
+  - first:
+      213: -1804086308310866431
+    second: Geo_17
+  - first:
+      213: -4992317991300158984
+    second: Geo_18
+  - first:
+      213: -8763294329890421213
+    second: Geo_19
+  - first:
+      213: 6267501827022296094
+    second: Geo_20
+  - first:
+      213: -1426404498351513475
+    second: Geo_21
+  - first:
+      213: -3063609053196379300
+    second: Geo_22
+  - first:
+      213: -3008299169213916083
+    second: Geo_23
+  - first:
+      213: 673981938167919412
+    second: Geo_24
+  - first:
+      213: -3105934574808634009
+    second: Geo_25
+  - first:
+      213: -1035761931051962027
+    second: Geo_26
+  - first:
+      213: 2878244493919275279
+    second: Geo_27
+  - first:
+      213: 5127133536994416584
+    second: Geo_28
+  - first:
+      213: -8556156061850243547
+    second: Geo_29
+  - first:
+      213: 4921655066650382429
+    second: Geo_30
+  - first:
+      213: 8116344030330719592
+    second: Geo_31
+  - first:
+      213: -5776711613788505250
+    second: Geo_32
+  - first:
+      213: -8717323930547830484
+    second: Geo_33
+  - first:
+      213: 4761071081905674539
+    second: Geo_hurt
+  - first:
+      213: 4763998411445411852
+    second: Geo_35
+  - first:
+      213: -4391070942760215298
+    second: Geo_36
+  - first:
+      213: -5152956611335725933
+    second: Geo_37
+  - first:
+      213: -7692253664489369547
+    second: Geo_38
+  - first:
+      213: -2791082595197752738
+    second: Geo_39
+  - first:
+      213: -7217350770281886229
+    second: Geo_40
+  - first:
+      213: 5454134544153202982
+    second: Geo_41
+  - first:
+      213: -8434017369659364002
+    second: Geo_42
+  - first:
+      213: 2699558598599831887
+    second: Geo_death1
+  - first:
+      213: 2265688521427373577
+    second: Geo_death2
+  - first:
+      213: -2886434240029867205
+    second: Geo_death3
+  - first:
+      213: -683791607995727445
+    second: Geo_46
+  - first:
+      213: 2447876943554487712
+    second: Geo_47
+  - first:
+      213: -2251242853736544909
+    second: Geo_48
+  - first:
+      213: 4168243113896429417
+    second: Geo_49
+  - first:
+      213: 3315383921447948520
+    second: Geo_50
+  - first:
+      213: -3436887445821589508
+    second: Geo_51
+  - first:
+      213: -4762373783961111561
+    second: Geo_52
+  - first:
+      213: 2228816472419683624
+    second: Geo_53
+  - first:
+      213: -6736550439222373643
+    second: Geo_54
+  - first:
+      213: 3548393497030732046
+    second: Geo_55
+  - first:
+      213: 2101110712483150747
+    second: Geo_56
+  - first:
+      213: 7467791790898389429
+    second: Geo_57
+  - first:
+      213: -8057717781131958368
+    second: Geo_58
+  - first:
+      213: 3620943359161892282
+    second: Geo_59
+  - first:
+      213: -3846322558068741922
+    second: Geo_60
+  - first:
+      213: -2778257059955612387
+    second: Geo_61
+  - first:
+      213: 7864400203261902747
+    second: Geo_62
+  - first:
+      213: -4592959648835099125
+    second: Geo_63
+  - first:
+      213: 4749367832805566363
+    second: Geo_64
+  - first:
+      213: 1889482780736509673
+    second: Geo_65
+  - first:
+      213: -2645716130430967776
+    second: Geo_66
+  - first:
+      213: -8469805937910653537
+    second: Geo_67
+  - first:
+      213: 8721622130870604808
+    second: Geo_68
+  - first:
+      213: 8395378531554694375
+    second: Geo_69
+  - first:
+      213: -7633347100077996566
+    second: Geo_70
+  - first:
+      213: 1534563771502040950
+    second: Geo_71
+  - first:
+      213: -861711256564337986
+    second: Geo_72
+  - first:
+      213: -3194375795985114854
+    second: Geo_73
+  - first:
+      213: 4776628849540285033
+    second: Geo_74
+  - first:
+      213: -5540921363151552435
+    second: Geo_75
+  - first:
+      213: -4549213645493099229
+    second: Geo_76
+  - first:
+      213: 5660695697309094631
+    second: Geo_77
+  - first:
+      213: 1628420753143852051
+    second: Geo_78
+  - first:
+      213: -1875467231724565678
+    second: Geo_79
+  - first:
+      213: 6159607912151056592
+    second: Geo_80
+  - first:
+      213: 6260630059946965179
+    second: Geo_81
+  - first:
+      213: 8036847966848008462
+    second: Geo_82
+  - first:
+      213: 2399455352818709452
+    second: Geo_83
+  - first:
+      213: 1278528865936351865
+    second: Geo_84
+  - first:
+      213: 6842972660257809868
+    second: Geo_85
+  - first:
+      213: -2535633603847567475
+    second: Geo_86
+  - first:
+      213: -6601072878017592644
+    second: Geo_87
+  - first:
+      213: -3242008452187081378
+    second: Geo_88
+  - first:
+      213: 6890718226986935826
+    second: Geo_89
+  - first:
+      213: 8159935723720314205
+    second: Geo_90
+  - first:
+      213: 1502659711771102854
+    second: Geo_91
+  - first:
+      213: 4033436216067374664
+    second: Geo_92
+  - first:
+      213: 1967561917138258885
+    second: Geo_93
+  - first:
+      213: 708810376394401717
+    second: Geo_94
+  - first:
+      213: -6549326499879099363
+    second: Geo_95
+  - first:
+      213: 7223788772362857573
+    second: Geo_96
+  - first:
+      213: 8319111885516171607
+    second: Geo_97
+  - first:
+      213: 3151236495816453381
+    second: Geo_98
+  - first:
+      213: -8888383332923468658
+    second: Geo_99
+  - first:
+      213: -8479829944560517929
+    second: Geo_100
+  - first:
+      213: -8273187645875675668
+    second: Geo_101
+  - first:
+      213: -60557945698763836
+    second: Geo_102
+  - first:
+      213: -1014111343918755425
+    second: Geo_103
+  - first:
+      213: -7217216183134316598
+    second: Geo_104
+  - first:
+      213: -7138702928940261188
+    second: Geo_105
+  - first:
+      213: -6549316473536073075
+    second: Geo_106
+  - first:
+      213: -2722810403429659196
+    second: Geo_107
+  - first:
+      213: 5444520318729228111
+    second: Geo_108
+  - first:
+      213: 5582777421732027679
+    second: Geo_109
+  - first:
+      213: -3145580616286083980
+    second: Geo_110
+  - first:
+      213: 610344272728606594
+    second: Geo_111
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Geo_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1770
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4191f6a2bf220d3a0800000000000000
+      internalID: -6642770988227421932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1770
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1972b1ff88b7fbe0800000000000000
+      internalID: -1443482227174115043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1772
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2819dc75d32a28920800000000000000
+      internalID: 2991131486877225346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1772
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5369b52302f81f160800000000000000
+      internalID: 7057579459512866357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1771
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd07cf70785bf3c10800000000000000
+      internalID: 2035545148153950431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1771
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b039680ae2510b0800000000000000
+      internalID: -5758645281535882413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1775
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7447c8319595720800000000000000
+      internalID: 2835395380902119368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_7
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1775
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8222cdf4bcca43f0800000000000000
+      internalID: -915694496492936564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_patrol1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1688
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c5932a3ece28170800000000000000
+      internalID: 8179360335681641623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_patrol2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1687
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb14861b56574f70800000000000000
+      internalID: 9171394115383073768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_patrol3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1688
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1476633dc991a30800000000000000
+      internalID: 4186549759582355928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_patrol4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1688
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e50e662e0f0f96d0800000000000000
+      internalID: -2981647874847275547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_patrol5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1688
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250a053bf09db21b0800000000000000
+      internalID: -5680207843541606318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1690
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0a04569ed2668d0800000000000000
+      internalID: -2853542833443266369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_patrol7
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1688
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c485abc2dbcc0a90800000000000000
+      internalID: -7346272785927928631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_15
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1695
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d4b25c521a25080800000000000000
+      internalID: -9200113905170690720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_16
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1738
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0832984e9fc6fd930800000000000000
+      internalID: 4170171600505217920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1585
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1062cf0af0996f6e0800000000000000
+      internalID: -1804086308310866431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1585
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f923c2cc39b7bab0800000000000000
+      internalID: -4992317991300158984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1585
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326cfa4ac36826680800000000000000
+      internalID: -8763294329890421213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_20
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1585
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1496cc74b3aaf650800000000000000
+      internalID: 6267501827022296094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_21
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1585
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d702db98aa4643ce0800000000000000
+      internalID: -1426404498351513475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1585
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b1f8d3ccfdb75d0800000000000000
+      internalID: -3063609053196379300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_23
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1584
+        width: 81
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cd6e028df5046d0800000000000000
+      internalID: -3008299169213916083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1490
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433378970077a5900800000000000000
+      internalID: 673981938167919412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1489
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d6decc5f085e4d0800000000000000
+      internalID: -3105934574808634009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_26
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1485
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55176cbe20c30a1f0800000000000000
+      internalID: -1035761931051962027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_27
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1489
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0948cc1e1491f720800000000000000
+      internalID: 2878244493919275279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_28
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1489
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c75b8489cc372740800000000000000
+      internalID: 5127133536994416584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_29
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1489
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e6c9ae46d624980800000000000000
+      internalID: -8556156061850243547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_30
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1524
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5092b2053b3d4440800000000000000
+      internalID: 4921655066650382429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_31
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1524
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d89b2b4eb03a070800000000000000
+      internalID: 8116344030330719592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_32
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1524
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b3342c46ff4dfa0800000000000000
+      internalID: -5776711613788505250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_33
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1525
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c214faf4218d50780800000000000000
+      internalID: -8717323930547830484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_hurt
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1398
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b295f5b7ce8b21240800000000000000
+      internalID: 4761071081905674539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_35
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1401
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00aab0805f1d1240800000000000000
+      internalID: 4763998411445411852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_36
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1401
+        width: 84
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcdc311e38cf03c0800000000000000
+      internalID: -4391070942760215298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_37
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1401
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c555673450d78b0800000000000000
+      internalID: -5152956611335725933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_38
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1403
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5301ae52c00af3590800000000000000
+      internalID: -7692253664489369547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_39
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1403
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a667eda251449d0800000000000000
+      internalID: -2791082595197752738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_40
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1402
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedc4fda6b1d6db90800000000000000
+      internalID: -7217350770281886229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_41
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1402
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621507d787af0bb40800000000000000
+      internalID: 5454134544153202982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1310
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5daafb33e954fa80800000000000000
+      internalID: -8434017369659364002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_death1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1307
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41f4e71e32c67520800000000000000
+      internalID: 2699558598599831887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_death2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1306
+        width: 56
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ecb53c4b7517f10800000000000000
+      internalID: 2265688521427373577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_death3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1310
+        width: 92
+        height: 41
+      alignment: 9
+      pivot: {x: 0.50054336, y: 0.916757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33ce770a5351f7d0800000000000000
+      internalID: -2886434240029867205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_46
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1229
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba18509c72fa286f0800000000000000
+      internalID: -683791607995727445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_47
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1227
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a52f6a5c1b98f120800000000000000
+      internalID: 2447876943554487712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_48
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1227
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37585e75d8af1c0e0800000000000000
+      internalID: -2251242853736544909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_49
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1233
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967c34d170398d930800000000000000
+      internalID: 4168243113896429417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_50
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1140
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e052f36c1c920e20800000000000000
+      internalID: 3315383921447948520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_51
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1140
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7fdc2d319bd40d0800000000000000
+      internalID: -3436887445821589508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1139
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f37d5f8646a8edb0800000000000000
+      internalID: -4762373783961111561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_53
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1137
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d4d1cd5c85eee10800000000000000
+      internalID: 2228816472419683624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_54
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1013
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f216aa3117f282a0800000000000000
+      internalID: -6736550439222373643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_55
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1013
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09a2d9d51d6e3130800000000000000
+      internalID: 3548393497030732046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_56
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1012
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b73539f05a82d10800000000000000
+      internalID: 2101110712483150747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_57
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1012
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1a319511de2a760800000000000000
+      internalID: 7467791790898389429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 924
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7e743ae5c3d2090800000000000000
+      internalID: -8057717781131958368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 924
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd77a2fccc204230800000000000000
+      internalID: 3620943359161892282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_60
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 925
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8adba130e1f9ac0800000000000000
+      internalID: -3846322558068741922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_61
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 926
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15ef9e7ce5a179d0800000000000000
+      internalID: -2778257059955612387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_62
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 928
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f7fe64156f32d60800000000000000
+      internalID: 7864400203261902747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_63
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 815
+        width: 52
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b062b7fa8878240c0800000000000000
+      internalID: -4592959648835099125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_64
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 814
+        width: 37
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97ea0671e429e140800000000000000
+      internalID: 4749367832805566363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_65
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 819
+        width: 35
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e65403049ac83a10800000000000000
+      internalID: 1889482780736509673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_66
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 819
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020242d6237884bd0800000000000000
+      internalID: -2645716130430967776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_67
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 819
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d575adf54357a80800000000000000
+      internalID: -8469805937910653537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_68
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 740
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8045abf6e1d690970800000000000000
+      internalID: 8721622130870604808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 740
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e412483b40628470800000000000000
+      internalID: 8395378531554694375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_70
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 737
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5c7947147e01690800000000000000
+      internalID: -7633347100077996566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 739
+        width: 77
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6771095ae9ddb4510800000000000000
+      internalID: 1534563771502040950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_72
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 742
+        width: 80
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2f68d7d269a04f0800000000000000
+      internalID: -861711256564337986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_73
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 742
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a199339532c4ba3d0800000000000000
+      internalID: -3194375795985114854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_74
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 744
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9624bb881aef94240800000000000000
+      internalID: 4776628849540285033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_75
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 634
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d408af49061ba13b0800000000000000
+      internalID: -5540921363151552435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_76
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 662
+        width: 76
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325260dca42fdd0c0800000000000000
+      internalID: -4549213645493099229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_77
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 639
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2d0bbbeb4de8e40800000000000000
+      internalID: 5660695697309094631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_78
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 538
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c63081c00599610800000000000000
+      internalID: 1628420753143852051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_79
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 538
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b0c294d7009f5e0800000000000000
+      internalID: -1875467231724565678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_80
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 538
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d00377d2c25b7550800000000000000
+      internalID: 6159607912151056592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_81
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 542
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb875498ed932e650800000000000000
+      internalID: 6260630059946965179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_82
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 542
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01cbc115ae988f60800000000000000
+      internalID: 8036847966848008462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_83
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 365
+        width: 95
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc33b273ee39c4120800000000000000
+      internalID: 2399455352818709452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_84
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 365
+        width: 95
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9722839ca3f3eb110800000000000000
+      internalID: 1278528865936351865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 279
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5606ef06f17fe50800000000000000
+      internalID: 6842972660257809868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_86
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 282
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d874f12fbae9fccd0800000000000000
+      internalID: -2535633603847567475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_87
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 282
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2cb4101374464a0800000000000000
+      internalID: -6601072878017592644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_88
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 351
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5533985d721203d0800000000000000
+      internalID: -3242008452187081378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_89
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 275
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216add608bfb0af50800000000000000
+      internalID: 6890718226986935826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_90
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 324
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d8e5abe4aed3170800000000000000
+      internalID: 8159935723720314205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_91
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 307
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e4862eb058ad410800000000000000
+      internalID: 1502659711771102854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_92
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 184
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e34e25ed4a9f730800000000000000
+      internalID: 4033436216067374664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_93
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 184
+        width: 78
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbcc98932f2e4b10800000000000000
+      internalID: 1967561917138258885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_94
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 184
+        width: 70
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7691a284336d900800000000000000
+      internalID: 708810376394401717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_95
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 184
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1467a88f3e1c15a0800000000000000
+      internalID: -6549326499879099363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_96
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 96
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ca42d7d9d004460800000000000000
+      internalID: 7223788772362857573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_97
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 95
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759ebeeee2c637370800000000000000
+      internalID: 8319111885516171607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_98
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 95
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50de260a5e07bbb20800000000000000
+      internalID: 3151236495816453381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_99
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 95
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84189d837e16a480800000000000000
+      internalID: -8888383332923468658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_100
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 130
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcffbee797915a80800000000000000
+      internalID: -8479829944560517929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_101
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 130
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced1e675babbf2d80800000000000000
+      internalID: -8273187645875675668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_102
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 130
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb3c468edad82ff0800000000000000
+      internalID: -60557945698763836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_103
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 117
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91570f0b172de1f0800000000000000
+      internalID: -1014111343918755425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_104
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 13
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac71411be1c47db90800000000000000
+      internalID: -7217216183134316598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_105
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 12
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0a973328b3eec90800000000000000
+      internalID: -7138702928940261188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_106
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 12
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82b449fd572c15a0800000000000000
+      internalID: -6549316473536073075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_107
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 12
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd46d83d52a63ad0800000000000000
+      internalID: -2722810403429659196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_108
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f80423262de8b40800000000000000
+      internalID: 5444520318729228111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_109
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d986a7c720a7d40800000000000000
+      internalID: 5582777421732027679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_110
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474e9e17817a854d0800000000000000
+      internalID: -3145580616286083980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geo_111
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 22
+        width: 16
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287ceaed1e0687800800000000000000
+      internalID: 610344272728606594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
