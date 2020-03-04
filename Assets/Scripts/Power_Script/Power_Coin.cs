@@ -10,6 +10,7 @@ public class Power_Coin : MonoBehaviour
         {
             Instantiate(coinParticle, col.transform.position, Quaternion.identity);
             Knight_SoundManager.PlaySound("Power_Coin");
+            Power_ScoreTextScript.coinAmount += 1;
             Destroy(gameObject);
         }
     }
