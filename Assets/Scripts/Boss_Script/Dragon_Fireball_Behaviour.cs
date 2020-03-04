@@ -11,7 +11,7 @@ public class Dragon_Fireball_Behaviour : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        Invoke("DestroyProjectile", Dragon_Fireball_Lifetime);
+        //Invoke("DestroyProjectile", Dragon_Fireball_Lifetime);
     }
 
     // Update is called once per frame
@@ -22,8 +22,9 @@ public class Dragon_Fireball_Behaviour : MonoBehaviour
     
     void DestroyProjectile()
     {
-        Instantiate(destroyEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        //Instantiate(destroyEffect, transform.position, Quaternion.identity);
+        //Destroy(gameObject);
+        Destroy(gameObject, 2f);
     }
     
     /*
