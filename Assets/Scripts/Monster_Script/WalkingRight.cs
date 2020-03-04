@@ -18,7 +18,7 @@ public class WalkingRight : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.velocity = Vector2.right * speed;
+       rb.velocity = Vector2.right * speed;
     }
 
     void OnTriggerEnter2D(Collider2D col)
