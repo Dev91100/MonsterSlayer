@@ -18,7 +18,7 @@ public class Knight_Combat : Knight_Movement
     public float attackRange = 0.5f;
 
     //Health
-    public int maxhealth = 100;
+    public int maxhealth = 4;
     public int currenthealth;
     bool die = false;
     public Rigidbody2D rb1;
@@ -26,8 +26,6 @@ public class Knight_Combat : Knight_Movement
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
-
-    public GameObject heart1, heart2, heart3, heart4;
     //new attack
     //public LayerMask enemylayers;
     void Start()
@@ -52,8 +50,8 @@ public class Knight_Combat : Knight_Movement
             camanimator.enabled = true; // Enables the Main Camera's Cinemachine Brain
             cam.enabled = true;         // Enables the Main Camera's animator
         }
-
     }
+
 
     public void PlayerTakeDamage(int damage)
     {
@@ -64,29 +62,13 @@ public class Knight_Combat : Knight_Movement
         currenthealth -= damage;
         animator.SetTrigger("hurt");
 
-        if (currenthealth <= 75)
-        {
-            heart1.gameObject.SetActive(false);
-        }
-
-        else if (currenthealth <= 50)
-        {
-            heart2.gameObject.SetActive(false);
-        }
-
-        else if (currenthealth <= 50)
-        {
-            heart3.gameObject.SetActive(false);
-        }
-
         if (currenthealth <= 0)
         {
-            heart4.gameObject.SetActive(false);
             die = true;
             Die();
         }
-
     }
+
     public void Die()
     {
         animator.SetBool("isDead", true);
@@ -97,16 +79,17 @@ public class Knight_Combat : Knight_Movement
 
         Invoke("DisableCol", 2f);
     }
+
     void SetTransformX()
     {
         transform.position = new Vector3(((this.transform.position.x) - 3), transform.position.y, transform.position.z);
     }
+
     void DisableCol()
     {
         GetComponent<Collider2D>().enabled = false;
         //  GetComponent<CircleCollider2D>().enabled = false;
     }
-
 
     void Attack()
     {
@@ -126,9 +109,6 @@ public class Knight_Combat : Knight_Movement
                 enemy1.EnemyTakeDamage(50);
                 return;
             }
-            //else
-            // {
-            //use this comment code the the below one does not work or call me
 
             Enemies enemy2 = enemy.GetComponent<Enemies>();
             if (enemy2 != null)
@@ -153,12 +133,6 @@ public class Knight_Combat : Knight_Movement
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
                 Pot.BreakPot();                                     // Reference to Knight_Pot script
             }
-            // enemy.GetComponent<Enemies>().TakeDamage(20);
-            // return;
-            //  }
-
-            // enemy.GetComponent<Enemies>().TakeDamage(20);
-
         }
 
 
