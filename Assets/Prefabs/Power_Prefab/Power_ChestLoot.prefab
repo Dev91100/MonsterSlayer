@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 5889504399824264144}
   - component: {fileID: 5889504399824264145}
   - component: {fileID: 5889504399824264146}
-  - component: {fileID: 7899828529091018147}
+  - component: {fileID: 1082340996752619240}
   - component: {fileID: 5889504399824264148}
+  - component: {fileID: 3115396650984552987}
   - component: {fileID: 5580337112538615047}
   m_Layer: 0
   m_Name: Power_ChestLoot
@@ -106,8 +107,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!58 &7899828529091018147
-CircleCollider2D:
+--- !u!61 &1082340996752619240
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -120,8 +121,18 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.625}
+    newSize: {x: 0.5, y: 0.625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.31250003
+  m_Size: {x: 0.5, y: 0.625}
+  m_EdgeRadius: 0
 --- !u!58 &5889504399824264148
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -138,6 +149,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31250003
+--- !u!50 &3115396650984552987
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889504399824264147}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 1
 --- !u!114 &5580337112538615047
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -137,14 +137,13 @@ public class Knight_Combat : Knight_Movement
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
                 Pot.BreakPot();                                     // Reference to Knight_Pot script
             }
-            Power_ChestLoot loot = enemy.GetComponent<Power_ChestLoot>();
+
             Power_Chest Chest = enemy.GetComponent<Power_Chest>();
             if (Chest != null)
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                loot.ChestLoot();
                 Chest.OpenChest();                                  // Reference to Knight_Pot script
             }
         }

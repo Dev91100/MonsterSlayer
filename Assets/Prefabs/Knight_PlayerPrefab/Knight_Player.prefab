@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5335163037510202454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 8983228523508619419}
   - component: {fileID: 8473965478438733653}
   - component: {fileID: 2115748194027279377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Knight_Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -250,6 +250,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Knight_SwordDust
       objectReference: {fileID: 0}
+    - target: {fileID: 7931148337378285982, guid: 13db87fec444ead40b4e021340b2e059,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7931148337378285983, guid: 13db87fec444ead40b4e021340b2e059,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -385,6 +390,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Knight_JumpDust
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081767189289839171, guid: 68d9429749ff8ed47ae8bbc9d66bf84b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68d9429749ff8ed47ae8bbc9d66bf84b, type: 3}

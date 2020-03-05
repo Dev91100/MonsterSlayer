@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - box
   - Coins
+  - ChestLoot
   layers:
   - Default
   - TransparentFX
