@@ -76,4 +76,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   period: 1
-  damage: 10
+  damage: 25

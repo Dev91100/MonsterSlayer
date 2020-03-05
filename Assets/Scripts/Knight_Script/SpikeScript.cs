@@ -9,7 +9,7 @@ public class SpikeScript : MonoBehaviour
     public LayerMask player;
     private float NextActionTime = 0.0f;
     public float period = 1f;
-    public int damage = 10;
+    public int damage = 25;
 
     // Start is called before the first frame update
     void Start()
