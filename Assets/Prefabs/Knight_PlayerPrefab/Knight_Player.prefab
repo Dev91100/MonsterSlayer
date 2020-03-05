@@ -232,7 +232,7 @@ MonoBehaviour:
   attackPoint: {fileID: 5335163037510202454}
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 16
+    m_Bits: 512
   attackRange: 2.54
   maxhealth: 100
   currenthealth: 0
