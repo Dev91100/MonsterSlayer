@@ -19,8 +19,6 @@ public class Power_Chest : MonoBehaviour
 
     public void OpenChest()
     {
-        if (loots != null || rb2D != null)
-        {
             for (int i = 0; i < loots.Length; i++)
             {
                 loots[i].SetActive(true);
@@ -29,7 +27,6 @@ public class Power_Chest : MonoBehaviour
             {
                 rb2D[i].AddForce(transform.up * thrust);
             }
-        }
             
         animator.SetTrigger("Open"); //  Activates trigger for chest open animation
         Knight_SoundManager.PlaySound("Power_ChestOpen"); // Activates sound for opening chest       
