@@ -143,3 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 516562398042847343}
+  rb2D: []
+  thrust: 500
+  loots: []
