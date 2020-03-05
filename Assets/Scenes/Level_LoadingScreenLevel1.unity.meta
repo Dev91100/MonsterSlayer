@@ -1,6 +1,16 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d5e65ac07bb9a1d428db2216066266b5
 DefaultImporter:
+=======
+<<<<<<< HEAD:Assets/Prefabs/Knight_PlayerPrefab/Level_FirefliesParticle.prefab.meta
+guid: d09ada9e24da5904b9db71792a9ef6d6
+PrefabImporter:
+=======
+guid: d5e65ac07bb9a1d428db2216066266b5
+DefaultImporter:
+>>>>>>> 91ce6acbca5a1e9c46b8cbe4a2e8bc29ef13437d:Assets/Scenes/Level_LoadingScreenLevel1.unity.meta
+>>>>>>> 91ce6acbca5a1e9c46b8cbe4a2e8bc29ef13437d
   externalObjects: {}
   userData: 
   assetBundleName: 

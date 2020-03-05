@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
+<<<<<<< HEAD
 // This script makes the next scene load after 2 seconds have elapsed
 
 // This script is attached to Level_SceneSwitch
@@ -17,12 +18,25 @@ public class Level_LoadingScreen : MonoBehaviour
 
     [SerializeField]
     private string sceneNameToLoad; // Name of the scene to load next
+=======
+public class Level_LoadingScreen : MonoBehaviour
+{
+    [SerializeField]
+    private float delayBeforeLoading = 2f;
+
+    [SerializeField]
+    private string sceneNameToLoad;
+>>>>>>> 91ce6acbca5a1e9c46b8cbe4a2e8bc29ef13437d
 
     private float timeElapsed;
 
     private void Update()
     {
+<<<<<<< HEAD
         timeElapsed += Time.deltaTime; // Keep track of how much time has elapsed
+=======
+        timeElapsed += Time.deltaTime;
+>>>>>>> 91ce6acbca5a1e9c46b8cbe4a2e8bc29ef13437d
 
         if (timeElapsed > delayBeforeLoading)
         {
