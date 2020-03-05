@@ -74,20 +74,20 @@ public class Knight_Combat : Knight_Movement
         animator.SetBool("isDead", true);
 
         SetTransformX();
-        rb1.gravityScale = 0;
+       // rb1.gravityScale = 0;
         this.enabled = false;
-
-        Invoke("DisableCol", 2f);
+        GetComponent<Knight_Movement>().enabled = false;
+       // Invoke("DisableCol", 1f);
     }
     void SetTransformX()
     {
-        transform.position = new Vector3(((this.transform.position.x) - 3), transform.position.y, transform.position.z);
+        transform.position = new Vector3(((this.transform.position.x) - 5), transform.position.y, transform.position.z);
     }
 
-    void DisableCol()
-    {
-        GetComponent<Collider2D>().enabled = false;
-    }
+    //void DisableCol()
+    //{
+    //    GetComponent<CapsuleCollider2D>().enabled = false;
+    //}
 
     void Attack()
     {
