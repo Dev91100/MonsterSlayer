@@ -22,6 +22,7 @@ public class Knight_Combat : Knight_Movement
     public int currenthealth;
     bool die = false;
     public Rigidbody2D rb1;
+    public Knight_PhysicsObject NewPhysics;
 
     public float attackRate = 2f;
     float nextAttackTime = 0f;
@@ -72,22 +73,25 @@ public class Knight_Combat : Knight_Movement
     void Die()
     {
         animator.SetBool("isDead", true);
-
+        
         SetTransformX();
+        NewPhysics.enabled = false;
        // rb1.gravityScale = 0;
-        this.enabled = false;
+       // GetComponent<Knight_PhysicsObject>().enabled = false;
         GetComponent<Knight_Movement>().enabled = false;
-       // Invoke("DisableCol", 1f);
+        this.enabled = false;
+        
+       Invoke("DisableCol", 2f);
     }
     void SetTransformX()
     {
         transform.position = new Vector3(((this.transform.position.x) - 5), transform.position.y, transform.position.z);
     }
 
-    //void DisableCol()
-    //{
-    //    GetComponent<CapsuleCollider2D>().enabled = false;
-    //}
+    void DisableCol()
+    {
+        GetComponent<CapsuleCollider2D>().enabled = false;
+    }
 
     void Attack()
     {
