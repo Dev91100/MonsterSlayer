@@ -26,6 +26,8 @@ public class Knight_Combat : Knight_Movement
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
+
+    public GameObject heart1, heart2, heart3, heart4;
     //new attack
     //public LayerMask enemylayers;
     void Start()
@@ -62,8 +64,24 @@ public class Knight_Combat : Knight_Movement
         currenthealth -= damage;
         animator.SetTrigger("hurt");
 
+        if (currenthealth <= 75)
+        {
+            heart1.gameObject.SetActive(false);
+        }
+
+        else if (currenthealth <= 50)
+        {
+            heart2.gameObject.SetActive(false);
+        }
+
+        else if (currenthealth <= 50)
+        {
+            heart3.gameObject.SetActive(false);
+        }
+
         if (currenthealth <= 0)
         {
+            heart4.gameObject.SetActive(false);
             die = true;
             Die();
         }
