@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 // This script controls the player's combat system
 
@@ -19,9 +20,16 @@ public class Knight_Combat : Knight_Movement
 
     //Health
     public int maxhealth = 4;
-    public int currenthealth;
+    public static int currenthealth;
     bool die = false;
     public Rigidbody2D rb1;
+
+    public int health;
+    public int numOfHearts;
+
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
 
     public float attackRate = 2f;
     float nextAttackTime = 0f;
@@ -50,6 +58,8 @@ public class Knight_Combat : Knight_Movement
             camanimator.enabled = true; // Enables the Main Camera's Cinemachine Brain
             cam.enabled = true;         // Enables the Main Camera's animator
         }
+
+        heartSystem(currenthealth);
     }
 
 
@@ -60,7 +70,9 @@ public class Knight_Combat : Knight_Movement
             return;
         }
         currenthealth -= damage;
+
         animator.SetTrigger("hurt");
+        Knight_SoundManager.PlaySound("Knight_Hurt"); // Activates sound for Hurt animation
 
         if (currenthealth <= 0)
         {
@@ -69,8 +81,38 @@ public class Knight_Combat : Knight_Movement
         }
     }
 
+    public void heartSystem(int health)
+    {
+        if (health > numOfHearts)
+        {
+            health = numOfHearts;
+        }
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < health)
+            {
+                hearts[i].sprite = fullHeart;
+            }
+            else
+            {
+                hearts[i].sprite = emptyHeart;
+            }
+
+            if (i < numOfHearts)
+            {
+                hearts[i].enabled = true;
+            }
+            else
+            {
+                hearts[i].enabled = false;
+            }
+        }
+    }
+
     public void Die()
     {
+        hearts[0].sprite = emptyHeart;
         animator.SetBool("isDead", true);
 
         SetTransformX();
@@ -88,7 +130,6 @@ public class Knight_Combat : Knight_Movement
     void DisableCol()
     {
         GetComponent<Collider2D>().enabled = false;
-        //  GetComponent<CircleCollider2D>().enabled = false;
     }
 
     void Attack()
@@ -134,8 +175,6 @@ public class Knight_Combat : Knight_Movement
                 Pot.BreakPot();                                     // Reference to Knight_Pot script
             }
         }
-
-
     }
 
     void OnDrawGizmosSelected()
