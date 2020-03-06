@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class Dragon_Fireball_Behaviour : MonoBehaviour
 {
+    public AIPath aiPath;
     public float Dragon_Fireball_speed;
     public float Dragon_Fireball_Lifetime;
-
     public GameObject destroyEffect;
     // Start is called before the first frame update
     private void Start()
@@ -17,7 +18,16 @@ public class Dragon_Fireball_Behaviour : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        transform.Translate(transform.right * Dragon_Fireball_speed * Time.deltaTime);
+        
+
+        if (Dragon_Pathfinding.x >= 0.01f)
+        {
+            transform.Translate(transform.right * Dragon_Fireball_speed * Time.deltaTime);
+        }
+        else
+        {
+            transform.Translate(transform.right *  - Dragon_Fireball_speed * Time.deltaTime);                       
+        }
     }
     
     void DestroyProjectile()

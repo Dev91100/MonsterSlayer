@@ -117,6 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dragon_Fireball_speed: 10
   Dragon_Fireball_Lifetime: 2
+  moveRight: 1
   destroyEffect: {fileID: 7587855699089586184}
 --- !u!61 &7351714841100421426
 BoxCollider2D:

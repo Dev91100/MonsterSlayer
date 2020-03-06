@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dragon_Projectile_FireBall : MonoBehaviour
+public class Dragon_FireBall_TimeBtwShots : MonoBehaviour
 {
 
     public GameObject projectile;
