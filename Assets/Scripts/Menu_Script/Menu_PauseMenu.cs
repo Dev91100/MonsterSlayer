@@ -15,10 +15,12 @@ public class Menu_PauseMenu : MonoBehaviour
     public static bool gameIsPaused = false; // Check if the game is paused or not
     public GameObject pauseMenuUI;
     private int currentScene;
+    private int startCoin;
 
     private void Start()
     {
         currentScene = SceneManager.GetActiveScene().buildIndex;
+        startCoin = Power_ScoreTextScript.coinAmount;
     }
 
     void Update()
@@ -60,6 +62,7 @@ public class Menu_PauseMenu : MonoBehaviour
 
     public void Restart()
     {
+        Power_ScoreTextScript.coinAmount = startCoin;
         Time.timeScale = 1f;
         SceneManager.LoadScene(currentScene);
     }
@@ -68,6 +71,7 @@ public class Menu_PauseMenu : MonoBehaviour
 
     public void LoadMenu()
     {
+        Power_ScoreTextScript.coinAmount = 0;
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
