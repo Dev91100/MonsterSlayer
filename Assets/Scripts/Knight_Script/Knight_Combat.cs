@@ -34,8 +34,6 @@ public class Knight_Combat : Knight_Movement
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
-    //new attack
-    //public LayerMask enemylayers;
     void Start()
     {
         currenthealth = maxhealth;
@@ -157,13 +155,22 @@ public class Knight_Combat : Knight_Movement
                 enemy2.TakeDamage(20);
             }
 
-            Knight_Barrel Box = enemy.GetComponent<Knight_Barrel>();
-            if (Box != null)
+            Knight_Barrel Barrel = enemy.GetComponent<Knight_Barrel>();
+            if (Barrel != null)
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                Box.BreakBarrel();                                  // Reference to Knight_Barrel script
+                Barrel.BreakBarrel();                                  // Reference to Knight_Barrel script
+            }
+
+            Power_Chest Chest = enemy.GetComponent<Power_Chest>();
+            if (Chest != null)
+            {
+                camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
+                cam.enabled = false;                                // Disable the Main Camera's Animator
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
+                Chest.OpenChest();                                  // Reference to Knight_Barrel script
             }
 
             Knight_Pot Pot = enemy.GetComponent<Knight_Pot>();

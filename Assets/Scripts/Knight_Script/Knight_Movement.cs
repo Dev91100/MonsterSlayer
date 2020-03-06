@@ -41,13 +41,13 @@ public class Knight_Movement : Knight_PhysicsObject
             move.x = Input.GetAxis("Horizontal"); // Check if the player has pressed "A" or "D" on the keyboard and makes the player move left or right
         
 
-            if (Input.GetButtonDown("Jump") && grounded) // Check if the spacebar has been pressed
+            if (Input.GetKeyDown(KeyCode.Space) && grounded) // Check if the spacebar has been pressed
             {
                 Knight_SoundManager.PlaySound("Knight_Jump2"); // Play sound effect when player jump
                 velocity.y = jumpTakeOffSpeed;
                 createDust();
             }
-            else if (Input.GetButtonUp("Jump"))
+            else if (Input.GetKeyUp(KeyCode.Space))
             {
                 if (velocity.y > 0) // Check if player is moving upwards
                 {

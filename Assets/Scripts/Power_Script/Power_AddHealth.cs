@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Power_AddHealth : MonoBehaviour
 {
@@ -12,7 +10,12 @@ public class Power_AddHealth : MonoBehaviour
         {
             Instantiate(heartParticle, col.transform.position, Quaternion.identity);
             Knight_SoundManager.PlaySound("Power_Heart");
-            Knight_Combat.currenthealth += 1;
+
+            if (Knight_Combat.currenthealth < 4)
+            {
+                Knight_Combat.currenthealth += 1;
+            }
+
             Destroy(gameObject);
         }
     }
