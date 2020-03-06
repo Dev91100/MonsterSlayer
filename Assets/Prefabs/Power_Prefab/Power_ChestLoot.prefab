@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5889504399824264144}
   - component: {fileID: 5889504399824264145}
   - component: {fileID: 5889504399824264146}
-  - component: {fileID: 2119328639326073203}
-  - component: {fileID: 5889504399824264148}
+  - component: {fileID: 6287781316942235959}
+  - component: {fileID: 7271924504225199459}
   - component: {fileID: 3115396650984552987}
   - component: {fileID: 5580337112538615047}
   m_Layer: 0
@@ -107,7 +107,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!58 &2119328639326073203
+--- !u!58 &6287781316942235959
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,8 +122,8 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.31250003
---- !u!58 &5889504399824264148
+  m_Radius: 0.2957114
+--- !u!58 &7271924504225199459
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,7 +159,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 5
+  m_Constraints: 0
 --- !u!114 &5580337112538615047
 MonoBehaviour:
   m_ObjectHideFlags: 0

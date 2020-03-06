@@ -31,6 +31,9 @@ public class Knight_Combat : Knight_Movement
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
+    public float xAmount = 0.1f;
+    public float yAmount = 0.1f;
+
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
@@ -161,7 +164,7 @@ public class Knight_Combat : Knight_Movement
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                Barrel.BreakBarrel();                                  // Reference to Knight_Barrel script
+                Barrel.BreakBarrel(xAmount, yAmount);               // Reference to Knight_Barrel script
             }
 
             Power_Chest Chest = enemy.GetComponent<Power_Chest>();
@@ -170,7 +173,7 @@ public class Knight_Combat : Knight_Movement
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                Chest.OpenChest();                                  // Reference to Knight_Barrel script
+                Chest.OpenChest(xAmount, yAmount);                  // Reference to Knight_Barrel script
             }
 
             Knight_Pot Pot = enemy.GetComponent<Knight_Pot>();
@@ -179,7 +182,7 @@ public class Knight_Combat : Knight_Movement
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                Pot.BreakPot();                                     // Reference to Knight_Pot script
+                Pot.BreakPot(xAmount, yAmount);                     // Reference to Knight_Pot script
             }
         }
     }
