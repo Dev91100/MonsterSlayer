@@ -27,6 +27,12 @@ public class Knight_Combat : Knight_Movement
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
+    //Damage done to Monsters
+    public int PatrolEnemy = 50;
+    public int IntelligentMonsters = 25;
+    public int flyingMonsters = 25;
+
+
     //new attack
     //public LayerMask enemylayers;
     void Start()
@@ -76,8 +82,6 @@ public class Knight_Combat : Knight_Movement
         
         SetTransformX();
         NewPhysics.enabled = false;
-       // rb1.gravityScale = 0;
-       // GetComponent<Knight_PhysicsObject>().enabled = false;
         GetComponent<Knight_Movement>().enabled = false;
         this.enabled = false;
         
@@ -108,20 +112,20 @@ public class Knight_Combat : Knight_Movement
             EnemyState enemy1 = enemy.GetComponent<EnemyState>();
             if (enemy1 != null)
             {
-                enemy1.EnemyTakeDamage(50);
+                enemy1.EnemyTakeDamage(PatrolEnemy);
                 return;
             }
 
             Enemies enemy2 = enemy.GetComponent<Enemies>();
             if (enemy2 != null)
             {
-                enemy2.TakeDamage(20);
+                enemy2.TakeDamage(IntelligentMonsters);
             }
 
             Monster_flying enemy3 = enemy.GetComponent<Monster_flying>();
             if (enemy3 != null)
             {
-                enemy3.TakeDamageFlyMonster(25);
+                enemy3.TakeDamageFlyMonster(flyingMonsters);
             }
 
             Knight_Barrel Barrel = enemy.GetComponent<Knight_Barrel>();
