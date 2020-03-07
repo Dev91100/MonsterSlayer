@@ -12,22 +12,41 @@ using UnityEngine.SceneManagement;
 
 public class Level_GameOver : MonoBehaviour
 {
-    public static GameObject gameOverUI;
+    private int currentScene;
+    private int startCoin;
+    public GameObject gameOverUI;
+
+    private void Start()
+    {
+        currentScene = SceneManager.GetActiveScene().buildIndex;
+        startCoin = Power_ScoreTextScript.coinAmount;
+    }
 
     void Update()
     {
-        // Check if escape key has been pressed down to enable or disable the pause menu
-
-        if (Knight_Combat.die == true)
+        if (Knight_Combat.currenthealth <= 0)
         {
             GameOver();
         }
     }
 
-    // This function enables the pause menu UI
-
     void GameOver()
     {
         gameOverUI.SetActive(true);
     }
+
+    public void Restart()
+    {
+        Power_ScoreTextScript.coinAmount = startCoin;
+        gameOverUI.SetActive(false);
+        SceneManager.LoadScene(currentScene);
+    }
+
+    public void LoadMenu()
+    {
+        Power_ScoreTextScript.coinAmount = 0;
+        gameOverUI.SetActive(false);
+        SceneManager.LoadScene(0);
+    }
+
 }
