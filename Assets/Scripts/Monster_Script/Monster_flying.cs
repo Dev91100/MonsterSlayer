@@ -90,6 +90,7 @@ public class Monster_Flying : MonoBehaviour
             }
             else
             {
+                
                 animator.SetBool("attack", true);
             }
 

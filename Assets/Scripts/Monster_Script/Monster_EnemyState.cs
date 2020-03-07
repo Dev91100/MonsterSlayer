@@ -36,6 +36,7 @@ public class Monster_EnemyState : MonoBehaviour
     }
     public void DisableAttack()
     {
+        GetComponent<Monster_Walking>().speed = 0;
         GetComponent<Monster_Attack>().enabled = false;
         //animator.SetBool("IsDead", true);
     }

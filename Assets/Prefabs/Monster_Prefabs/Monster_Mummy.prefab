@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SR: {fileID: 8864259443674135286}
   attackpt: {fileID: 8864259443956576245}
-  range: 0.5
+  range: 1.16
   player:
     serializedVersion: 2
     m_Bits: 256
@@ -522,7 +522,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8864259443956576244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.38, y: -0.34, z: 0}
+  m_LocalPosition: {x: -0.06, y: 0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8864259443674135287}
