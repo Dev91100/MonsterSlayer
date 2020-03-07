@@ -23,10 +23,12 @@ public class Dragon_Fireball_Behaviour : MonoBehaviour
         if (Dragon_Pathfinding.x >= 0.01f)
         {
             transform.Translate(transform.right * Dragon_Fireball_speed * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
         else
         {
-            transform.Translate(transform.right *  - Dragon_Fireball_speed * Time.deltaTime);                       
+            transform.Translate(transform.right *  - Dragon_Fireball_speed * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, -180, 0);
         }
     }
     
