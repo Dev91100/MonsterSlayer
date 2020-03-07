@@ -37,6 +37,8 @@ public class Knight_Combat : Knight_Movement
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
+    public Knight_PhysicsObject NewPhysics;
+
     void Start()
     {
         currenthealth = maxhealth;
@@ -117,10 +119,11 @@ public class Knight_Combat : Knight_Movement
         animator.SetBool("isDead", true);
 
         SetTransformX();
-        rb1.gravityScale = 0;
+        NewPhysics.enabled = false;
+        GetComponent<Knight_Movement>().enabled = false;
         this.enabled = false;
 
-        Invoke("DisableCol", 2f);
+        Invoke("DisableCol", 1f);
     }
 
     void SetTransformX()
@@ -157,6 +160,13 @@ public class Knight_Combat : Knight_Movement
             {
                 enemy2.TakeDamage(20);
             }
+
+            Monster_flying enemy3 = enemy.GetComponent<Monster_flying>();
+            if(enemy3 != null) 
+            {
+                enemy3.TakeDamageFlyMonster(25);
+            }
+
 
             Knight_Barrel Barrel = enemy.GetComponent<Knight_Barrel>();
             if (Barrel != null)
