@@ -148,20 +148,20 @@ public class Knight_Combat : Knight_Movement
 
         foreach (Collider2D enemy in hitenemies)
         {
-            EnemyState enemy1 = enemy.GetComponent<EnemyState>();
+            Monster_EnemyState enemy1 = enemy.GetComponent<Monster_EnemyState>();
             if (enemy1 != null)
             {
                 enemy1.EnemyTakeDamage(50);
                 return;
             }
 
-            Enemies enemy2 = enemy.GetComponent<Enemies>();
+            Monster_Enemies enemy2 = enemy.GetComponent<Monster_Enemies>();
             if (enemy2 != null)
             {
                 enemy2.TakeDamage(20);
             }
 
-            Monster_flying enemy3 = enemy.GetComponent<Monster_flying>();
+            Monster_Flying enemy3 = enemy.GetComponent<Monster_Flying>();
             if(enemy3 != null) 
             {
                 enemy3.TakeDamageFlyMonster(25);

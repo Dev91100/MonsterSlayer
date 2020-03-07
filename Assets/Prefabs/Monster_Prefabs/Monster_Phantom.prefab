@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 4155266881787666053}
   - component: {fileID: 4155266881787666050}
   m_Layer: 9
-  m_Name: Phantom
+  m_Name: Monster_Phantom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,18 +105,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.013817608, y: 0}
+  m_Offset: {x: 0.07640323, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1666666, y: 1.0833334}
+    oldSize: {x: 1.75, y: 1.625}
     newSize: {x: 1.3333334, y: 1.4166666}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0846182, y: 1.4166666}
+  m_Size: {x: 1.5582771, y: 1.4166666}
   m_EdgeRadius: 0
 --- !u!50 &4155266881773114535
 Rigidbody2D:

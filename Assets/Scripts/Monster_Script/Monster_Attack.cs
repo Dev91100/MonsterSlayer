@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class AttackScript : MonoBehaviour
+public class Monster_Attack : MonoBehaviour
 {
     public SpriteRenderer SR;
     public Transform attackpt;
@@ -12,13 +10,6 @@ public class AttackScript : MonoBehaviour
     public float period = 1f;
     public AudioSource Bite;
 
-
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         Collider2D[] hitplayer = Physics2D.OverlapCircleAll(attackpt.position, range, player);
@@ -28,12 +19,12 @@ public class AttackScript : MonoBehaviour
             if (transform.position.x > player.transform.position.x)
             {
                 SR.flipX = true;
-                GetComponent<WalkingRight>().speed = -2f;
+                GetComponent<Monster_Walking>().speed = -2f;
             }
             else
             {
                 SR.flipX = false;
-                GetComponent<WalkingRight>().speed = 2f;
+                GetComponent<Monster_Walking>().speed = 2f;
             }
 
             if (Time.time > NextActionTime)

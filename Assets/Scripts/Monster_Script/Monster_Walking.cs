@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WalkingRight : MonoBehaviour
+public class Monster_Walking : MonoBehaviour
 {
     public Rigidbody2D rb;
     public SpriteRenderer sr;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Enemies : MonoBehaviour
+public class Monster_Enemies : MonoBehaviour
 {
     public float range = 1f;
     public Transform EnemyAtkP;

@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Monster_flying : MonoBehaviour
+public class Monster_Flying : MonoBehaviour
 {
     public float range = 1f;
     public Transform EnemyAtkP;

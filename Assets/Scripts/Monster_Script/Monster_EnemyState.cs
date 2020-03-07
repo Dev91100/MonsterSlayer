@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemyState : MonoBehaviour
+public class Monster_EnemyState : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Animator animator;
@@ -38,7 +36,7 @@ public class EnemyState : MonoBehaviour
     }
     public void DisableAttack()
     {
-        GetComponent<AttackScript>().enabled = false;
+        GetComponent<Monster_Attack>().enabled = false;
         //animator.SetBool("IsDead", true);
     }
     public void DisableMonster()
