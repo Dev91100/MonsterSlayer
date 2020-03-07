@@ -64,6 +64,7 @@ public class Menu_PauseMenu : MonoBehaviour
     {
         Power_ScoreTextScript.coinAmount = startCoin;
         Time.timeScale = 1f;
+        Level_GameOver.gameOverUI.SetActive(false);
         SceneManager.LoadScene(currentScene);
     }
 
@@ -73,6 +74,7 @@ public class Menu_PauseMenu : MonoBehaviour
     {
         Power_ScoreTextScript.coinAmount = 0;
         Time.timeScale = 1f;
+        Level_GameOver.gameOverUI.SetActive(false);
         SceneManager.LoadScene(0);
     }
 }

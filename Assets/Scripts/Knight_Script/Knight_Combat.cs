@@ -21,7 +21,7 @@ public class Knight_Combat : Knight_Movement
     //Health
     public int maxhealth = 4;
     public static int currenthealth;
-    bool die = false;
+    public static bool die = false;
     public Rigidbody2D rb1;
 
     public int health;
