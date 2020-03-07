@@ -151,6 +151,9 @@ public class Knight_Combat : Knight_Movement
             Monster_EnemyState enemy1 = enemy.GetComponent<Monster_EnemyState>();
             if (enemy1 != null)
             {
+                camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
+                cam.enabled = false;                                // Disable the Main Camera's Animator
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
                 enemy1.EnemyTakeDamage(50);
                 return;
             }
@@ -158,12 +161,18 @@ public class Knight_Combat : Knight_Movement
             Monster_Enemies enemy2 = enemy.GetComponent<Monster_Enemies>();
             if (enemy2 != null)
             {
+                camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
+                cam.enabled = false;                                // Disable the Main Camera's Animator
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
                 enemy2.TakeDamage(20);
             }
 
             Monster_Flying enemy3 = enemy.GetComponent<Monster_Flying>();
             if(enemy3 != null) 
             {
+                camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
+                cam.enabled = false;                                // Disable the Main Camera's Animator
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
                 enemy3.TakeDamageFlyMonster(25);
             }
 

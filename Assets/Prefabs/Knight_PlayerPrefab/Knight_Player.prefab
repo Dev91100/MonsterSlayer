@@ -233,11 +233,18 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 512
-  attackRange: 2.54
+  attackRange: 3
   maxhealth: 100
-  currenthealth: 0
   rb1: {fileID: 0}
+  health: 0
+  numOfHearts: 0
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  xAmount: 0.1
+  yAmount: 0.1
   attackRate: 2
+  NewPhysics: {fileID: 0}
 --- !u!1001 &1205777851487410071
 PrefabInstance:
   m_ObjectHideFlags: 0

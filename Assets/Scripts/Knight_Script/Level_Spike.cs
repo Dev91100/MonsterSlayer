@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class SpikeScript : MonoBehaviour
+public class Level_Spike : MonoBehaviour
 {
     public Transform attackpt;
     public float range = 0.5f;
@@ -10,14 +8,10 @@ public class SpikeScript : MonoBehaviour
     private float NextActionTime = 0.0f;
     public float period = 1f;
     public int damage = 25;
+    public float length;
+    public float height;
+    private float depth;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
 
@@ -38,7 +32,7 @@ public class SpikeScript : MonoBehaviour
     }
     void OnDrawGizmosSelected()
     {
-        Gizmos.DrawWireSphere(attackpt.position, range);
+        Gizmos.DrawWireCube(attackpt.position,new Vector3(length,height,depth));
     }
 
 }

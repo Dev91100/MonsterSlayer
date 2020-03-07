@@ -44,9 +44,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackpt: {fileID: 761483624133267238}
-  range: 2.48
+  range: 2.7
   player:
     serializedVersion: 2
     m_Bits: 256
   period: 1
   damage: 1
+  xPosition: 5.5
+  yPosition: 1.5
+  zPosition: 0
