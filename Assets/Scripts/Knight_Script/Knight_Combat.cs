@@ -21,7 +21,6 @@ public class Knight_Combat : Knight_Movement
     //Health
     public int maxhealth = 4;
     public static int currenthealth;
-    public static bool die = false;
     public Rigidbody2D rb1;
 
     // Health UI
@@ -77,10 +76,7 @@ public class Knight_Combat : Knight_Movement
     public void PlayerTakeDamage(int damage)
     {
                
-        if (die)                       //If the player dies then we return before anything happens
-        {
-            return;
-        }
+       
         currenthealth -= damage;       //Subtracting the damage taken to the current health of the player
 
         animator.SetTrigger("hurt");
@@ -88,7 +84,7 @@ public class Knight_Combat : Knight_Movement
 
         if (currenthealth <= 0)
         {
-            die = true;
+            
             Die();
         }
     }
