@@ -37,7 +37,13 @@ public class Knight_Combat : Knight_Movement
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
+    //A reference to the custom physics
     public Knight_PhysicsObject NewPhysics;
+
+    //MonsterDmage
+    int CommonEnemies = 50;
+    int HeavyEnemies = 20;
+    int FlyingEnemies = 25;
 
     void Start()
     {
@@ -65,18 +71,23 @@ public class Knight_Combat : Knight_Movement
         heartSystem(currenthealth);
     }
 
-
+    //This Function will take any damage that the player receives through its parameter
     public void PlayerTakeDamage(int damage)
     {
+        //If the player dies then we return before anything happens
         if (die)
         {
             return;
         }
+
+        //Subtracting the damage taken to the current health of the player
         currenthealth -= damage;
 
+        //Triggers a hurt animation
         animator.SetTrigger("hurt");
         Knight_SoundManager.PlaySound("Knight_Hurt"); // Activates sound for Hurt animation
 
+        //If health is <= 0 then call a function
         if (currenthealth <= 0)
         {
             die = true;
@@ -113,58 +124,71 @@ public class Knight_Combat : Knight_Movement
         }
     }
 
+    //This function will be called when the player dies
     public void Die()
     {
         hearts[0].sprite = emptyHeart;
         animator.SetBool("isDead", true);
 
-        SetTransformX();
-        NewPhysics.enabled = false;
-        GetComponent<Knight_Movement>().enabled = false;
-        this.enabled = false;
+        //These are the things that will be disabled so that monsters cannot interact with the player
 
+        SetTransformX();              // the player will move backwards
+        NewPhysics.enabled = false;   // The custom physic will be disabled so as to let the player float
+        GetComponent<Knight_Movement>().enabled = false;  //Disables the movement of the player
+        this.enabled = false;         // Disable this script
+
+        //This will delay the time to disable the collider just for proper animation
         Invoke("DisableCol", 1f);
     }
 
     void SetTransformX()
     {
+        //Moves the player when called
         transform.position = new Vector3(((this.transform.position.x) - 3), transform.position.y, transform.position.z);
     }
 
     void DisableCol()
     {
+        //Disables the collider on call
         GetComponent<Collider2D>().enabled = false;
     }
 
+    //This function is called when attacking 
     void Attack()
     {
-        animator.SetTrigger("Attack");
+        animator.SetTrigger("Attack");   //attack Animation 
         if (grounded)
         {
             createDust();
         }
 
+        // This will create a circle that will detect a layer(which will be the enemy)
+        // It takes as parameter a point, a radius and a layer and store the data received in an array(hitenemies)
         Collider2D[] hitenemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
+        // For each data(we named it enemy here) that is in the array
         foreach (Collider2D enemy in hitenemies)
         {
-            Monster_EnemyState enemy1 = enemy.GetComponent<Monster_EnemyState>();
-            if (enemy1 != null)
+            Monster_EnemyState enemy1 = enemy.GetComponent<Monster_EnemyState>();  // assigning a script's component in a variable
+
+            if (enemy1 != null)                                                   // if this variable is not null then
             {
-                enemy1.EnemyTakeDamage(50);
+                enemy1.EnemyTakeDamage(CommonEnemies);                            // Give damage to that layer by calling its damage function and giving it a parameter
                 return;
             }
 
-            Monster_Enemies enemy2 = enemy.GetComponent<Monster_Enemies>();
-            if (enemy2 != null)
+            Monster_Enemies enemy2 = enemy.GetComponent<Monster_Enemies>();      //assigning another script's component in a variable 
+
+            if (enemy2 != null)                                                  //if this variable is not null then 
             {
-                enemy2.TakeDamage(20);
+                enemy2.TakeDamage(HeavyEnemies);                                 //Give damage to that layer by calling its damage function and giving it a parameter
             }
 
-            Monster_Flying enemy3 = enemy.GetComponent<Monster_Flying>();
-            if(enemy3 != null) 
+            Monster_Flying enemy3 = enemy.GetComponent<Monster_Flying>();        //assigning another script's component in a variable 
+
+            if (enemy3 != null)                                                 //if this variable is not null then
             {
-                enemy3.TakeDamageFlyMonster(25);
+                enemy3.TakeDamageFlyMonster(FlyingEnemies);                     //Give damage to that layer by calling its damage function and giving it a parameter
             }
 
 
@@ -197,6 +221,7 @@ public class Knight_Combat : Knight_Movement
         }
     }
 
+    //This function will just draw the the circle that we created above so that we can get a visual
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
