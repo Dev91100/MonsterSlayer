@@ -21,7 +21,7 @@ public class Knight_Combat : Knight_Movement
     //Health
     public int maxhealth = 4;
     public static int currenthealth;
-    public Rigidbody2D rb1;
+   
 
     // Health UI
     public int health;
@@ -195,6 +195,11 @@ public class Knight_Combat : Knight_Movement
                 enemy3.TakeDamageFlyMonster(FlyingEnemies);         //Give damage to that layer by calling its damage function and giving it a parameter
             }
 
+            FinalBossHealth enemy4 = enemy.GetComponent<FinalBossHealth>();
+            if (enemy4 != null)
+            {
+                enemy4.MonsterTakeDamage(25);
+            }
 
             Knight_Barrel Barrel = enemy.GetComponent<Knight_Barrel>();
             if (Barrel != null)
