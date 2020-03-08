@@ -1,14 +1,6 @@
 ﻿using UnityEngine;
 
-
-//This Script will control the monsters' health and damage taken
-
-/* 
-Brackeys, 2019 : MELEE COMBAT in Unity
-Available from: https://www.youtube.com/watch?v=sPiVz1k-fEs&list=LLH3a8ESny180HvT46FvAlAw&index=15
-*/
-
-public class Monster_EnemyState : MonoBehaviour
+public class Monster_EnemyState : Monster_Loot
 {
     public Rigidbody2D rb;
     public Animator animator;
@@ -18,40 +10,47 @@ public class Monster_EnemyState : MonoBehaviour
     public AudioSource hurtsound;
     public AudioSource deadsound;
 
-   
+    public float xAmount = 0.1f;
+    public float yAmount = 0.1f;
+
     void Start()
     {
-        currenthealth = maxhealth;                 //the health of the player is assigned
+        currenthealth = maxhealth;
     }
 
-    public void EnemyTakeDamage(int damage)        //This function takes in the damage taken by the player
+    public void EnemyTakeDamage(int damage)
     {
-        if (die)                                   //If the player dies then return before anything happens
+        if (die)
             return;
-        currenthealth -= damage;                    //Substracting the damage from the health of the player
+        currenthealth -= damage;
         hurtsound.Play();
-        animator.SetTrigger("Hurt");                //Play hurt animation
+        animator.SetTrigger("Hurt");
 
-        if (currenthealth <= 0)                     //If health is below of equal to zero then player dies
+        if (currenthealth <= 0)
         {
-            die = true;                             
+            monsterLoot(xAmount, yAmount);
 
-            deadsound.Play();                      //Death sound
-            animator.SetBool("IsDead", true);      //play Death animation
+            die = true;
+
+            deadsound.Play();
+            animator.SetBool("IsDead", true);
 
         }
 
     }
-
-    //When the monster dies in the animation an event is added to as to call these public fucntions
-    public void DisableAttack()                                //This function will disable the ability of the monster to attack                         
+    public void DisableAttack()
     {
-        GetComponent<Monster_Walking>().speed = 0;             //The speed is put to zero so that the monster stops
-        GetComponent<Monster_Attack>().enabled = false;        //disable the attack script
+        GetComponent<Monster_Attack>().enabled = false;
+        //animator.SetBool("IsDead", true);
     }
-    public void DisableMonster()                               //This fucntion disables the monster
-    { 
-        Destroy(gameObject);                                   //Destroys the Game Object(The Monster)
+    public void DisableMonster()
+    {
+       // GetComponent<SpriteRenderer>().enabled = false;
+        Destroy(gameObject);
     }
-    
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }

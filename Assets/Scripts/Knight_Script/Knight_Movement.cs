@@ -13,6 +13,9 @@ using Cinemachine;
 
 public class Knight_Movement : Knight_PhysicsObject
 {
+    private float NextActionTime = 0.0f;
+    public float period = 1f;
+
     public CinemachineBrain cam;
     public Animator camanimator;
 
@@ -41,9 +44,13 @@ public class Knight_Movement : Knight_PhysicsObject
             move.x = Input.GetAxis("Horizontal"); // Check if the player has pressed "A" or "D" on the keyboard and makes the player move left or right
         
 
-            if (Input.GetKeyDown(KeyCode.Space) && grounded) // Check if the spacebar has been pressed
+            if (Input.GetKey(KeyCode.Space) && grounded) // Check if the spacebar has been pressed
             {
-                Knight_SoundManager.PlaySound("Knight_Jump2"); // Play sound effect when player jump
+                if (Time.time > NextActionTime)
+                {
+                    NextActionTime = Time.time + period;
+                    Knight_SoundManager.PlaySound("Knight_Jump2"); // Play sound effect when player jump
+                }
                 velocity.y = jumpTakeOffSpeed;
                 createDust();
             }

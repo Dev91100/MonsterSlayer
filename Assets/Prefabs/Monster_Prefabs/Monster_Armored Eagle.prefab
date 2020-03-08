@@ -174,7 +174,7 @@ MonoBehaviour:
   maxhealth: 100
   animator: {fileID: 5715170539215266874}
   rb: {fileID: 5715170539215266875}
-  attackRange: 4
+  attackRange: 15
   player:
     serializedVersion: 2
     m_Bits: 256
