@@ -39,7 +39,13 @@ public class Knight_Combat : Knight_Movement
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
-    //public Knight_PhysicsObject NewPhysics;
+    //A reference to the custom physics
+    public Knight_PhysicsObject NewPhysics;
+
+    //MonsterDmage
+    int CommonEnemies = 50;
+    int HeavyEnemies = 20;
+    int FlyingEnemies = 25;
 
     void Start()
     {
@@ -67,14 +73,15 @@ public class Knight_Combat : Knight_Movement
         heartSystem(currenthealth);
     }
 
-
+    //This Function will take any damage that the player receives through its parameter
     public void PlayerTakeDamage(int damage)
     {
-        if (die)
+               
+        if (die)                       //If the player dies then we return before anything happens
         {
             return;
         }
-        currenthealth -= damage;
+        currenthealth -= damage;       //Subtracting the damage taken to the current health of the player
 
         animator.SetTrigger("hurt");
         Knight_SoundManager.PlaySound("Knight_Hurt"); // Activates sound for Hurt animation
@@ -120,29 +127,35 @@ public class Knight_Combat : Knight_Movement
         }
     }
 
+    //This function will be called when the player dies
     public void Die()
     {
         hearts[0].sprite = emptyHeart;
         animator.SetBool("isDead", true);
 
-        SetTransformX();
-        //NewPhysics.enabled = false;
-        GetComponent<Knight_Movement>().enabled = false;
-        this.enabled = false;
+        //These are the things that will be disabled so that monsters cannot interact with the player
+        SetTransformX();                                          // the player will move backwards
+        NewPhysics.enabled = false;                               // The custom physic will be disabled so as to let the player float
+        GetComponent<Knight_Movement>().enabled = false;          //Disables the movement of the player
+        this.enabled = false;                                     // Disable this script
 
-        Invoke("DisableCol", 1f);
+        Invoke("DisableCol", 1f);                                 //This will delay the time to disable the collider just for proper animation
     }
 
+
+    //This function will move the player when called
     void SetTransformX()
     {
         transform.position = new Vector3(((this.transform.position.x) - 3), transform.position.y, transform.position.z);
     }
 
+    //Disables the collider on call
     void DisableCol()
     {
         GetComponent<Collider2D>().enabled = false;
     }
 
+    //This function is called when attacking 
     void Attack()
     {
         animator.SetTrigger("Attack");
@@ -151,36 +164,39 @@ public class Knight_Combat : Knight_Movement
             createDust(); // Creates dust particle when player swing sword only if player is on the ground
         }
 
+        // This will create a circle that will detect a layer(which will be the enemy)
+        // It takes as parameter a point, a radius and a layer and store the data received in an array(hitenemies)
         Collider2D[] hitenemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
+        // For each data(we named it enemy here) that is in the array
         foreach (Collider2D enemy in hitenemies)
         {
-            Monster_EnemyState enemy1 = enemy.GetComponent<Monster_EnemyState>();
-            if (enemy1 != null)
+            Monster_EnemyState enemy1 = enemy.GetComponent<Monster_EnemyState>();       // assigning a script's component in a variable
+            if (enemy1 != null)                                                         // if this variable is not null then
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                enemy1.EnemyTakeDamage(50);
+                enemy1.EnemyTakeDamage(CommonEnemies);              // Give damage to that layer by calling its damage function and giving it a parameter
                 return;
             }
 
-            Monster_Enemies enemy2 = enemy.GetComponent<Monster_Enemies>();
-            if (enemy2 != null)
+            Monster_Enemies enemy2 = enemy.GetComponent<Monster_Enemies>();        //assigning another script's component in a variable
+            if (enemy2 != null)                                                    //if this variable is not null then 
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                enemy2.TakeDamage(20);
+                enemy2.TakeDamage(HeavyEnemies);                    //Give damage to that layer by calling its damage function and giving it a parameter
             }
 
-            Monster_Flying enemy3 = enemy.GetComponent<Monster_Flying>();
-            if(enemy3 != null) 
+            Monster_Flying enemy3 = enemy.GetComponent<Monster_Flying>();        //assigning another script's component in a variable
+            if (enemy3 != null)                                                  //if this variable is not null then
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Activates Camera Shake from Knight_CameraShake script
-                enemy3.TakeDamageFlyMonster(25);
+                enemy3.TakeDamageFlyMonster(FlyingEnemies);         //Give damage to that layer by calling its damage function and giving it a parameter
             }
 
 
