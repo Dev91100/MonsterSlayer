@@ -234,13 +234,15 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   attackRange: 3
-  maxhealth: 100
+  maxhealth: 4
   rb1: {fileID: 0}
-  health: 0
-  numOfHearts: 0
+  health: 4
+  numOfHearts: 4
   hearts: []
-  fullHeart: {fileID: 0}
-  emptyHeart: {fileID: 0}
+  fullHeart: {fileID: 1129571651699489997, guid: aa87d808016801c4396f4de73f06e388,
+    type: 3}
+  emptyHeart: {fileID: 3484039195141847630, guid: b770eead15d09f44fb68deb223db07f0,
+    type: 3}
   xAmount: 0.1
   yAmount: 0.1
   attackRate: 2

@@ -24,20 +24,22 @@ public class Knight_Combat : Knight_Movement
     public static bool die = false;
     public Rigidbody2D rb1;
 
+    // Health UI
     public int health;
     public int numOfHearts;
-
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
+    // Spawn coins and hearts force in x and y axis
     public float xAmount = 0.1f;
     public float yAmount = 0.1f;
 
+    // Players attack rate
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
-    public Knight_PhysicsObject NewPhysics;
+    //public Knight_PhysicsObject NewPhysics;
 
     void Start()
     {
@@ -50,7 +52,7 @@ public class Knight_Combat : Knight_Movement
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                Knight_SoundManager.PlaySound("Knight_Sword1"); // Plays sound effect
+                Knight_SoundManager.PlaySound("Knight_Sword1"); // Plays sword sound effect
                 Attack();                                       // Reference to Attack function below
                 nextAttackTime = Time.time + 1f / attackRate;   // Controls the attack rate of the player per second
             }
@@ -84,8 +86,11 @@ public class Knight_Combat : Knight_Movement
         }
     }
 
+    // This function controls the players health UI
+
     public void heartSystem(int health)
     {
+        // Prevents the amount of heart displayed from being greater than the amount of health of the player
         if (health > numOfHearts)
         {
             health = numOfHearts;
@@ -93,6 +98,7 @@ public class Knight_Combat : Knight_Movement
 
         for (int i = 0; i < hearts.Length; i++)
         {
+            // Controls which type of heart to display depending of the amount of health
             if (i < health)
             {
                 hearts[i].sprite = fullHeart;
@@ -102,6 +108,7 @@ public class Knight_Combat : Knight_Movement
                 hearts[i].sprite = emptyHeart;
             }
 
+            // Controls amount of hearts to display in the UI
             if (i < numOfHearts)
             {
                 hearts[i].enabled = true;
@@ -119,7 +126,7 @@ public class Knight_Combat : Knight_Movement
         animator.SetBool("isDead", true);
 
         SetTransformX();
-        NewPhysics.enabled = false;
+        //NewPhysics.enabled = false;
         GetComponent<Knight_Movement>().enabled = false;
         this.enabled = false;
 
@@ -141,7 +148,7 @@ public class Knight_Combat : Knight_Movement
         animator.SetTrigger("Attack");
         if (grounded)
         {
-            createDust();
+            createDust(); // Creates dust particle when player swing sword only if player is on the ground
         }
 
         Collider2D[] hitenemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
@@ -172,7 +179,7 @@ public class Knight_Combat : Knight_Movement
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
-                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Activates Camera Shake from Knight_CameraShake script
                 enemy3.TakeDamageFlyMonster(25);
             }
 
@@ -182,8 +189,8 @@ public class Knight_Combat : Knight_Movement
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
-                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                Barrel.BreakBarrel(xAmount, yAmount);               // Reference to Knight_Barrel script
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Activates Camera Shake from Knight_CameraShake script
+                Barrel.BreakBarrel(xAmount, yAmount);               // Breaks Barrel and spawn coins and hearts from Knight_Barrel script
             }
 
             Power_Chest Chest = enemy.GetComponent<Power_Chest>();
@@ -191,8 +198,8 @@ public class Knight_Combat : Knight_Movement
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
-                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                Chest.OpenChest(xAmount, yAmount);                  // Reference to Knight_Barrel script
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Activates Camera Shake from Knight_CameraShake script
+                Chest.OpenChest(xAmount, yAmount);                  // Opens chest and spawn coins and hearts from Power_Chest script
             }
 
             Knight_Pot Pot = enemy.GetComponent<Knight_Pot>();
@@ -200,8 +207,8 @@ public class Knight_Combat : Knight_Movement
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
-                Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                Pot.BreakPot(xAmount, yAmount);                     // Reference to Knight_Pot script
+                Knight_CameraShake.instance.startShake(.1f, .2f);   // Activates Camera Shake from Knight_CameraShake script
+                Pot.BreakPot(xAmount, yAmount);                     // Breaks Barrel and spawn coins and hearts from Knight_Pot script
             }
         }
     }
