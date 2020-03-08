@@ -198,18 +198,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ec5966f756729448ea19e46e18cb3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb2D: []
-  thrust: 500
-  loots: []
-  parent: {fileID: 0}
-  xAmount: 0.1
-  yAmount: 0.1
-  range: 1
+  range: 1.73
   EnemyAtkP: {fileID: 3247201400697000079}
   maxhealth: 100
   animator: {fileID: 3247201401391451004}
   rb: {fileID: 3247201401391451005}
-  attackRange: 4
+  attackRange: 8
   player:
     serializedVersion: 2
     m_Bits: 256
