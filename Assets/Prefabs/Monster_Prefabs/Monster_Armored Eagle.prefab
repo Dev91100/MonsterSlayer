@@ -108,7 +108,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.1875, y: 2.625}
+    oldSize: {x: 3.1875, y: 2.5}
     newSize: {x: 3.1875, y: 4.9375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -169,12 +169,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ec5966f756729448ea19e46e18cb3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb2D: []
+  thrust: 500
+  loots: []
+  parent: {fileID: 0}
+  xAmount: 0.1
+  yAmount: 0.1
   range: 1
-  EnemyAtkP: {fileID: 5715170539648659986}
+  EnemyAtkP: {fileID: 0}
   maxhealth: 100
   animator: {fileID: 5715170539215266874}
   rb: {fileID: 5715170539215266875}
-  attackRange: 15
+  attackRange: 4
   player:
     serializedVersion: 2
     m_Bits: 256

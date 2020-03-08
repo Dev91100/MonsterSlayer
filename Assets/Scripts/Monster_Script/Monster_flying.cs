@@ -93,6 +93,7 @@ public class Monster_Flying : Monster_Loot
             }
             else
             {
+                
                 animator.SetBool("attack", true);
             }
 

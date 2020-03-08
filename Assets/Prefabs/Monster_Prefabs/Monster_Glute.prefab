@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SR: {fileID: 2302217646944096190}
   attackpt: {fileID: 3775105230164245156}
-  range: 0.8
+  range: 1.3
   player:
     serializedVersion: 2
     m_Bits: 256

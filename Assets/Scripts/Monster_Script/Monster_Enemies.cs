@@ -85,7 +85,7 @@ public class Monster_Enemies : MonoBehaviour
             if (Vector2.Distance(transform.position, player.transform.position) > PlayerPosition)
             {
 
-                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.fixedDeltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, new Vector3(player.transform.position.x, transform.position.y, transform.position.z), speed * Time.fixedDeltaTime);
 
                 animator.SetBool("run", true);
 
