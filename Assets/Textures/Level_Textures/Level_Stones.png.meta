@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: fbd6d8c48bd37f842aae1e71cdded0b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8295349018269817570
+    second: Level_Stones_0
+  - first:
+      213: 8786816192481871797
+    second: Level_Stones_1
+  - first:
+      213: 164795109932114626
+    second: Level_Stones_2
+  - first:
+      213: -1993464388884209642
+    second: Level_Stones_3
+  - first:
+      213: 802858082652210351
+    second: Level_Stones_4
+  - first:
+      213: -4223895702180644377
+    second: Level_Stones_5
+  - first:
+      213: 8734966166013998788
+    second: Level_Stones_6
+  - first:
+      213: 4402952999145204295
+    second: Level_Stones_7
+  - first:
+      213: -5223415040507298583
+    second: Level_Stones_8
+  - first:
+      213: 8845723511196934239
+    second: Level_Stones_9
+  - first:
+      213: -7886265237854988894
+    second: Level_Stones_10
+  - first:
+      213: -8313642617525710983
+    second: Level_Stones_11
+  - first:
+      213: -4603329326088510189
+    second: Level_Stones_12
+  - first:
+      213: 7947900521882612871
+    second: Level_Stones_13
+  - first:
+      213: -5652352511532307899
+    second: Level_Stones_14
+  - first:
+      213: -4040540188232439723
+    second: Level_Stones_15
+  - first:
+      213: -1395983318102022239
+    second: Level_Stones_16
+  - first:
+      213: -2084112366490201394
+    second: Level_Stones_17
+  - first:
+      213: 3022988439733640142
+    second: Level_Stones_18
+  - first:
+      213: -670336437206707875
+    second: Level_Stones_19
+  - first:
+      213: 9115154465006876577
+    second: Level_Stones_20
+  - first:
+      213: -1526400033310350787
+    second: Level_Stones_21
+  - first:
+      213: 8149439127884639316
+    second: Level_Stones_22
+  - first:
+      213: 3624563366236288448
+    second: Level_Stones_23
+  - first:
+      213: -6234857402002497441
+    second: Level_Stones_24
+  - first:
+      213: 6654959724085093056
+    second: Level_Stones_25
+  - first:
+      213: 6301573421027060196
+    second: Level_Stones_26
+  - first:
+      213: 5017738430510789619
+    second: Level_Stones_27
+  - first:
+      213: -4115228123320232510
+    second: Level_Stones_28
+  - first:
+      213: -8840899139371824912
+    second: Level_Stones_29
+  - first:
+      213: 3651166557020076693
+    second: Level_Stones_30
+  - first:
+      213: 7431417181888246303
+    second: Level_Stones_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_Stones_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 227
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea9bd14bfffe1370800000000000000
+      internalID: 8295349018269817570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a76824819870ace0800000000000000
+      internalID: -1395983318102022239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb9f6e28ffc3f920800000000000000
+      internalID: 3022988439733640142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d511b4cdf8c72b6f0800000000000000
+      internalID: -670336437206707875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 69
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7fc8711b88f7e70800000000000000
+      internalID: 9115154465006876577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 70
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c578668d290d4230800000000000000
+      internalID: 3624563366236288448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f502d600a365979a0800000000000000
+      internalID: -6234857402002497441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 38
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3fb66748692a540800000000000000
+      internalID: 5017738430510789619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5dcc343d5c3e6c0800000000000000
+      internalID: -4115228123320232510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 7
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f88fa6e211de4580800000000000000
+      internalID: -8840899139371824912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Stones_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 9
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12fe28bd82b12760800000000000000
+      internalID: 7431417181888246303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
