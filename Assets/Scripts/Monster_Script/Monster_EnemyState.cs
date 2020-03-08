@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Monster_EnemyState : MonoBehaviour
+public class Monster_EnemyState : Monster_Loot
 {
     public Rigidbody2D rb;
     public Animator animator;
@@ -10,7 +10,9 @@ public class Monster_EnemyState : MonoBehaviour
     public AudioSource hurtsound;
     public AudioSource deadsound;
 
-    // Start is called before the first frame update
+    public float xAmount = 0.1f;
+    public float yAmount = 0.1f;
+
     void Start()
     {
         currenthealth = maxhealth;
@@ -26,6 +28,8 @@ public class Monster_EnemyState : MonoBehaviour
 
         if (currenthealth <= 0)
         {
+            monsterLoot(xAmount, yAmount);
+
             die = true;
 
             deadsound.Play();

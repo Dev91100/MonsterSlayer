@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 
-public class Monster_Flying : MonoBehaviour
+public class Monster_Flying : Monster_Loot
 {
+    public float xAmount = 0.1f;
+    public float yAmount = 0.1f;
+
     public float range = 1f;
     public Transform EnemyAtkP;
     public int maxhealth = 100;
@@ -19,7 +22,6 @@ public class Monster_Flying : MonoBehaviour
     public AudioSource hurtsound;
     public AudioSource deathsound;
 
-    // Start is called before the first frame update
     void Start()
     {
         currenthealth = maxhealth;
@@ -38,6 +40,7 @@ public class Monster_Flying : MonoBehaviour
 
         if (currenthealth <= 0)
         {
+            monsterLoot(xAmount, yAmount);
 
             die = true;
 
