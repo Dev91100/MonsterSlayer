@@ -21,7 +21,8 @@ public class Monster_EnemyState : Monster_Loot
     public void EnemyTakeDamage(int damage)
     {
         if (die)
-            return;
+        return;
+
         currenthealth -= damage;
         hurtsound.Play();
         animator.SetTrigger("Hurt");

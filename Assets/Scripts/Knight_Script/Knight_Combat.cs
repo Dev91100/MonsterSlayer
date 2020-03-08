@@ -44,6 +44,7 @@ public class Knight_Combat : Knight_Movement
     void Start()
     {
         currenthealth = maxhealth;
+        die = false;
     }
 
     void Update()
