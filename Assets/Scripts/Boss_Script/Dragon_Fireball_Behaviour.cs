@@ -5,7 +5,6 @@ using Pathfinding;
 
 public class Dragon_Fireball_Behaviour : MonoBehaviour
 {
-    public AIPath aiPath;
     public float Dragon_Fireball_speed;
     public float Dragon_Fireball_Lifetime;
     public GameObject destroyEffect;
@@ -18,27 +17,23 @@ public class Dragon_Fireball_Behaviour : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        
 
-        if (Dragon_Pathfinding.x >= 0.01f)
+
+        if (Dragon_Pathfinding.x >= 0.00f || Dragon_Pathfinding.x <= 0.00f)
         {
-            transform.Translate(transform.right * Dragon_Fireball_speed * Time.deltaTime);
-            transform.eulerAngles = new Vector3(0, 0, 0);
+            transform.Translate(transform.up * Dragon_Fireball_speed * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, 0, -90);
         }
-        else
-        {
-            transform.Translate(transform.right *  - Dragon_Fireball_speed * Time.deltaTime);
-            transform.eulerAngles = new Vector3(0, -180, 0);
-        }
+
     }
-    
+
     void DestroyProjectile()
     {
         //Instantiate(destroyEffect, transform.position, Quaternion.identity);
         //Destroy(gameObject);
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, Dragon_Fireball_Lifetime);
     }
-    
+
     /*
     void OnTriggerEnter2D(Collider2D col)
     {
