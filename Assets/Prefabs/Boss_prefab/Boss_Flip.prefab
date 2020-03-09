@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5523514467303051636
+--- !u!1 &159446056862794631
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5523514467303051635}
+  - component: {fileID: 159446056862794624}
   m_Layer: 0
   m_Name: Boss_Flip
   m_TagString: Untagged
@@ -16,22 +16,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5523514467303051635
+--- !u!4 &159446056862794624
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5523514467303051636}
+  m_GameObject: {fileID: 159446056862794631}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 118.97633, y: 25.974098, z: -18.78125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5523514467559694413}
+  - {fileID: 159446057159291582}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5523514467559694415
+--- !u!1 &159446057159291580
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,8 +39,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5523514467559694413}
-  - component: {fileID: 5523514467559694414}
+  - component: {fileID: 159446057159291582}
+  - component: {fileID: 159446057159291581}
   m_Layer: 0
   m_Name: Boss_Flip
   m_TagString: Boss_FlipCollider
@@ -48,28 +48,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5523514467559694413
+--- !u!4 &159446057159291582
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5523514467559694415}
+  m_GameObject: {fileID: 159446057159291580}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -41.076324, y: -6.5740986, z: 18.78125}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children:
-  - {fileID: 5523514467860074361}
-  m_Father: {fileID: 5523514467303051635}
+  - {fileID: 159446058336214410}
+  m_Father: {fileID: 159446056862794624}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &5523514467559694414
+--- !u!61 &159446057159291581
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5523514467559694415}
+  m_GameObject: {fileID: 159446057159291580}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -89,7 +89,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 63.669968}
   m_EdgeRadius: 0
---- !u!1 &5523514467860074363
+--- !u!1 &159446058336214408
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,8 +97,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5523514467860074361}
-  - component: {fileID: 5523514467860074362}
+  - component: {fileID: 159446058336214410}
+  - component: {fileID: 159446058336214409}
   m_Layer: 0
   m_Name: Boss_Flip (1)
   m_TagString: Boss_FlipCollider
@@ -106,27 +106,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5523514467860074361
+--- !u!4 &159446058336214410
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5523514467860074363}
+  m_GameObject: {fileID: 159446058336214408}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -89.49999, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
-  m_Father: {fileID: 5523514467559694413}
+  m_Father: {fileID: 159446057159291582}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &5523514467860074362
+--- !u!61 &159446058336214409
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5523514467860074363}
+  m_GameObject: {fileID: 159446058336214408}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
