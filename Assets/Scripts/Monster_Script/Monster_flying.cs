@@ -83,7 +83,7 @@ public class Monster_Flying : Monster_Loot
                 flip = false;
             }
 
-            // animator.SetBool("run", false);
+            //The only difference in this script is this part where it makes the monster fly by following all axes of the player
             if (Vector2.Distance(transform.position, player.transform.position) > PlayerPosition)
             {
                 flyingSound.Play();

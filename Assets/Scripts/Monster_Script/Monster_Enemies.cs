@@ -65,10 +65,12 @@ public class Monster_Enemies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //This part will create a circle to to detect player
         Collider2D[] folplayer = Physics2D.OverlapCircleAll(transform.position, attackRange, player);
         animator.SetBool("run", false);
         foreach (Collider2D player in folplayer)
         {
+            //This will make the enemy flip in the right direction
             if ((transform.position.x < player.transform.position.x) && flip == false)
             {
                 transform.Rotate(0f, 180f, 0f);
@@ -81,17 +83,18 @@ public class Monster_Enemies : MonoBehaviour
                 flip = false;
             }
 
-            // animator.SetBool("run", false);
+            //If distance between player and monster is greater than a given value
             if (Vector2.Distance(transform.position, player.transform.position) > PlayerPosition)
             {
-
+                //move towards the player and ensure that the player does not fly by making it follow its own y and z axis
                 transform.position = Vector2.MoveTowards(transform.position, new Vector3(player.transform.position.x, transform.position.y, transform.position.z), speed * Time.fixedDeltaTime);
-
+                //trigger a run animation
                 animator.SetBool("run", true);
 
             }
             else
             {
+                //trigger an attack animation (Note that there is an event attached to this animation)
                 animator.SetBool("attack", true);
             }
 
@@ -101,17 +104,15 @@ public class Monster_Enemies : MonoBehaviour
     }
     public void attack()
     {
-
+        //created another circle that will detect the player when this function is called
         Collider2D[] hitplayer = Physics2D.OverlapCircleAll(EnemyAtkP.position, range, player);
-        
-        animator.SetBool("attack", false);
+        animator.SetBool("attack", false);                          //Make the enemy stand idle
 
         foreach (Collider2D player in hitplayer)
         {
-            animator.SetBool("attack", true);
-            swordsound.Play();
-            player.GetComponent<Knight_Combat>().PlayerTakeDamage(1);
-
+            animator.SetBool("attack", true);                          //make the enemy attack
+            swordsound.Play();                                         //play a sword sound
+            player.GetComponent<Knight_Combat>().PlayerTakeDamage(1);  //Removes health in knight combat script
         }
     }
     void OnDrawGizmosSelected()
