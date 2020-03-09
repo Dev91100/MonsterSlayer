@@ -118,6 +118,8 @@ public class Knight_Combat : Knight_Movement
                 enemy2.TakeDamage(20);
             }
 
+            
+
             Knight_Barrel Box = enemy.GetComponent<Knight_Barrel>();
             if (Box != null)
             {
@@ -126,6 +128,8 @@ public class Knight_Combat : Knight_Movement
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
                 Box.BreakBarrel();                                  // Reference to Knight_Barrel script
             }
+
+            
 
             Knight_Pot Pot = enemy.GetComponent<Knight_Pot>();
             if (Pot != null)
