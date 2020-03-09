@@ -10,35 +10,27 @@ public class FinalBossAttack : MonoBehaviour
     public LayerMask player;
     private float NextActionTime = 0.0f;
     public float period = 1f;
-    
 
-    void Start()
+    private void Start()
     {
-
     }
 
- 
-    void Update()
+    private void Update()
     {
         Collider2D[] hitplayer = Physics2D.OverlapCircleAll(attackpt.position, range, player);
 
         foreach (Collider2D player in hitplayer)
         {
-        
             if (Time.time > NextActionTime)
             {
                 NextActionTime = Time.time + period;
 
-                
-                player.GetComponent<Knight_Combat>().PlayerTakeDamage(25);
+                player.GetComponent<Knight_Combat>().PlayerTakeDamage(1);
             }
-
-
         }
-
     }
 
-    void OnDrawGizmosSelected()
+    private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(attackpt.position, range);
     }
