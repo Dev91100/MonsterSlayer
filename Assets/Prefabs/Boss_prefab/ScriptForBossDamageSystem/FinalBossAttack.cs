@@ -10,6 +10,9 @@ public class FinalBossAttack : MonoBehaviour
     public LayerMask player;
     private float NextActionTime = 0.0f;
     public float period = 1f;
+    public float length;
+    public float height;
+    private float depth;
 
     private void Start()
     {
@@ -32,6 +35,6 @@ public class FinalBossAttack : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.DrawWireSphere(attackpt.position, range);
+        Gizmos.DrawWireCube(attackpt.position, new Vector3(length, height, depth));
     }
 }

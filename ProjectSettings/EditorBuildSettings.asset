@@ -27,12 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_Level2.unity
     guid: 61184cf4977caa347a5e26a724fc3836
   - enabled: 1
-    path: Assets/Scenes/Level_EndCredits.unity
-    guid: 460a61ee676e4e84db63fca34a794f2a
-  - enabled: 1
     path: Assets/Scenes/Level_LoadingScreenLevel3.unity
     guid: 2c01e26e227dae44eaa27bd4d016e986
   - enabled: 1
     path: Assets/Scenes/Level_Level3.unity
     guid: 9579c5f5fe40fe84ebfb0dcd8434911d
+  - enabled: 1
+    path: Assets/Scenes/Level_EndCredits.unity
+    guid: 460a61ee676e4e84db63fca34a794f2a
   m_configObjects: {}
