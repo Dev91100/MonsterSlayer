@@ -5,11 +5,10 @@ using UnityEngine.UI;
 
 // This script is attached to Knight_Player
 
-/* 
+/*
     Brackeys, 2019 : MELEE COMBAT in Unity
     Available from: https://www.youtube.com/watch?v=sPiVz1k-fEs&list=LLH3a8ESny180HvT46FvAlAw&index=15
 */
-
 
 public class Knight_Combat : Knight_Movement
 {
@@ -20,11 +19,12 @@ public class Knight_Combat : Knight_Movement
 
     //Health
     public int maxhealth = 4;
+
     public static int currenthealth;
-   
 
     // Health UI
     public int health;
+
     public int numOfHearts;
     public Image[] hearts;
     public Sprite fullHeart;
@@ -32,26 +32,29 @@ public class Knight_Combat : Knight_Movement
 
     // Spawn coins and hearts force in x and y axis
     public float xAmount = 0.1f;
+
     public float yAmount = 0.1f;
 
     // Players attack rate
     public float attackRate = 2f;
-    float nextAttackTime = 0f;
+
+    private float nextAttackTime = 0f;
 
     //A reference to the custom physics
     public Knight_PhysicsObject NewPhysics;
 
     //MonsterDmage
-    int CommonEnemies = 50;
-    int HeavyEnemies = 20;
-    int FlyingEnemies = 25;
+    private int CommonEnemies = 50;
 
-    void Start()
+    private int HeavyEnemies = 20;
+    private int FlyingEnemies = 25;
+
+    private void Start()
     {
         currenthealth = maxhealth;
     }
 
-    void Update()
+    private void Update()
     {
         if (Time.time >= nextAttackTime) // Keeps track of the current time
         {
@@ -75,8 +78,6 @@ public class Knight_Combat : Knight_Movement
     //This Function will take any damage that the player receives through its parameter
     public void PlayerTakeDamage(int damage)
     {
-               
-       
         currenthealth -= damage;       //Subtracting the damage taken to the current health of the player
 
         animator.SetTrigger("hurt");
@@ -84,7 +85,6 @@ public class Knight_Combat : Knight_Movement
 
         if (currenthealth <= 0)
         {
-            
             Die();
         }
     }
@@ -138,21 +138,20 @@ public class Knight_Combat : Knight_Movement
         Invoke("DisableCol", 1f);                                 //This will delay the time to disable the collider just for proper animation
     }
 
-
     //This function will move the player when called
-    void SetTransformX()
+    private void SetTransformX()
     {
         transform.position = new Vector3(((this.transform.position.x) - 3), transform.position.y, transform.position.z);
     }
 
     //Disables the collider on call
-    void DisableCol()
+    private void DisableCol()
     {
         GetComponent<Collider2D>().enabled = false;
     }
 
-    //This function is called when attacking 
-    void Attack()
+    //This function is called when attacking
+    private void Attack()
     {
         animator.SetTrigger("Attack");
         if (grounded)
@@ -178,7 +177,7 @@ public class Knight_Combat : Knight_Movement
             }
 
             Monster_Enemies enemy2 = enemy.GetComponent<Monster_Enemies>();        //assigning another script's component in a variable
-            if (enemy2 != null)                                                    //if this variable is not null then 
+            if (enemy2 != null)                                                    //if this variable is not null then
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
@@ -195,7 +194,7 @@ public class Knight_Combat : Knight_Movement
                 enemy3.TakeDamageFlyMonster(FlyingEnemies);         //Give damage to that layer by calling its damage function and giving it a parameter
             }
 
-            FinalBossHealth enemy4 = enemy.GetComponent<FinalBossHealth>();
+            Boss_Health enemy4 = enemy.GetComponent<Boss_Health>();
             if (enemy4 != null)
             {
                 enemy4.MonsterTakeDamage(25);
@@ -230,12 +229,11 @@ public class Knight_Combat : Knight_Movement
         }
     }
 
-    void OnDrawGizmosSelected()
+    private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
             return;
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
-
 }

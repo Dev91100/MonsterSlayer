@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FinalBossAttack : MonoBehaviour
+public class Boss_Attack : MonoBehaviour
 {
     public SpriteRenderer SR;
     public Transform attackpt;

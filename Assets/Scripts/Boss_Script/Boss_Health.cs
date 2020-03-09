@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FinalBossHealth : MonoBehaviour
+public class Boss_Health : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Animator animator;
     public int maxhealth = 100;
     private int currenthealth = 0;
     private bool die = false;
+    private int startCoin;
 
     private int nextSceneToLoad;
 
@@ -15,6 +16,7 @@ public class FinalBossHealth : MonoBehaviour
     {
         nextSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
         currenthealth = maxhealth;
+        startCoin = Power_ScoreTextScript.coinAmount;
     }
 
     public void MonsterTakeDamage(int damage)
@@ -31,6 +33,7 @@ public class FinalBossHealth : MonoBehaviour
 
     public void DisableMonster()
     {
+        Power_ScoreTextScript.coinAmount = 0;
         SceneManager.LoadScene(nextSceneToLoad);
         Destroy(gameObject);
     }
