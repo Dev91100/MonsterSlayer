@@ -5,15 +5,15 @@ using UnityEngine;
 
 // This script is attached to the Main Camera
 
-/* 
-    gamesplusjames, 2019 : Adding ScreenShake In Unity
+/*
+    gamesplusjames, 2019 : Adding ScreenShake In Unity [online].
     Available from: https://www.youtube.com/watch?v=8PXPyyVu_6I&list=LLH3a8ESny180HvT46FvAlAw&index=9
 */
 
 public class Knight_CameraShake : MonoBehaviour
 {
     public static Knight_CameraShake instance; // This will enable the script to be used as a reference in other scripts
-  
+
     private float shakeTimeRemaining, shakePower, shakeFadeTime, shakeRotation; // Parameters of the camera shake
 
     public float rotationMultiplier; // Controls how much the screen shake rotates
@@ -21,8 +21,8 @@ public class Knight_CameraShake : MonoBehaviour
     private CinemachineBrain cam; // Enables the programmer to add a camera in the inspector
     private Animator animator; // Enables the programmer to add an animator in the inspector
 
-    void Start()
-    {       
+    private void Start()
+    {
         instance = this; // This will enable the script to be used as a reference in other scripts
         cam = GetComponent<CinemachineBrain>();
         animator = GetComponent<Animator>();
@@ -45,7 +45,6 @@ public class Knight_CameraShake : MonoBehaviour
         }
 
         transform.rotation = Quaternion.Euler(0f, 0f, shakeRotation * Random.Range(-1f, 1f)); // Applies the screen shake rotation
-
     }
 
     // This function controls the different parameters of the screen shake effect
@@ -56,6 +55,5 @@ public class Knight_CameraShake : MonoBehaviour
         shakePower = power;                             // Controls how powerful the screen shake is going to be
         shakeFadeTime = power / length;                 // Controls how fast the screen shake will fade out
         shakeRotation = power * rotationMultiplier;     // Controls how much the screen shake rotates
-
     }
 }

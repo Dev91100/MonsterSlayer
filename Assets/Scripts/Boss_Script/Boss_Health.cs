@@ -8,7 +8,6 @@ public class Boss_Health : MonoBehaviour
     public int maxhealth = 100;
     private int currenthealth = 0;
     private bool die = false;
-    private int startCoin;
 
     private int nextSceneToLoad;
 
@@ -16,7 +15,6 @@ public class Boss_Health : MonoBehaviour
     {
         nextSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
         currenthealth = maxhealth;
-        startCoin = Power_ScoreTextScript.coinAmount;
     }
 
     public void MonsterTakeDamage(int damage)
@@ -33,8 +31,8 @@ public class Boss_Health : MonoBehaviour
 
     public void DisableMonster()
     {
-        Power_ScoreTextScript.coinAmount = 0;
-        SceneManager.LoadScene(nextSceneToLoad);
+        Power_ScoreTextScript.coinAmount = 0;   // Resets the coin counter to 0
+        SceneManager.LoadScene(nextSceneToLoad);    // Loads next scene
         Destroy(gameObject);
     }
 }

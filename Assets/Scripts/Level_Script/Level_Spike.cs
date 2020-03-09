@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+// This script makes the player take damage when the player enters the zone defined
+
+// This script is attached to Level_SpikeDamage
+
 public class Level_Spike : MonoBehaviour
 {
     public Transform attackpt;
@@ -19,12 +23,10 @@ public class Level_Spike : MonoBehaviour
 
         foreach (Collider2D player in hitplayer)
         {
-
+            // This if statement controls the period in which the player should take damage
             if (Time.time > NextActionTime)
             {
                 NextActionTime = Time.time + period;
-
-
                 player.GetComponent<Knight_Combat>().PlayerTakeDamage(damage);
             }
         }

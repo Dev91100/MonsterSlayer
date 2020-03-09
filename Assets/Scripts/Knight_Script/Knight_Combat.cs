@@ -6,7 +6,7 @@ using UnityEngine.UI;
 // This script is attached to Knight_Player
 
 /*
-    Brackeys, 2019 : MELEE COMBAT in Unity
+    Brackeys, 2019 : MELEE COMBAT in Unity [online].
     Available from: https://www.youtube.com/watch?v=sPiVz1k-fEs&list=LLH3a8ESny180HvT46FvAlAw&index=15
 */
 
@@ -30,7 +30,7 @@ public class Knight_Combat : Knight_Movement
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
-    // Spawn coins and hearts force in x and y axis
+    // Spawn coins and hearts with xAmount and yAmount of force in x and y axis
     public float xAmount = 0.1f;
 
     public float yAmount = 0.1f;
@@ -72,10 +72,11 @@ public class Knight_Combat : Knight_Movement
             cam.enabled = true;         // Enables the Main Camera's animator
         }
 
+        // Keeps the heart UI of the player up to date with the player's currenthealth as parameter
         heartSystem(currenthealth);
     }
 
-    //This Function will take any damage that the player receives through its parameter
+    //This function will take any damage that the player receives through its parameter
     public void PlayerTakeDamage(int damage)
     {
         currenthealth -= damage;       //Subtracting the damage taken to the current health of the player
@@ -124,15 +125,16 @@ public class Knight_Combat : Knight_Movement
     }
 
     //This function will be called when the player dies
+
     public void Die()
     {
-        hearts[0].sprite = emptyHeart;
+        hearts[0].sprite = emptyHeart; // Sets the last heart sprite to emptyHeart
         animator.SetBool("isDead", true);
 
         //These are the things that will be disabled so that monsters cannot interact with the player
-        SetTransformX();                                          // the player will move backwards
+        SetTransformX();                                          // The player will move backwards
         NewPhysics.enabled = false;                               // The custom physic will be disabled so as to let the player float
-        GetComponent<Knight_Movement>().enabled = false;          //Disables the movement of the player
+        GetComponent<Knight_Movement>().enabled = false;          // Disables the movement of the player
         this.enabled = false;                                     // Disable this script
 
         Invoke("DisableCol", 1f);                                 //This will delay the time to disable the collider just for proper animation
@@ -182,16 +184,16 @@ public class Knight_Combat : Knight_Movement
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Reference to Knight_CameraShake script
-                enemy2.TakeDamage(HeavyEnemies);                    //Give damage to that layer by calling its damage function and giving it a parameter
+                enemy2.TakeDamage(HeavyEnemies);                    // Give damage to that layer by calling its damage function and giving it a parameter
             }
 
-            Monster_Flying enemy3 = enemy.GetComponent<Monster_Flying>();        //assigning another script's component in a variable
-            if (enemy3 != null)                                                  //if this variable is not null then
+            Monster_Flying enemy3 = enemy.GetComponent<Monster_Flying>();        // Assigning another script's component in a variable
+            if (enemy3 != null)                                                  // If this variable is not null then
             {
                 camanimator.enabled = false;                        // Disable the Main Camera's Cinemachine Brain
                 cam.enabled = false;                                // Disable the Main Camera's Animator
                 Knight_CameraShake.instance.startShake(.1f, .2f);   // Activates Camera Shake from Knight_CameraShake script
-                enemy3.TakeDamageFlyMonster(FlyingEnemies);         //Give damage to that layer by calling its damage function and giving it a parameter
+                enemy3.TakeDamageFlyMonster(FlyingEnemies);         // Give damage to that layer by calling its damage function and giving it a parameter
             }
 
             Boss_Health enemy4 = enemy.GetComponent<Boss_Health>();

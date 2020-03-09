@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// This script enables us to pause the game and bring up the pause menu
+// This script controls the pause menu and the game over menu
 
-// This script is attached to Level_PauseMenuCanvas
+// This script is attached to Level_PauseandGameOverCanvas
 
-/* 
-    Brackeys, 2017 : PAUSE MENU in Unity
+/*
+    Brackeys, 2017 : PAUSE MENU in Unity [online].
     Available from: https://www.youtube.com/watch?v=JivuXdrIHK0
 */
 
@@ -24,11 +24,11 @@ public class Menu_PauseandGameOverMenu : MonoBehaviour
         startCoin = Power_ScoreTextScript.coinAmount;
     }
 
-    void Update()
+    private void Update()
     {
         // Check if escape key has been pressed down to enable or disable the pause menu
 
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (gameIsPaused)
             {
@@ -48,7 +48,7 @@ public class Menu_PauseandGameOverMenu : MonoBehaviour
 
     // This function enables the pause menu UI
 
-    void Pause()
+    private void Pause()
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f; // Freezes the game
@@ -82,9 +82,10 @@ public class Menu_PauseandGameOverMenu : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    void GameOver()
+    //This function enables the game over menu
+
+    private void GameOver()
     {
         gameOverUI.SetActive(true);
-        Knight_Combat.currenthealth = 4;
     }
 }
