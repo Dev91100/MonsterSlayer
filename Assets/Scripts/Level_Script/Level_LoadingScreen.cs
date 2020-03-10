@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 // This script is attached to Level_SceneSwitch
 
 /* 
-    Jason Weimann, 2017 : How to load a scene after a timer or delay in Unity3D with SceneManager
+    Jason Weimann, 2017 : How to load a scene after a timer or delay in Unity3D with SceneManager [online].
     Available from: https://www.youtube.com/watch?v=Oe9BZVnoedE&list=LLH3a8ESny180HvT46FvAlAw&index=6
 */
 

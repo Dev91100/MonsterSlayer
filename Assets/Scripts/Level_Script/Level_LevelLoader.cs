@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 // This script is attached to Level_LevelFadeIn
 
 /* 
-    Brackeys, 2020 : How to make AWESOME Scene Transitions in Unity!
+    Brackeys, 2020 : How to make AWESOME Scene Transitions in Unity! [online].
     Available from: https://www.youtube.com/watch?v=CE9VOZivb3I&t=724s
 */
 

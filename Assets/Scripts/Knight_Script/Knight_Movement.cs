@@ -5,14 +5,14 @@ using Cinemachine;
 
 // This script is attached to Knight_Player
 
-/* 
-    Unity, 2017 : 2D Platformer Character Controller
+/*
+    Unity, 2017 : 2D Platformer Character Controller [online].
     Available from: https://www.youtube.com/watch?v=wGI2e3Dzk_w&list=PLX2vGYjWbI0SUWwVPCERK88Qw8hpjEGd8
 */
 
-
 public class Knight_Movement : Knight_PhysicsObject
 {
+    // Parameters to control rate of a certain action
     private float NextActionTime = 0.0f;
     public float period = 1f;
 
@@ -21,13 +21,13 @@ public class Knight_Movement : Knight_PhysicsObject
 
     public ParticleSystem dust; // Allows the programmer to add a particle system in the inspector
 
-    public float maxSpeed = 7; // Set the movement speed of the player
+    public float maxSpeed = 7;          // Set the movement speed of the player
     public float jumpTakeOffSpeed = 7;  // Set the jump height of the player
 
     private SpriteRenderer spriteRenderer;
 
     // Use this for initialization
-    void Awake()
+    private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
@@ -39,13 +39,13 @@ public class Knight_Movement : Knight_PhysicsObject
     {
         Vector2 move = Vector2.zero;
 
-        if (camanimator.enabled == true || cam.enabled ==true)  //Stops player from moving left or right when cinemachine brain and animator are disabled.
+        if (camanimator.enabled == true || cam.enabled == true)  //Stops player from moving left or right when cinemachine brain and animator are disabled.
         {
             move.x = Input.GetAxis("Horizontal"); // Check if the player has pressed "A" or "D" on the keyboard and makes the player move left or right
-        
 
             if (Input.GetKey(KeyCode.Space) && grounded) // Check if the spacebar has been pressed
             {
+                // This if statment prevents the sound effect to play repeatedly if the user spams the space key
                 if (Time.time > NextActionTime)
                 {
                     NextActionTime = Time.time + period;
@@ -96,7 +96,7 @@ public class Knight_Movement : Knight_PhysicsObject
 
     // This function activates the particle system
 
-        public void createDust()
+    public void createDust()
     {
         dust.Play();
     }

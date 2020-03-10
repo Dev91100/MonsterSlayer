@@ -6,7 +6,7 @@ using UnityEngine;
 // This script is attached to Knight_Player
 
 /* 
-    Unity, 2017 : 2D Platformer Character Controller
+    Unity, 2017 : 2D Platformer Character Controller [online].
     Available from: https://www.youtube.com/watch?v=wGI2e3Dzk_w&list=PLX2vGYjWbI0SUWwVPCERK88Qw8hpjEGd8
 */
 
