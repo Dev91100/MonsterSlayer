@@ -3,8 +3,8 @@
 //This Script will control the monsters' health and damage taken
 
 /* 
-Brackeys, 2019 : MELEE COMBAT in Unity
-Available from: https://www.youtube.com/watch?v=sPiVz1k-fEs&list=LLH3a8ESny180HvT46FvAlAw&index=15
+    Brackeys, 2019 : MELEE COMBAT in Unity
+    Available from: https://www.youtube.com/watch?v=sPiVz1k-fEs&list=LLH3a8ESny180HvT46FvAlAw&index=15
 */
 
 public class Monster_EnemyState : Monster_Loot

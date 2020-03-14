@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6597480067964834133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.099, y: -0.033, z: 0}
+  m_LocalPosition: {x: 0.128, y: 0.015, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7587855699089586187}
@@ -41,12 +41,12 @@ GameObject:
   - component: {fileID: 7587855699089586187}
   - component: {fileID: 7587855699089586186}
   - component: {fileID: 7587855699089586185}
-  - component: {fileID: -3568473274970076626}
   - component: {fileID: 7351714841100421426}
-  - component: {fileID: 1032341944665853970}
-  m_Layer: 0
+  - component: {fileID: -3568473274970076626}
+  - component: {fileID: 6965421884748151149}
+  m_Layer: 9
   m_Name: Boss_FireBall
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,21 +135,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-3568473274970076626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7587855699089586184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 815b98b7df823a744bdfd994b47619e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dragon_Fireball_speed: 10
-  Dragon_Fireball_Lifetime: 3
-  destroyEffect: {fileID: 7587855699089586184}
 --- !u!61 &7351714841100421426
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -176,7 +161,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.32}
   m_EdgeRadius: 0
---- !u!114 &1032341944665853970
+--- !u!114 &-3568473274970076626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7587855699089586184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815b98b7df823a744bdfd994b47619e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dragon_Fireball_speed: 10
+  Dragon_Fireball_Lifetime: 3
+  destroyEffect: {fileID: 7587855699089586184}
+--- !u!114 &6965421884748151149
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,10 +188,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806ba40f736225e43857bddd5309e196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SR: {fileID: 7587855699089586186}
   attackpt: {fileID: 5237432592284890089}
-  range: 1.11
+  range: 0.8
   player:
     serializedVersion: 2
     m_Bits: 256
   period: 1
+  playerDamage: 1
