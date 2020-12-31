@@ -1,13 +1,3 @@
-<a href="https://drive.google.com/uc?export=view&id=1uAJ1dCwkLS7RCXoBIX-isZjvAw-4Zdk7"><img src="https://drive.google.com/uc?export=view&id=1uAJ1dCwkLS7RCXoBIX-isZjvAw-4Zdk7" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
-
-<a href="https://drive.google.com/uc?export=view&id=18Dz31pUYJyUL9Y5cbh1AoPu1olvRTLbn"><img src="https://drive.google.com/uc?export=view&id=18Dz31pUYJyUL9Y5cbh1AoPu1olvRTLbn" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
-
-<a href="https://drive.google.com/uc?export=view&id=1QZQnR6T9FaMv54Ns8KOoFzBeJKnIdi6S"><img src="https://drive.google.com/uc?export=view&id=1QZQnR6T9FaMv54Ns8KOoFzBeJKnIdi6S" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
-
-<a href="https://drive.google.com/uc?export=view&id=1H0lkXdPMc7LTFezAP1a-YlZHCbNqwWZJ"><img src="https://drive.google.com/uc?export=view&id=1H0lkXdPMc7LTFezAP1a-YlZHCbNqwWZJ" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
-
-<a href="https://drive.google.com/uc?export=view&id=1qVGZIJtHrJGbO3L4VwqLbXHHNiiXZI0t"><img src="https://drive.google.com/uc?export=view&id=1qVGZIJtHrJGbO3L4VwqLbXHHNiiXZI0t" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
-
 ## Abstract
 
 «Monster Slayer» is a 2D game that we have chosen to design not only for children but also for adults
@@ -21,6 +11,16 @@ application, many online tutorials were watched to ease the challenges faced. At
 day, we have succeeded in implementing a game that meets all our aims and objectives stated in
 the introduction section. In the future, we are planning to enhance the interface of the application
 to make it more fun and interactive.
+
+<a href="https://drive.google.com/uc?export=view&id=1uAJ1dCwkLS7RCXoBIX-isZjvAw-4Zdk7"><img src="https://drive.google.com/uc?export=view&id=1uAJ1dCwkLS7RCXoBIX-isZjvAw-4Zdk7" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+
+<a href="https://drive.google.com/uc?export=view&id=18Dz31pUYJyUL9Y5cbh1AoPu1olvRTLbn"><img src="https://drive.google.com/uc?export=view&id=18Dz31pUYJyUL9Y5cbh1AoPu1olvRTLbn" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+
+<a href="https://drive.google.com/uc?export=view&id=1QZQnR6T9FaMv54Ns8KOoFzBeJKnIdi6S"><img src="https://drive.google.com/uc?export=view&id=1QZQnR6T9FaMv54Ns8KOoFzBeJKnIdi6S" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+
+<a href="https://drive.google.com/uc?export=view&id=1H0lkXdPMc7LTFezAP1a-YlZHCbNqwWZJ"><img src="https://drive.google.com/uc?export=view&id=1H0lkXdPMc7LTFezAP1a-YlZHCbNqwWZJ" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+
+<a href="https://drive.google.com/uc?export=view&id=1qVGZIJtHrJGbO3L4VwqLbXHHNiiXZI0t"><img src="https://drive.google.com/uc?export=view&id=1qVGZIJtHrJGbO3L4VwqLbXHHNiiXZI0t" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
 
 ## Table of Contents
 - 1. Introduction
