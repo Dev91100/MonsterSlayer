@@ -22,14 +22,7 @@ day, we have succeeded in implementing a game that meets all our aims and object
 the introduction section. In the future, we are planning to enhance the interface of the application
 to make it more fun and interactive.
 
-
 ## Table of Contents
-
-
-## List of Tables
-
-## List of Figures
-
 - 1. Introduction
 - 1.1 Introduction
 - 1.2 Problem Statement
