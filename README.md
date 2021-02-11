@@ -1,4 +1,12 @@
-![Level 1](https://drive.google.com/file/d/1KalOjkbgnXov-c6RB6gApp21I585alDD/view?usp=sharing)
+## Game Preview
+```
+Level 1
+```
+<a href="https://drive.google.com/uc?export=view&id=1KalOjkbgnXov-c6RB6gApp21I585alDD"><img src="https://drive.google.com/uc?export=view&id=1KalOjkbgnXov-c6RB6gApp21I585alDD" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+```
+Level 2
+```
+<a href="https://drive.google.com/uc?export=view&id=18aPX4ImEhBTCvXuOa_s_z-T54PvqCMIq"><img src="https://drive.google.com/uc?export=view&id=18aPX4ImEhBTCvXuOa_s_z-T54PvqCMIq" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
 
 ## Abstract
 
