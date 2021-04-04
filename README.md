@@ -1,7 +1,7 @@
 # Monster Slayer
 2D Pixel Art Hack & Slash Game
 
-<a href="https://drive.google.com/uc?export=view&id=1RQ10UEO2NIhcL7K0BZ4wdZpYUzNd5L2n"><img src="https://drive.google.com/uc?export=view&id=1RQ10UEO2NIhcL7K0BZ4wdZpYUzNd5L2n" style="width: 100px; max-width: 30%; height: auto" title="Click for the larger version." /></a><br><br>
+<a href="https://drive.google.com/uc?export=view&id=11QUJ-sQn37Woztnb9NsbROgI-v56swwB"><img src="https://drive.google.com/uc?export=view&id=11QUJ-sQn37Woztnb9NsbROgI-v56swwB" style="width: 100px; max-width: 30%; height: auto" title="Click for the larger version." /></a><br><br>
 
 ## **Solution Proposed**
 Nowdays, not only adults but children also make use of technological devices like PC and mobile phones. This is one of the reason why there has been an exponential growth in the gaming industry during the last decade. Monster Slayer is a game designed for both adults and children to enjoy. The combination of pixel art, combat and several obtainable achievements makes it both a graphically pleasant and extremely enjoyable game.<br><br>
@@ -54,4 +54,23 @@ In level one, the knight should try to survive by killing or if possible avoid t
 - Escape Key - Pause Menu
 - Resume Button - Resume Game
 - Restart Button - Restart Game
-- Menu Button - Return to the Main Menu
+- Menu Button - Return to the Main Menu<br><br>
+
+
+## **Sample Screenshots**
+This section contains some sample screenshots from the game.<br><br>
+
+---
+
+### **Level 1**
+<a href="https://drive.google.com/uc?export=view&id=1KalOjkbgnXov-c6RB6gApp21I585alDD"><img src="https://drive.google.com/uc?export=view&id=1KalOjkbgnXov-c6RB6gApp21I585alDD" style="width: 100%; max-width: 100%; height: auto" title="Click for the larger version." /></a><br><br>
+
+---
+
+### **Level 2**
+<a href="https://drive.google.com/uc?export=view&id=18aPX4ImEhBTCvXuOa_s_z-T54PvqCMIq"><img src="https://drive.google.com/uc?export=view&id=18aPX4ImEhBTCvXuOa_s_z-T54PvqCMIq" style="width: 100%; max-width: 100%; height: auto" title="Click for the larger version." /></a><br><br>
+
+---
+
+### **Level 3**
+<a href="https://drive.google.com/uc?export=view&id=1H0lkXdPMc7LTFezAP1a-YlZHCbNqwWZJ"><img src="https://drive.google.com/uc?export=view&id=1H0lkXdPMc7LTFezAP1a-YlZHCbNqwWZJ" style="width: 100%; max-width: 100%; height: auto" title="Click for the larger version." /></a><br><br>
