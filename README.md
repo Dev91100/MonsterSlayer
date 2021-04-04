@@ -1,33 +1,57 @@
-## Abstract
+# Monster Slayer
+2D Pixel Art Hack & Slash Game
 
-«Monster Slayer» is a 2D game that we have chosen to design not only for children but also for adults
-to play. Our main aim in making this assignment was to make an enjoyable game so that people are
-both entertained and relaxed when playing it. The main objective of the game is to get to the end of
-each level by killing the monsters and collecting coins. This makes it entertaining for people between
-10 and above. The game will consist of 3 levels. Once they reach the end of a level, they will progress
-to the next with harder to kill monsters. In the third and final level the player must defeat the final
-boss before reaching the end of the game. To be able to complete the interfaces and implement the
-application, many online tutorials were watched to ease the challenges faced. At the end of the
-day, we have succeeded in implementing a game that meets all our aims and objectives stated in
-the introduction section. In the future, we are planning to enhance the interface of the application
-to make it more fun and interactive.
+<a href="https://drive.google.com/uc?export=view&id=1RQ10UEO2NIhcL7K0BZ4wdZpYUzNd5L2n"><img src="https://drive.google.com/uc?export=view&id=1RQ10UEO2NIhcL7K0BZ4wdZpYUzNd5L2n" style="width: 100px; max-width: 30%; height: auto" title="Click for the larger version." /></a><br><br>
 
-## Game Preview
-```
-Level 1
-```
-<a href="https://drive.google.com/uc?export=view&id=1KalOjkbgnXov-c6RB6gApp21I585alDD"><img src="https://drive.google.com/uc?export=view&id=1KalOjkbgnXov-c6RB6gApp21I585alDD" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
-```
-Level 2
-```
-<a href="https://drive.google.com/uc?export=view&id=18aPX4ImEhBTCvXuOa_s_z-T54PvqCMIq"><img src="https://drive.google.com/uc?export=view&id=18aPX4ImEhBTCvXuOa_s_z-T54PvqCMIq" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+## **Solution Proposed**
+Nowdays, not only adults but children also make use of technological devices like PC and mobile phones. This is one of the reason why there has been an exponential growth in the gaming industry during the last decade. Monster Slayer is a game designed for both adults and children to enjoy. The combination of pixel art, combat and several obtainable achievements makes it both a graphically pleasant and extremely enjoyable game.<br><br>
 
-<a href="https://drive.google.com/uc?export=view&id=1uAJ1dCwkLS7RCXoBIX-isZjvAw-4Zdk7"><img src="https://drive.google.com/uc?export=view&id=1uAJ1dCwkLS7RCXoBIX-isZjvAw-4Zdk7" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
 
-<a href="https://drive.google.com/uc?export=view&id=18Dz31pUYJyUL9Y5cbh1AoPu1olvRTLbn"><img src="https://drive.google.com/uc?export=view&id=18Dz31pUYJyUL9Y5cbh1AoPu1olvRTLbn" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+## **Aims and Objectives**
+The main aim of the game is to get to the end of each level by killing the monsters and collecting coins. The final aim of the game is to defeat the final boss at the end of the 3rd level.
 
-<a href="https://drive.google.com/uc?export=view&id=1QZQnR6T9FaMv54Ns8KOoFzBeJKnIdi6S"><img src="https://drive.google.com/uc?export=view&id=1QZQnR6T9FaMv54Ns8KOoFzBeJKnIdi6S" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+The objectives of the game are:
 
-<a href="https://drive.google.com/uc?export=view&id=1H0lkXdPMc7LTFezAP1a-YlZHCbNqwWZJ"><img src="https://drive.google.com/uc?export=view&id=1H0lkXdPMc7LTFezAP1a-YlZHCbNqwWZJ" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+- To make an entertaining game for people between 10 and above.
+- To make an enjoyable game so people are both entertained and relaxed when playing it.
+- To give people rewards in each level to keep them interested and motivated to continue on.<br><br>
+  
 
-<a href="https://drive.google.com/uc?export=view&id=1qVGZIJtHrJGbO3L4VwqLbXHHNiiXZI0t"><img src="https://drive.google.com/uc?export=view&id=1qVGZIJtHrJGbO3L4VwqLbXHHNiiXZI0t" style="width: 50px; max-width: 10%; height: 10%" title="Click for the larger version." /></a>
+## **System requirements**
+In order to run the game, the following minimum requirements should be met:
+- OS       : Windows 7 or later
+- Hardware : Keyboard & Mouse
+- RAM      : 512 MB minimum
+- Storage  : 200 MB minimum<br><br>
+
+
+## **How to run the game?**
+- First of all, you have to download the ***MonsterSlayer.zip*** file on your PC. You can find it in folder <br>**Release -> MonsterSlayer.zip**
+- After that, make sure your PC has appropriate software to extract 'ZIP' files. ***(Note: If you are not able to extract the file, you can download and use WinRAR, which is a free archiver software, using the link https://www.win-rar.com/download.html?L=0)***
+- Once the file **MonsterSlayer.zip** has been extracted, launch the **MonsterSlayer.exe** file to open the game.
+- Follow the instructions in the user manual below.<br><br>
+
+
+## **Objective of the player:**
+In level one, the knight should try to survive by killing or if possible avoid the monsters, collect coins and proceed to the next level. In level two, its going to be the same but there will be more monsters and hence it is going to be more difficult. In the final level, that is level 3, the player should kill the main boss(the dragon) to end the game.<br><br>
+
+
+## **User Manual**
+### **In Start menu:**
+- Start Button - Start the game
+- Exit Button - Exit the game
+
+### **In Intro Scene:**
+- Skip Button - Skips the intro video
+  
+### **For player movement:**
+- D/Right Arrow key - Move to the right
+- A/Left Arrow key - Move to the left
+- Space Bar - Jump
+- Left Mouse Click - Attack
+  
+### **For Pause Menu:**
+- Escape Key - Pause Menu
+- Resume Button - Resume Game
+- Restart Button - Restart Game
+- Menu Button - Return to the Main Menu
