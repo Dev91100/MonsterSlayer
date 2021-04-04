@@ -1,7 +1,7 @@
 # Monster Slayer
 2D Pixel Art Hack & Slash Game
 
-<a href="https://drive.google.com/uc?export=view&id=1RQ10UEO2NIhcL7K0BZ4wdZpYUzNd5L2n"><img src="https://drive.google.com/uc?export=view&id=1RQ10UEO2NIhcL7K0BZ4wdZpYUzNd5L2n" style="width: 100px; max-width: 30%; height: auto" title="Click for the larger version." /></a><br><br>
+<a href="https://drive.google.com/uc?export=view&id=11QUJ-sQn37Woztnb9NsbROgI-v56swwB"><img src="https://drive.google.com/uc?export=view&id=11QUJ-sQn37Woztnb9NsbROgI-v56swwB" style="width: 100px; max-width: 30%; height: auto" title="Click for the larger version." /></a><br><br>
 
 ## **Solution Proposed**
 Nowdays, not only adults but children also make use of technological devices like PC and mobile phones. This is one of the reason why there has been an exponential growth in the gaming industry during the last decade. Monster Slayer is a game designed for both adults and children to enjoy. The combination of pixel art, combat and several obtainable achievements makes it both a graphically pleasant and extremely enjoyable game.<br><br>
