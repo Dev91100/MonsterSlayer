@@ -28,7 +28,7 @@ In order to run the game, the following minimum requirements should be met:
 ## **How to run the game?**
 - First of all, you have to download the ***MonsterSlayer.zip*** file on your PC. You can find it in folder <br>**Release -> MonsterSlayer.zip**
 - After that, make sure your PC has appropriate software to extract 'ZIP' files. ***(Note: If you are not able to extract the file, you can download and use WinRAR, which is a free archiver software, using the link https://www.win-rar.com/download.html?L=0)***
-- Once the file **MonsterSlayer.zip** has been extracted, launch the **MonsterSlayer.exe** file to open the game.
+- Once the file **MonsterSlayer.zip** has been extracted, launch the **UnityGame.exe** file to open the game.
 - Follow the instructions in the user manual below.<br><br>
 
 
